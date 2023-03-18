@@ -1,0 +1,135 @@
+[2023-03-18T13:00:03.206+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: parking_spaces.create_table_parking_spaces scheduled__2023-03-18T12:00:00+00:00 [queued]>
+[2023-03-18T13:00:03.219+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: parking_spaces.create_table_parking_spaces scheduled__2023-03-18T12:00:00+00:00 [queued]>
+[2023-03-18T13:00:03.219+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-18T13:00:03.220+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-03-18T13:00:03.220+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-18T13:00:03.236+0000] {taskinstance.py:1300} INFO - Executing <Task(MySqlOperator): create_table_parking_spaces> on 2023-03-18 12:00:00+00:00
+[2023-03-18T13:00:03.241+0000] {standard_task_runner.py:55} INFO - Started process 71308 to run task
+[2023-03-18T13:00:03.247+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'parking_spaces', 'create_table_parking_spaces', 'scheduled__2023-03-18T12:00:00+00:00', '--job-id', '596', '--raw', '--subdir', 'DAGS_FOLDER/parking_spaces.py', '--cfg-path', '/tmp/tmp1yvyyn95']
+[2023-03-18T13:00:03.249+0000] {standard_task_runner.py:83} INFO - Job 596: Subtask create_table_parking_spaces
+[2023-03-18T13:00:03.378+0000] {task_command.py:388} INFO - Running <TaskInstance: parking_spaces.create_table_parking_spaces scheduled__2023-03-18T12:00:00+00:00 [running]> on host diploma-vm.europe-west1-b.c.diploma-380314.internal
+[2023-03-18T13:00:03.474+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=parking_spaces
+AIRFLOW_CTX_TASK_ID=create_table_parking_spaces
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-18T12:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-03-18T12:00:00+00:00
+[2023-03-18T13:00:03.475+0000] {sql.py:254} INFO - Executing: CREATE TABLE IF NOT EXISTS pre_parking_spaces (
+    _sys_record_id INT NOT NULL AUTO_INCREMENT,
+    jdoc JSON,
+    _sys_load_id INT,
+    _sys_load_at TIMESTAMP,
+    _sys_is_deleted BOOLEAN,
+    CONSTRAINT id PRIMARY KEY (_sys_record_id, _sys_load_at)
+);
+
+CREATE TABLE IF NOT EXISTS src_parking_spaces (
+    _sys_record_id INT,
+    _sys_load_id INT,
+    _sys_load_at TIMESTAMP,
+    _sys_is_deleted BOOLEAN,
+    i INT,
+    jdoc JSON,
+    CONSTRAINT id PRIMARY KEY (_sys_record_id,i,_sys_load_at)
+);
+
+CREATE TABLE IF NOT EXISTS stg_parking_spaces (
+    parking_space_id VARCHAR(255),
+    space_id VARCHAR(255),
+    name VARCHAR(255),
+    source VARCHAR(255),
+    postal_code VARCHAR(255),
+    address_region VARCHAR(255),
+    street_address VARCHAR(255),
+    address_country VARCHAR(255),
+    address_locality VARCHAR(255),
+    address_formatted VARCHAR(255),
+    category VARCHAR(255),
+    type VARCHAR(255),
+    coordinates VARCHAR(255),
+    valid_to VARCHAR(255),
+    source_id VARCHAR(255),
+    tariff_id VARCHAR(255),
+    zone_type VARCHAR(255),
+    valid_from VARCHAR(255),
+    area_served VARCHAR(255),
+    parking_type VARCHAR(255),
+    data_provider VARCHAR(255),
+    date_modified VARCHAR(255),
+    total_spot_number VARCHAR(255),
+    ios_app_payment_url VARCHAR(255),
+    web_app_payment_url VARCHAR(255),
+    available_spots_number VARCHAR(255),
+    android_app_payment_url VARCHAR(255),
+    available_spots_last_updated TIMESTAMP,
+    _sys_record_id INT,
+    _sys_load_id INT,
+    _sys_load_at TIMESTAMP,
+    _sys_is_deleted VARCHAR(255),
+    i INT,
+    PRIMARY KEY (parking_space_id)
+  );
+[2023-03-18T13:00:03.490+0000] {base.py:73} INFO - Using connection ID 'mysql-db' for task execution.
+[2023-03-18T13:00:03.583+0000] {base.py:73} INFO - Using connection ID 'mysql-db' for task execution.
+[2023-03-18T13:00:03.598+0000] {sql.py:375} INFO - Running statement: CREATE TABLE IF NOT EXISTS pre_parking_spaces (
+    _sys_record_id INT NOT NULL AUTO_INCREMENT,
+    jdoc JSON,
+    _sys_load_id INT,
+    _sys_load_at TIMESTAMP,
+    _sys_is_deleted BOOLEAN,
+    CONSTRAINT id PRIMARY KEY (_sys_record_id, _sys_load_at)
+);
+
+CREATE TABLE IF NOT EXISTS src_parking_spaces (
+    _sys_record_id INT,
+    _sys_load_id INT,
+    _sys_load_at TIMESTAMP,
+    _sys_is_deleted BOOLEAN,
+    i INT,
+    jdoc JSON,
+    CONSTRAINT id PRIMARY KEY (_sys_record_id,i,_sys_load_at)
+);
+
+CREATE TABLE IF NOT EXISTS stg_parking_spaces (
+    parking_space_id VARCHAR(255),
+    space_id VARCHAR(255),
+    name VARCHAR(255),
+    source VARCHAR(255),
+    postal_code VARCHAR(255),
+    address_region VARCHAR(255),
+    street_address VARCHAR(255),
+    address_country VARCHAR(255),
+    address_locality VARCHAR(255),
+    address_formatted VARCHAR(255),
+    category VARCHAR(255),
+    type VARCHAR(255),
+    coordinates VARCHAR(255),
+    valid_to VARCHAR(255),
+    source_id VARCHAR(255),
+    tariff_id VARCHAR(255),
+    zone_type VARCHAR(255),
+    valid_from VARCHAR(255),
+    area_served VARCHAR(255),
+    parking_type VARCHAR(255),
+    data_provider VARCHAR(255),
+    date_modified VARCHAR(255),
+    total_spot_number VARCHAR(255),
+    ios_app_payment_url VARCHAR(255),
+    web_app_payment_url VARCHAR(255),
+    available_spots_number VARCHAR(255),
+    android_app_payment_url VARCHAR(255),
+    available_spots_last_updated TIMESTAMP,
+    _sys_record_id INT,
+    _sys_load_id INT,
+    _sys_load_at TIMESTAMP,
+    _sys_is_deleted VARCHAR(255),
+    i INT,
+    PRIMARY KEY (parking_space_id)
+  );, parameters: None
+[2023-03-18T13:00:03.603+0000] {sql.py:384} INFO - Rows affected: 0
+[2023-03-18T13:00:03.630+0000] {taskinstance.py:1318} INFO - Marking task as SUCCESS. dag_id=parking_spaces, task_id=create_table_parking_spaces, execution_date=20230318T120000, start_date=20230318T130003, end_date=20230318T130003
+[2023-03-18T13:00:03.664+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-03-18T13:00:03.705+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

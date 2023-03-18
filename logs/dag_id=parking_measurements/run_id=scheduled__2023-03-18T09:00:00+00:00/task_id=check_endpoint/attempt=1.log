@@ -1,0 +1,23 @@
+[2023-03-18T10:00:01.170+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: parking_measurements.check_endpoint scheduled__2023-03-18T09:00:00+00:00 [queued]>
+[2023-03-18T10:00:01.188+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: parking_measurements.check_endpoint scheduled__2023-03-18T09:00:00+00:00 [queued]>
+[2023-03-18T10:00:01.188+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-18T10:00:01.188+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-03-18T10:00:01.189+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-18T10:00:01.218+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): check_endpoint> on 2023-03-18 09:00:00+00:00
+[2023-03-18T10:00:01.223+0000] {standard_task_runner.py:55} INFO - Started process 63057 to run task
+[2023-03-18T10:00:01.236+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'parking_measurements', 'check_endpoint', 'scheduled__2023-03-18T09:00:00+00:00', '--job-id', '557', '--raw', '--subdir', 'DAGS_FOLDER/parking_measurements.py', '--cfg-path', '/tmp/tmpqmk2fx9r']
+[2023-03-18T10:00:01.239+0000] {standard_task_runner.py:83} INFO - Job 557: Subtask check_endpoint
+[2023-03-18T10:00:01.398+0000] {task_command.py:388} INFO - Running <TaskInstance: parking_measurements.check_endpoint scheduled__2023-03-18T09:00:00+00:00 [running]> on host diploma-vm.europe-west1-b.c.diploma-380314.internal
+[2023-03-18T10:00:01.543+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=parking_measurements
+AIRFLOW_CTX_TASK_ID=check_endpoint
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-18T09:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-03-18T09:00:00+00:00
+[2023-03-18T10:00:55.897+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-03-18T10:00:55.913+0000] {taskinstance.py:1318} INFO - Marking task as SUCCESS. dag_id=parking_measurements, task_id=check_endpoint, execution_date=20230318T090000, start_date=20230318T100001, end_date=20230318T100055
+[2023-03-18T10:00:55.950+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-03-18T10:00:55.991+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

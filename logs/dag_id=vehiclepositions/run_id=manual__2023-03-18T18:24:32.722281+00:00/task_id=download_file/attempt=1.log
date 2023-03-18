@@ -1,0 +1,32 @@
+[2023-03-18T18:24:34.565+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: vehiclepositions.download_file manual__2023-03-18T18:24:32.722281+00:00 [queued]>
+[2023-03-18T18:24:34.583+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: vehiclepositions.download_file manual__2023-03-18T18:24:32.722281+00:00 [queued]>
+[2023-03-18T18:24:34.583+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-18T18:24:34.583+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-03-18T18:24:34.583+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-18T18:24:34.599+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): download_file> on 2023-03-18 18:24:32.722281+00:00
+[2023-03-18T18:24:34.604+0000] {standard_task_runner.py:55} INFO - Started process 94347 to run task
+[2023-03-18T18:24:34.612+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'vehiclepositions', 'download_file', 'manual__2023-03-18T18:24:32.722281+00:00', '--job-id', '763', '--raw', '--subdir', 'DAGS_FOLDER/vehiclepositions.py', '--cfg-path', '/tmp/tmpyisx3kcn']
+[2023-03-18T18:24:34.615+0000] {standard_task_runner.py:83} INFO - Job 763: Subtask download_file
+[2023-03-18T18:24:34.712+0000] {task_command.py:388} INFO - Running <TaskInstance: vehiclepositions.download_file manual__2023-03-18T18:24:32.722281+00:00 [running]> on host diploma-vm.europe-west1-b.c.diploma-380314.internal
+[2023-03-18T18:24:34.803+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=vehiclepositions
+AIRFLOW_CTX_TASK_ID=download_file
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-18T18:24:32.722281+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-18T18:24:32.722281+00:00
+[2023-03-18T18:24:35.190+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 46, in download_file
+    f.write(response)
+TypeError: a bytes-like object is required, not 'list'
+[2023-03-18T18:24:35.204+0000] {taskinstance.py:1318} INFO - Marking task as FAILED. dag_id=vehiclepositions, task_id=download_file, execution_date=20230318T182432, start_date=20230318T182434, end_date=20230318T182435
+[2023-03-18T18:24:35.218+0000] {standard_task_runner.py:100} ERROR - Failed to execute job 763 for task download_file (a bytes-like object is required, not 'list'; 94347)
+[2023-03-18T18:24:35.264+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-03-18T18:24:35.302+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -6081,3 +6081,654 @@
 [2023-03-18T07:20:40.483+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:20:40.483+0000] {dag.py:2690} INFO - Sync 1 DAGs
 [2023-03-18T07:20:40.727+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:20:40.727+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:20:00+00:00, run_after=2023-03-18T07:25:00+00:00
 [2023-03-18T07:20:40.769+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.372 seconds
+[2023-03-18T07:21:11.239+0000] {processor.py:153} INFO - Started process (PID=54916) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:21:11.240+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:21:11.241+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:21:11.241+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:21:11.272+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:21:11.325+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:21:11.324+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:21:11.560+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:21:11.559+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:20:00+00:00, run_after=2023-03-18T07:25:00+00:00
+[2023-03-18T07:21:11.585+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.354 seconds
+[2023-03-18T07:21:42.017+0000] {processor.py:153} INFO - Started process (PID=54943) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:21:42.019+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:21:42.020+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:21:42.020+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:21:42.049+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:21:42.286+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:21:42.285+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:21:42.323+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:21:42.323+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:20:00+00:00, run_after=2023-03-18T07:25:00+00:00
+[2023-03-18T07:21:42.347+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.337 seconds
+[2023-03-18T07:22:12.787+0000] {processor.py:153} INFO - Started process (PID=54972) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:22:12.789+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:22:12.790+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:22:12.790+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:22:12.836+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:22:13.078+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:22:13.078+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:22:13.114+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:22:13.114+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:20:00+00:00, run_after=2023-03-18T07:25:00+00:00
+[2023-03-18T07:22:13.139+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.358 seconds
+[2023-03-18T07:22:43.549+0000] {processor.py:153} INFO - Started process (PID=54999) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:22:43.552+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:22:43.553+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:22:43.553+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:22:43.581+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:22:43.627+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:22:43.627+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:22:43.670+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:22:43.669+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:20:00+00:00, run_after=2023-03-18T07:25:00+00:00
+[2023-03-18T07:22:43.695+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.153 seconds
+[2023-03-18T07:23:13.976+0000] {processor.py:153} INFO - Started process (PID=55025) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:23:13.977+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:23:13.978+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:23:13.978+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:23:14.006+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:23:14.052+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:23:14.052+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:23:14.094+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:23:14.093+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:20:00+00:00, run_after=2023-03-18T07:25:00+00:00
+[2023-03-18T07:23:14.319+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.350 seconds
+[2023-03-18T07:23:44.762+0000] {processor.py:153} INFO - Started process (PID=55050) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:23:44.764+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:23:44.765+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:23:44.765+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:23:44.793+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:23:44.838+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:23:44.838+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:23:45.067+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:23:45.067+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:20:00+00:00, run_after=2023-03-18T07:25:00+00:00
+[2023-03-18T07:23:45.092+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.337 seconds
+[2023-03-18T07:24:15.538+0000] {processor.py:153} INFO - Started process (PID=55076) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:24:15.539+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:24:15.540+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:24:15.540+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:24:15.568+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:24:15.615+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:24:15.615+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:24:15.841+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:24:15.841+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:20:00+00:00, run_after=2023-03-18T07:25:00+00:00
+[2023-03-18T07:24:15.863+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.332 seconds
+[2023-03-18T07:24:46.287+0000] {processor.py:153} INFO - Started process (PID=55101) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:24:46.289+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:24:46.290+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:24:46.290+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:24:46.318+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:24:46.584+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:24:46.584+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:24:46.620+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:24:46.620+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:20:00+00:00, run_after=2023-03-18T07:25:00+00:00
+[2023-03-18T07:24:46.646+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.366 seconds
+[2023-03-18T07:25:17.052+0000] {processor.py:153} INFO - Started process (PID=55154) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:25:17.054+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:25:17.055+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:25:17.055+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:25:17.279+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:25:17.318+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:25:17.317+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:25:17.357+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:25:17.356+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:25:00+00:00, run_after=2023-03-18T07:30:00+00:00
+[2023-03-18T07:25:17.381+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.335 seconds
+[2023-03-18T07:25:47.812+0000] {processor.py:153} INFO - Started process (PID=55179) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:25:47.814+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:25:47.815+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:25:47.815+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:25:47.843+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:25:47.888+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:25:47.888+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:25:47.931+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:25:47.930+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:25:00+00:00, run_after=2023-03-18T07:30:00+00:00
+[2023-03-18T07:25:47.956+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.152 seconds
+[2023-03-18T07:26:18.235+0000] {processor.py:153} INFO - Started process (PID=55205) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:26:18.236+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:26:18.237+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:26:18.237+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:26:18.265+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:26:18.310+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:26:18.309+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:26:18.353+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:26:18.352+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:25:00+00:00, run_after=2023-03-18T07:30:00+00:00
+[2023-03-18T07:26:18.567+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.340 seconds
+[2023-03-18T07:26:49.024+0000] {processor.py:153} INFO - Started process (PID=55230) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:26:49.026+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:26:49.027+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:26:49.027+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:26:49.063+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:26:49.125+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:26:49.124+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:26:49.366+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:26:49.366+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:25:00+00:00, run_after=2023-03-18T07:30:00+00:00
+[2023-03-18T07:26:49.389+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.373 seconds
+[2023-03-18T07:27:19.817+0000] {processor.py:153} INFO - Started process (PID=55256) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:27:19.820+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:27:19.821+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:27:19.821+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:27:19.849+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:27:19.896+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:27:19.896+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:27:20.125+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:27:20.125+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:25:00+00:00, run_after=2023-03-18T07:30:00+00:00
+[2023-03-18T07:27:20.148+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.339 seconds
+[2023-03-18T07:27:50.610+0000] {processor.py:153} INFO - Started process (PID=55285) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:27:50.612+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:27:50.613+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:27:50.613+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:27:50.641+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:27:50.908+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:27:50.908+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:27:50.944+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:27:50.944+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:25:00+00:00, run_after=2023-03-18T07:30:00+00:00
+[2023-03-18T07:27:50.966+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.363 seconds
+[2023-03-18T07:28:21.394+0000] {processor.py:153} INFO - Started process (PID=55311) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:28:21.396+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:28:21.397+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:28:21.397+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:28:21.621+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:28:21.658+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:28:21.658+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:28:21.696+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:28:21.696+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:25:00+00:00, run_after=2023-03-18T07:30:00+00:00
+[2023-03-18T07:28:21.720+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.333 seconds
+[2023-03-18T07:28:52.155+0000] {processor.py:153} INFO - Started process (PID=55337) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:28:52.157+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:28:52.158+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:28:52.158+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:28:52.396+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:28:52.433+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:28:52.432+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:28:52.470+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:28:52.470+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:25:00+00:00, run_after=2023-03-18T07:30:00+00:00
+[2023-03-18T07:28:52.496+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.348 seconds
+[2023-03-18T07:29:22.677+0000] {processor.py:153} INFO - Started process (PID=55368) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:29:22.679+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:29:22.680+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:29:22.680+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:29:22.707+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:29:22.752+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:29:22.752+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:29:22.795+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:29:22.795+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:25:00+00:00, run_after=2023-03-18T07:30:00+00:00
+[2023-03-18T07:29:22.820+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.150 seconds
+[2023-03-18T07:29:52.935+0000] {processor.py:153} INFO - Started process (PID=55394) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:29:52.936+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:29:52.938+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:29:52.937+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:29:52.965+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:29:53.010+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:29:53.010+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:29:53.054+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:29:53.054+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:25:00+00:00, run_after=2023-03-18T07:30:00+00:00
+[2023-03-18T07:29:53.078+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.149 seconds
+[2023-03-18T07:30:23.354+0000] {processor.py:153} INFO - Started process (PID=55438) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:30:23.356+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:30:23.357+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:30:23.357+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:30:23.384+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:30:23.434+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:30:23.433+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:30:23.475+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:30:23.475+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:30:00+00:00, run_after=2023-03-18T07:35:00+00:00
+[2023-03-18T07:30:23.500+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.153 seconds
+[2023-03-18T07:30:53.697+0000] {processor.py:153} INFO - Started process (PID=55464) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:30:53.699+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:30:53.700+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:30:53.700+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:30:53.728+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:30:53.773+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:30:53.773+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:30:53.814+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:30:53.814+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:30:00+00:00, run_after=2023-03-18T07:35:00+00:00
+[2023-03-18T07:30:53.845+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.156 seconds
+[2023-03-18T07:31:24.099+0000] {processor.py:153} INFO - Started process (PID=55489) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:31:24.101+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:31:24.102+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:31:24.102+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:31:24.129+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:31:24.174+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:31:24.173+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:31:24.218+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:31:24.218+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:30:00+00:00, run_after=2023-03-18T07:35:00+00:00
+[2023-03-18T07:31:24.243+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.151 seconds
+[2023-03-18T07:31:54.453+0000] {processor.py:153} INFO - Started process (PID=55515) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:31:54.455+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:31:54.456+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:31:54.456+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:31:54.483+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:31:54.528+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:31:54.528+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:31:54.570+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:31:54.570+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:30:00+00:00, run_after=2023-03-18T07:35:00+00:00
+[2023-03-18T07:31:54.602+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.156 seconds
+[2023-03-18T07:32:24.875+0000] {processor.py:153} INFO - Started process (PID=55540) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:32:24.877+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:32:24.878+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:32:24.878+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:32:24.906+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:32:24.952+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:32:24.952+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:32:24.997+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:32:24.996+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:30:00+00:00, run_after=2023-03-18T07:35:00+00:00
+[2023-03-18T07:32:25.023+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.155 seconds
+[2023-03-18T07:32:55.326+0000] {processor.py:153} INFO - Started process (PID=55569) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:32:55.329+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:32:55.333+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:32:55.332+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:32:55.390+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:32:55.433+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:32:55.432+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:32:55.475+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:32:55.474+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:30:00+00:00, run_after=2023-03-18T07:35:00+00:00
+[2023-03-18T07:32:55.500+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.182 seconds
+[2023-03-18T07:33:25.782+0000] {processor.py:153} INFO - Started process (PID=55594) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:33:25.784+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:33:25.785+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:33:25.785+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:33:25.812+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:33:25.858+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:33:25.858+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:33:25.899+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:33:25.899+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:30:00+00:00, run_after=2023-03-18T07:35:00+00:00
+[2023-03-18T07:33:25.924+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.148 seconds
+[2023-03-18T07:33:56.202+0000] {processor.py:153} INFO - Started process (PID=55620) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:33:56.204+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:33:56.205+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:33:56.205+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:33:56.233+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:33:56.278+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:33:56.278+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:33:56.319+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:33:56.319+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:30:00+00:00, run_after=2023-03-18T07:35:00+00:00
+[2023-03-18T07:33:56.343+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.148 seconds
+[2023-03-18T07:34:26.628+0000] {processor.py:153} INFO - Started process (PID=55646) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:34:26.630+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:34:26.631+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:34:26.631+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:34:26.659+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:34:26.705+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:34:26.704+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:34:26.747+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:34:26.747+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:30:00+00:00, run_after=2023-03-18T07:35:00+00:00
+[2023-03-18T07:34:26.772+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.151 seconds
+[2023-03-18T07:34:57.060+0000] {processor.py:153} INFO - Started process (PID=55672) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:34:57.062+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:34:57.063+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:34:57.063+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:34:57.092+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:34:57.141+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:34:57.141+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:34:57.190+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:34:57.189+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:30:00+00:00, run_after=2023-03-18T07:35:00+00:00
+[2023-03-18T07:34:57.229+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.177 seconds
+[2023-03-18T07:35:27.543+0000] {processor.py:153} INFO - Started process (PID=55718) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:35:27.544+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:35:27.545+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:35:27.545+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:35:27.576+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:35:27.625+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:35:27.625+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:35:27.680+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:35:27.680+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:35:00+00:00, run_after=2023-03-18T07:40:00+00:00
+[2023-03-18T07:35:27.729+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.194 seconds
+[2023-03-18T07:35:57.959+0000] {processor.py:153} INFO - Started process (PID=55744) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:35:57.971+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:35:57.972+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:35:57.972+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:35:58.025+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:35:58.083+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:35:58.083+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:35:58.171+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:35:58.171+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:35:00+00:00, run_after=2023-03-18T07:40:00+00:00
+[2023-03-18T07:35:58.209+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.269 seconds
+[2023-03-18T07:36:28.500+0000] {processor.py:153} INFO - Started process (PID=55769) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:36:28.502+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:36:28.504+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:36:28.503+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:36:28.532+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:36:28.583+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:36:28.583+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:36:28.628+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:36:28.628+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:35:00+00:00, run_after=2023-03-18T07:40:00+00:00
+[2023-03-18T07:36:28.657+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.165 seconds
+[2023-03-18T07:36:58.962+0000] {processor.py:153} INFO - Started process (PID=55820) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:36:58.963+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:36:58.965+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:36:58.964+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:36:58.995+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:36:59.056+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:36:59.056+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:36:59.106+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:36:59.106+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:35:00+00:00, run_after=2023-03-18T07:40:00+00:00
+[2023-03-18T07:36:59.135+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.180 seconds
+[2023-03-18T07:37:29.431+0000] {processor.py:153} INFO - Started process (PID=55846) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:37:29.433+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:37:29.434+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:37:29.434+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:37:29.463+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:37:29.515+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:37:29.515+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:37:29.567+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:37:29.566+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:35:00+00:00, run_after=2023-03-18T07:40:00+00:00
+[2023-03-18T07:37:29.599+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.175 seconds
+[2023-03-18T07:37:59.924+0000] {processor.py:153} INFO - Started process (PID=55874) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:37:59.927+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:37:59.928+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:37:59.927+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:37:59.956+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:38:00.011+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:38:00.011+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:38:00.061+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:38:00.061+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:35:00+00:00, run_after=2023-03-18T07:40:00+00:00
+[2023-03-18T07:38:00.090+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.173 seconds
+[2023-03-18T07:38:30.413+0000] {processor.py:153} INFO - Started process (PID=55901) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:38:30.415+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:38:30.416+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:38:30.416+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:38:30.446+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:38:30.493+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:38:30.492+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:38:30.546+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:38:30.546+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:35:00+00:00, run_after=2023-03-18T07:40:00+00:00
+[2023-03-18T07:38:30.578+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.171 seconds
+[2023-03-18T07:39:00.797+0000] {processor.py:153} INFO - Started process (PID=55926) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:39:00.799+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:39:00.800+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:39:00.800+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:39:00.830+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:39:00.881+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:39:00.881+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:39:00.929+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:39:00.929+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:35:00+00:00, run_after=2023-03-18T07:40:00+00:00
+[2023-03-18T07:39:00.959+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.169 seconds
+[2023-03-18T07:39:31.256+0000] {processor.py:153} INFO - Started process (PID=55957) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:39:31.258+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:39:31.259+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:39:31.259+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:39:31.288+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:39:31.337+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:39:31.337+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:39:31.385+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:39:31.385+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:35:00+00:00, run_after=2023-03-18T07:40:00+00:00
+[2023-03-18T07:39:31.414+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.165 seconds
+[2023-03-18T07:40:01.723+0000] {processor.py:153} INFO - Started process (PID=56000) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:40:01.724+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:40:01.725+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:40:01.725+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:40:01.755+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:40:01.803+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:40:01.802+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:40:01.849+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:40:01.849+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:40:00+00:00, run_after=2023-03-18T07:45:00+00:00
+[2023-03-18T07:40:01.883+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.168 seconds
+[2023-03-18T07:40:32.200+0000] {processor.py:153} INFO - Started process (PID=56026) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:40:32.203+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:40:32.204+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:40:32.204+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:40:32.235+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:40:32.284+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:40:32.284+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:40:32.331+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:40:32.330+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:40:00+00:00, run_after=2023-03-18T07:45:00+00:00
+[2023-03-18T07:40:32.361+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.168 seconds
+[2023-03-18T07:41:02.556+0000] {processor.py:153} INFO - Started process (PID=56051) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:41:02.557+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:41:02.558+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:41:02.558+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:41:02.590+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:41:02.644+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:41:02.644+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:41:02.694+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:41:02.694+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:40:00+00:00, run_after=2023-03-18T07:45:00+00:00
+[2023-03-18T07:41:02.723+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.176 seconds
+[2023-03-18T07:41:33.045+0000] {processor.py:153} INFO - Started process (PID=56077) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:41:33.047+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:41:33.049+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:41:33.048+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:41:33.078+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:41:33.134+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:41:33.133+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:41:33.187+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:41:33.186+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:40:00+00:00, run_after=2023-03-18T07:45:00+00:00
+[2023-03-18T07:41:33.218+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.181 seconds
+[2023-03-18T07:42:03.415+0000] {processor.py:153} INFO - Started process (PID=56102) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:42:03.416+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:42:03.418+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:42:03.417+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:42:03.446+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:42:03.499+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:42:03.498+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:42:03.547+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:42:03.547+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:40:00+00:00, run_after=2023-03-18T07:45:00+00:00
+[2023-03-18T07:42:03.579+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.170 seconds
+[2023-03-18T07:42:33.890+0000] {processor.py:153} INFO - Started process (PID=56130) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:42:33.892+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:42:33.894+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:42:33.893+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:42:33.921+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:42:33.978+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:42:33.978+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:42:34.022+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:42:34.022+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:40:00+00:00, run_after=2023-03-18T07:45:00+00:00
+[2023-03-18T07:42:34.054+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.172 seconds
+[2023-03-18T07:43:04.261+0000] {processor.py:153} INFO - Started process (PID=56155) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:43:04.262+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:43:04.264+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:43:04.263+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:43:04.319+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:43:04.368+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:43:04.368+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:43:04.413+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:43:04.413+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:40:00+00:00, run_after=2023-03-18T07:45:00+00:00
+[2023-03-18T07:43:04.441+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.199 seconds
+[2023-03-18T07:43:34.728+0000] {processor.py:153} INFO - Started process (PID=56181) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:43:34.731+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:43:34.732+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:43:34.732+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:43:34.760+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:43:34.815+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:43:34.814+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:43:34.859+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:43:34.858+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:40:00+00:00, run_after=2023-03-18T07:45:00+00:00
+[2023-03-18T07:43:34.888+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.167 seconds
+[2023-03-18T07:44:05.187+0000] {processor.py:153} INFO - Started process (PID=56207) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:44:05.188+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:44:05.189+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:44:05.189+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:44:05.220+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:44:05.274+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:44:05.274+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:44:05.326+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:44:05.326+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:40:00+00:00, run_after=2023-03-18T07:45:00+00:00
+[2023-03-18T07:44:05.358+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.178 seconds
+[2023-03-18T07:44:35.666+0000] {processor.py:153} INFO - Started process (PID=56233) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:44:35.669+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:44:35.670+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:44:35.669+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:44:35.699+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:44:35.755+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:44:35.755+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:44:35.800+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:44:35.799+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:40:00+00:00, run_after=2023-03-18T07:45:00+00:00
+[2023-03-18T07:44:35.829+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.170 seconds
+[2023-03-18T07:45:06.145+0000] {processor.py:153} INFO - Started process (PID=56279) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:45:06.148+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:45:06.150+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:45:06.150+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:45:06.185+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:45:06.246+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:45:06.246+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:45:06.335+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:45:06.335+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:45:00+00:00, run_after=2023-03-18T07:50:00+00:00
+[2023-03-18T07:45:06.366+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.230 seconds
+[2023-03-18T07:45:36.652+0000] {processor.py:153} INFO - Started process (PID=56305) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:45:36.654+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:45:36.655+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:45:36.655+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:45:36.685+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:45:36.742+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:45:36.741+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:45:36.786+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:45:36.786+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:45:00+00:00, run_after=2023-03-18T07:50:00+00:00
+[2023-03-18T07:45:36.814+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.169 seconds
+[2023-03-18T07:46:07.112+0000] {processor.py:153} INFO - Started process (PID=56330) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:46:07.114+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:46:07.115+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:46:07.115+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:46:07.147+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:46:07.202+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:46:07.201+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:46:07.249+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:46:07.249+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:45:00+00:00, run_after=2023-03-18T07:50:00+00:00
+[2023-03-18T07:46:07.281+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.177 seconds
+[2023-03-18T07:46:37.593+0000] {processor.py:153} INFO - Started process (PID=56356) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:46:37.594+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:46:37.595+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:46:37.595+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:46:37.624+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:46:37.680+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:46:37.679+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:46:37.723+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:46:37.722+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:45:00+00:00, run_after=2023-03-18T07:50:00+00:00
+[2023-03-18T07:46:37.755+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.169 seconds
+[2023-03-18T07:47:08.055+0000] {processor.py:153} INFO - Started process (PID=56381) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:47:08.057+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:47:08.058+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:47:08.058+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:47:08.089+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:47:08.142+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:47:08.142+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:47:08.191+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:47:08.191+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:45:00+00:00, run_after=2023-03-18T07:50:00+00:00
+[2023-03-18T07:47:08.228+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.180 seconds
+[2023-03-18T07:47:38.440+0000] {processor.py:153} INFO - Started process (PID=56409) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:47:38.443+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:47:38.444+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:47:38.444+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:47:38.474+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:47:38.524+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:47:38.524+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:47:38.577+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:47:38.577+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:45:00+00:00, run_after=2023-03-18T07:50:00+00:00
+[2023-03-18T07:47:38.609+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.176 seconds
+[2023-03-18T07:48:08.927+0000] {processor.py:153} INFO - Started process (PID=56434) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:48:08.928+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:48:08.930+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:48:08.929+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:48:08.959+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:48:09.009+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:48:09.008+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:48:09.054+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:48:09.054+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:45:00+00:00, run_after=2023-03-18T07:50:00+00:00
+[2023-03-18T07:48:09.095+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.175 seconds
+[2023-03-18T07:48:39.431+0000] {processor.py:153} INFO - Started process (PID=56460) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:48:39.433+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:48:39.434+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:48:39.434+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:48:39.464+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:48:39.520+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:48:39.520+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:48:39.566+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:48:39.565+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:45:00+00:00, run_after=2023-03-18T07:50:00+00:00
+[2023-03-18T07:48:39.594+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.172 seconds
+[2023-03-18T07:49:09.908+0000] {processor.py:153} INFO - Started process (PID=56485) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:49:09.909+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:49:09.911+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:49:09.910+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:49:09.945+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:49:10.001+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:49:10.001+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:49:10.055+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:49:10.054+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:45:00+00:00, run_after=2023-03-18T07:50:00+00:00
+[2023-03-18T07:49:10.088+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.188 seconds
+[2023-03-18T07:49:40.413+0000] {processor.py:153} INFO - Started process (PID=56518) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:49:40.415+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:49:40.416+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:49:40.416+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:49:40.446+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:49:40.494+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:49:40.494+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:49:40.540+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:49:40.540+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:45:00+00:00, run_after=2023-03-18T07:50:00+00:00
+[2023-03-18T07:49:40.573+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.167 seconds
+[2023-03-18T07:50:10.990+0000] {processor.py:153} INFO - Started process (PID=56598) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:50:10.993+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:50:10.994+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:50:10.993+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:50:11.014+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:50:11.048+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:50:11.048+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:50:11.080+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:50:11.080+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:50:00+00:00, run_after=2023-03-18T07:55:00+00:00
+[2023-03-18T07:50:11.108+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.125 seconds
+[2023-03-18T07:50:41.505+0000] {processor.py:153} INFO - Started process (PID=56731) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:50:41.506+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:50:41.507+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:50:41.507+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:50:41.527+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:50:41.565+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:50:41.565+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:50:41.600+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:50:41.600+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:50:00+00:00, run_after=2023-03-18T07:55:00+00:00
+[2023-03-18T07:50:41.629+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.129 seconds
+[2023-03-18T07:51:12.027+0000] {processor.py:153} INFO - Started process (PID=56756) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:51:12.031+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:51:12.032+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:51:12.032+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:51:12.059+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:51:12.097+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:51:12.097+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:51:12.129+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:51:12.129+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:50:00+00:00, run_after=2023-03-18T07:55:00+00:00
+[2023-03-18T07:51:12.156+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.134 seconds
+[2023-03-18T07:51:42.564+0000] {processor.py:153} INFO - Started process (PID=56783) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:51:42.566+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:51:42.567+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:51:42.567+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:51:42.589+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:51:42.623+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:51:42.623+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:51:42.660+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:51:42.659+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:50:00+00:00, run_after=2023-03-18T07:55:00+00:00
+[2023-03-18T07:51:42.688+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.133 seconds
+[2023-03-18T07:52:13.078+0000] {processor.py:153} INFO - Started process (PID=56809) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:52:13.079+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:52:13.079+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:52:13.079+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:52:13.106+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:52:13.143+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:52:13.143+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:52:13.175+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:52:13.175+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:50:00+00:00, run_after=2023-03-18T07:55:00+00:00
+[2023-03-18T07:52:13.201+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.129 seconds
+[2023-03-18T07:52:43.459+0000] {processor.py:153} INFO - Started process (PID=56836) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:52:43.462+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:52:43.463+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:52:43.463+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:52:43.484+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:52:43.519+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:52:43.519+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:52:43.557+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:52:43.557+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:50:00+00:00, run_after=2023-03-18T07:55:00+00:00
+[2023-03-18T07:52:43.582+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.128 seconds
+[2023-03-18T07:53:13.970+0000] {processor.py:153} INFO - Started process (PID=56862) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:53:13.972+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:53:13.974+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:53:13.974+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:53:13.994+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:53:14.041+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:53:14.041+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:53:14.078+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:53:14.078+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:50:00+00:00, run_after=2023-03-18T07:55:00+00:00
+[2023-03-18T07:53:14.103+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.138 seconds
+[2023-03-18T07:53:44.527+0000] {processor.py:153} INFO - Started process (PID=56887) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:53:44.529+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:53:44.529+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:53:44.529+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:53:44.551+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:53:44.592+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:53:44.592+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:53:44.626+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:53:44.625+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:50:00+00:00, run_after=2023-03-18T07:55:00+00:00
+[2023-03-18T07:53:44.651+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.129 seconds
+[2023-03-18T07:54:15.058+0000] {processor.py:153} INFO - Started process (PID=56913) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:54:15.060+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:54:15.060+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:54:15.060+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:54:15.083+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:54:15.117+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:54:15.117+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:54:15.151+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:54:15.151+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:50:00+00:00, run_after=2023-03-18T07:55:00+00:00
+[2023-03-18T07:54:15.177+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.125 seconds
+[2023-03-18T07:54:45.566+0000] {processor.py:153} INFO - Started process (PID=56938) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:54:45.568+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:54:45.569+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:54:45.569+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:54:45.590+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:54:45.627+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:54:45.626+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:54:45.659+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:54:45.659+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:50:00+00:00, run_after=2023-03-18T07:55:00+00:00
+[2023-03-18T07:54:45.681+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.122 seconds
+[2023-03-18T07:55:16.084+0000] {processor.py:153} INFO - Started process (PID=56985) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:55:16.086+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:55:16.087+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:55:16.087+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:55:16.107+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:55:16.140+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:55:16.140+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:55:16.170+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:55:16.170+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:55:00+00:00, run_after=2023-03-18T08:00:00+00:00
+[2023-03-18T07:55:16.194+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.116 seconds
+[2023-03-18T07:55:46.596+0000] {processor.py:153} INFO - Started process (PID=57011) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:55:46.596+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:55:46.597+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:55:46.597+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:55:46.616+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:55:46.649+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:55:46.649+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:55:46.681+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:55:46.681+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:55:00+00:00, run_after=2023-03-18T08:00:00+00:00
+[2023-03-18T07:55:46.704+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.115 seconds
+[2023-03-18T07:56:17.092+0000] {processor.py:153} INFO - Started process (PID=57037) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:56:17.094+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:56:17.096+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:56:17.096+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:56:17.118+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:56:17.151+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:56:17.151+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:56:17.187+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:56:17.187+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:55:00+00:00, run_after=2023-03-18T08:00:00+00:00
+[2023-03-18T07:56:17.217+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.130 seconds
+[2023-03-18T07:56:47.619+0000] {processor.py:153} INFO - Started process (PID=57062) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:56:47.620+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:56:47.621+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:56:47.621+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:56:47.650+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:56:47.687+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:56:47.686+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:56:47.717+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:56:47.717+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:55:00+00:00, run_after=2023-03-18T08:00:00+00:00
+[2023-03-18T07:56:47.741+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.127 seconds
+[2023-03-18T07:57:18.128+0000] {processor.py:153} INFO - Started process (PID=57088) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:57:18.129+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:57:18.130+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:57:18.130+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:57:18.152+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:57:18.186+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:57:18.186+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:57:18.217+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:57:18.217+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:55:00+00:00, run_after=2023-03-18T08:00:00+00:00
+[2023-03-18T07:57:18.241+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.120 seconds
+[2023-03-18T07:57:48.681+0000] {processor.py:153} INFO - Started process (PID=57117) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:57:48.682+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:57:48.682+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:57:48.682+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:57:48.707+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:57:48.747+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:57:48.746+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:57:48.778+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:57:48.778+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:55:00+00:00, run_after=2023-03-18T08:00:00+00:00
+[2023-03-18T07:57:48.805+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.130 seconds
+[2023-03-18T07:58:19.206+0000] {processor.py:153} INFO - Started process (PID=57143) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:58:19.208+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:58:19.209+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:58:19.209+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:58:19.230+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:58:19.265+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:58:19.265+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:58:19.299+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:58:19.299+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:55:00+00:00, run_after=2023-03-18T08:00:00+00:00
+[2023-03-18T07:58:19.331+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.131 seconds
+[2023-03-18T07:58:49.748+0000] {processor.py:153} INFO - Started process (PID=57168) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:58:49.750+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:58:49.751+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:58:49.751+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:58:49.774+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:58:49.811+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:58:49.810+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:58:49.844+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:58:49.844+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:55:00+00:00, run_after=2023-03-18T08:00:00+00:00
+[2023-03-18T07:58:49.868+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.127 seconds
+[2023-03-18T07:59:20.269+0000] {processor.py:153} INFO - Started process (PID=57194) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:59:20.273+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:59:20.274+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:59:20.273+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:59:20.298+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:59:20.335+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:59:20.335+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:59:20.375+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:59:20.375+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:55:00+00:00, run_after=2023-03-18T08:00:00+00:00
+[2023-03-18T07:59:20.402+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.141 seconds
+[2023-03-18T07:59:50.820+0000] {processor.py:153} INFO - Started process (PID=57226) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:59:50.821+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T07:59:50.822+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:59:50.822+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:59:50.844+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T07:59:50.878+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:59:50.878+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:59:50.917+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:59:50.916+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T07:55:00+00:00, run_after=2023-03-18T08:00:00+00:00
+[2023-03-18T07:59:50.944+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.130 seconds
+[2023-03-18T08:00:21.406+0000] {processor.py:153} INFO - Started process (PID=57450) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:00:21.410+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T08:00:21.414+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:00:21.412+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:00:21.481+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:00:21.545+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:00:21.545+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:00:21.630+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:00:21.630+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T08:00:00+00:00, run_after=2023-03-18T08:05:00+00:00
+[2023-03-18T08:00:21.687+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.307 seconds
+[2023-03-18T08:00:52.126+0000] {processor.py:153} INFO - Started process (PID=57540) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:00:52.127+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T08:00:52.128+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:00:52.128+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:00:52.150+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:00:52.183+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:00:52.183+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:00:52.215+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:00:52.215+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T08:00:00+00:00, run_after=2023-03-18T08:05:00+00:00
+[2023-03-18T08:00:52.238+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.117 seconds
+[2023-03-18T08:01:22.438+0000] {processor.py:153} INFO - Started process (PID=57565) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:01:22.440+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T08:01:22.440+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:01:22.440+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:01:22.462+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:01:22.498+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:01:22.498+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:01:22.529+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:01:22.529+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T08:00:00+00:00, run_after=2023-03-18T08:05:00+00:00
+[2023-03-18T08:01:22.555+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.123 seconds
+[2023-03-18T08:01:52.957+0000] {processor.py:153} INFO - Started process (PID=57591) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:01:52.958+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T08:01:52.959+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:01:52.959+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:01:52.981+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:01:53.016+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:01:53.016+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:01:53.049+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:01:53.049+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T08:00:00+00:00, run_after=2023-03-18T08:05:00+00:00
+[2023-03-18T08:01:53.073+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.122 seconds
+[2023-03-18T08:02:23.475+0000] {processor.py:153} INFO - Started process (PID=57616) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:02:23.477+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T08:02:23.478+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:02:23.478+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:02:23.498+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:02:23.530+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:02:23.530+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:02:23.563+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:02:23.563+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T08:00:00+00:00, run_after=2023-03-18T08:05:00+00:00
+[2023-03-18T08:02:23.592+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.123 seconds
+[2023-03-18T08:02:54.012+0000] {processor.py:153} INFO - Started process (PID=57644) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:02:54.015+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T08:02:54.016+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:02:54.016+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:02:54.038+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:02:54.079+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:02:54.079+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:02:54.113+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:02:54.112+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T08:00:00+00:00, run_after=2023-03-18T08:05:00+00:00
+[2023-03-18T08:02:54.138+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.132 seconds
+[2023-03-18T08:03:24.583+0000] {processor.py:153} INFO - Started process (PID=57670) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:03:24.587+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T08:03:24.588+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:03:24.588+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:03:24.610+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:03:24.649+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:03:24.649+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:03:24.689+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:03:24.689+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T08:00:00+00:00, run_after=2023-03-18T08:05:00+00:00
+[2023-03-18T08:03:24.716+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.139 seconds
+[2023-03-18T08:03:55.135+0000] {processor.py:153} INFO - Started process (PID=57696) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:03:55.136+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T08:03:55.137+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:03:55.137+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:03:55.161+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:03:55.197+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:03:55.197+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:03:55.233+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:03:55.232+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T08:00:00+00:00, run_after=2023-03-18T08:05:00+00:00
+[2023-03-18T08:03:55.262+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.133 seconds
+[2023-03-18T08:04:25.674+0000] {processor.py:153} INFO - Started process (PID=57721) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:04:25.675+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T08:04:25.676+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:04:25.676+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:04:25.697+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:04:25.731+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:04:25.731+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:04:25.765+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:04:25.764+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T08:00:00+00:00, run_after=2023-03-18T08:05:00+00:00
+[2023-03-18T08:04:25.788+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.119 seconds
+[2023-03-18T08:04:56.184+0000] {processor.py:153} INFO - Started process (PID=57747) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:04:56.185+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T08:04:56.186+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:04:56.186+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:04:56.207+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:04:56.239+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:04:56.239+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:04:56.271+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:04:56.271+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T08:00:00+00:00, run_after=2023-03-18T08:05:00+00:00
+[2023-03-18T08:04:56.293+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.116 seconds
+[2023-03-18T08:05:26.713+0000] {processor.py:153} INFO - Started process (PID=57793) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:05:26.714+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T08:05:26.715+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:05:26.714+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:05:26.734+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:05:26.768+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:05:26.767+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:05:26.798+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:05:26.797+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T08:05:00+00:00, run_after=2023-03-18T08:10:00+00:00
+[2023-03-18T08:05:26.818+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.110 seconds
+[2023-03-18T08:05:57.202+0000] {processor.py:153} INFO - Started process (PID=57819) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:05:57.204+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T08:05:57.205+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:05:57.205+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:05:57.226+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:05:57.259+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:05:57.259+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:05:57.291+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:05:57.291+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T08:05:00+00:00, run_after=2023-03-18T08:10:00+00:00
+[2023-03-18T08:05:57.313+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.116 seconds
+[2023-03-18T08:06:27.701+0000] {processor.py:153} INFO - Started process (PID=57869) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:06:27.702+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T08:06:27.703+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:06:27.703+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:06:27.723+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:06:27.765+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:06:27.764+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:06:27.800+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:06:27.799+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T08:05:00+00:00, run_after=2023-03-18T08:10:00+00:00
+[2023-03-18T08:06:27.827+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.131 seconds
+[2023-03-18T08:06:58.022+0000] {processor.py:153} INFO - Started process (PID=57895) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:06:58.025+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T08:06:58.025+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:06:58.025+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:06:58.051+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:06:58.085+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:06:58.085+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:06:58.117+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:06:58.117+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T08:05:00+00:00, run_after=2023-03-18T08:10:00+00:00
+[2023-03-18T08:06:58.142+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.124 seconds
+[2023-03-18T08:07:28.540+0000] {processor.py:153} INFO - Started process (PID=57922) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:07:28.541+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T08:07:28.542+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:07:28.542+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:07:28.563+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:07:28.603+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:07:28.602+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:07:28.639+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:07:28.638+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T08:05:00+00:00, run_after=2023-03-18T08:10:00+00:00
+[2023-03-18T08:07:28.665+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.129 seconds
+[2023-03-18T08:07:59.067+0000] {processor.py:153} INFO - Started process (PID=57953) to work on /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:07:59.069+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/python_operator_test.py for tasks to queue
+[2023-03-18T08:07:59.069+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:07:59.069+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:07:59.095+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/melicharovykrecek/diploma/dags/python_operator_test.py
+[2023-03-18T08:07:59.136+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:07:59.136+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:07:59.176+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:07:59.176+0000] {dag.py:3437} INFO - Setting next_dagrun for my_dag to 2023-03-18T08:05:00+00:00, run_after=2023-03-18T08:10:00+00:00
+[2023-03-18T08:07:59.200+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/python_operator_test.py took 0.139 seconds

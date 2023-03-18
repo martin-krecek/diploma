@@ -6950,3 +6950,747 @@
 [2023-03-18T07:20:40.857+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:20:40.857+0000] {dag.py:2690} INFO - Sync 1 DAGs
 [2023-03-18T07:20:41.046+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:20:41.046+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
 [2023-03-18T07:20:41.065+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.270 seconds
+[2023-03-18T07:21:11.624+0000] {processor.py:153} INFO - Started process (PID=54926) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:21:11.625+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:21:11.626+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:21:11.626+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:21:11.628+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:21:11.646+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:21:11.678+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:21:11.678+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:21:11.843+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:21:11.843+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:21:11.861+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.243 seconds
+[2023-03-18T07:21:42.378+0000] {processor.py:153} INFO - Started process (PID=54955) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:21:42.380+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:21:42.380+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:21:42.380+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:21:42.382+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:21:42.398+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:21:42.584+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:21:42.583+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:21:42.611+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:21:42.611+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:21:42.631+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.257 seconds
+[2023-03-18T07:22:13.158+0000] {processor.py:153} INFO - Started process (PID=54982) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:22:13.160+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:22:13.161+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:22:13.161+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:22:13.164+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:22:13.181+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:22:13.354+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:22:13.354+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:22:13.378+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:22:13.377+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:22:13.395+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.243 seconds
+[2023-03-18T07:22:43.728+0000] {processor.py:153} INFO - Started process (PID=55011) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:22:43.730+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:22:43.731+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:22:43.731+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:22:43.732+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:22:43.748+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:22:43.781+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:22:43.781+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:22:43.807+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:22:43.807+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:22:43.825+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.103 seconds
+[2023-03-18T07:23:14.356+0000] {processor.py:153} INFO - Started process (PID=55037) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:23:14.357+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:23:14.358+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:23:14.358+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:23:14.360+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:23:14.379+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:23:14.413+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:23:14.413+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:23:14.440+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:23:14.440+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:23:14.604+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.256 seconds
+[2023-03-18T07:23:45.127+0000] {processor.py:153} INFO - Started process (PID=55062) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:23:45.129+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:23:45.130+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:23:45.130+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:23:45.132+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:23:45.148+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:23:45.182+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:23:45.182+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:23:45.361+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:23:45.361+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:23:45.380+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.257 seconds
+[2023-03-18T07:24:15.905+0000] {processor.py:153} INFO - Started process (PID=55088) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:24:15.906+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:24:15.906+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:24:15.906+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:24:15.907+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:24:15.923+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:24:15.954+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:24:15.954+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:24:16.117+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:24:16.117+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:24:16.135+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.235 seconds
+[2023-03-18T07:24:46.659+0000] {processor.py:153} INFO - Started process (PID=55111) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:24:46.661+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:24:46.663+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:24:46.662+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:24:46.665+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:24:46.683+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:24:46.855+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:24:46.855+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:24:46.877+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:24:46.877+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:24:46.894+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.241 seconds
+[2023-03-18T07:25:17.420+0000] {processor.py:153} INFO - Started process (PID=55164) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:25:17.422+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:25:17.423+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:25:17.422+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:25:17.425+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:25:17.593+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:25:17.619+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:25:17.619+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:25:17.642+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:25:17.642+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:25:17.660+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.247 seconds
+[2023-03-18T07:25:47.988+0000] {processor.py:153} INFO - Started process (PID=55191) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:25:47.989+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:25:47.990+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:25:47.990+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:25:47.992+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:25:48.008+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:25:48.041+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:25:48.041+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:25:48.067+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:25:48.066+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:25:48.084+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.101 seconds
+[2023-03-18T07:26:18.599+0000] {processor.py:153} INFO - Started process (PID=55217) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:26:18.600+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:26:18.601+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:26:18.601+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:26:18.603+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:26:18.619+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:26:18.653+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:26:18.653+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:26:18.680+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:26:18.680+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:26:18.863+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.268 seconds
+[2023-03-18T07:26:49.423+0000] {processor.py:153} INFO - Started process (PID=55242) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:26:49.425+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:26:49.425+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:26:49.425+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:26:49.427+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:26:49.443+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:26:49.476+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:26:49.475+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:26:49.641+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:26:49.641+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:26:49.659+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.241 seconds
+[2023-03-18T07:27:20.183+0000] {processor.py:153} INFO - Started process (PID=55268) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:27:20.185+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:27:20.186+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:27:20.186+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:27:20.187+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:27:20.204+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:27:20.238+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:27:20.237+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:27:20.415+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:27:20.415+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:27:20.436+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.257 seconds
+[2023-03-18T07:27:50.996+0000] {processor.py:153} INFO - Started process (PID=55298) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:27:50.997+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:27:50.998+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:27:50.997+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:27:50.999+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:27:51.015+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:27:51.195+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:27:51.195+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:27:51.217+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:27:51.217+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:27:51.235+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.244 seconds
+[2023-03-18T07:28:21.759+0000] {processor.py:153} INFO - Started process (PID=55323) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:28:21.760+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:28:21.761+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:28:21.761+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:28:21.762+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:28:21.927+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:28:21.952+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:28:21.952+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:28:21.981+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:28:21.981+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:28:21.999+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.245 seconds
+[2023-03-18T07:28:52.684+0000] {processor.py:153} INFO - Started process (PID=55349) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:28:52.685+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:28:52.685+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:28:52.685+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:28:52.687+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:28:52.698+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:28:52.723+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:28:52.723+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:28:52.745+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:28:52.745+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:28:52.763+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.232 seconds
+[2023-03-18T07:29:23.688+0000] {processor.py:153} INFO - Started process (PID=55380) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:29:23.690+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:29:23.691+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:29:23.690+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:29:23.692+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:29:23.708+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:29:23.740+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:29:23.740+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:29:23.767+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:29:23.767+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:29:23.786+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.102 seconds
+[2023-03-18T07:29:54.115+0000] {processor.py:153} INFO - Started process (PID=55406) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:29:54.115+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:29:54.116+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:29:54.116+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:29:54.117+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:29:54.132+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:29:54.164+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:29:54.164+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:29:54.191+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:29:54.191+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:29:54.209+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.099 seconds
+[2023-03-18T07:30:24.441+0000] {processor.py:153} INFO - Started process (PID=55450) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:30:24.443+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:30:24.443+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:30:24.443+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:30:24.445+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:30:24.461+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:30:24.496+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:30:24.496+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:30:24.525+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:30:24.524+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:30:24.543+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.108 seconds
+[2023-03-18T07:30:54.850+0000] {processor.py:153} INFO - Started process (PID=55476) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:30:54.852+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:30:54.853+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:30:54.853+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:30:54.854+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:30:54.874+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:30:54.906+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:30:54.906+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:30:54.932+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:30:54.931+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:30:54.951+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.105 seconds
+[2023-03-18T07:31:25.202+0000] {processor.py:153} INFO - Started process (PID=55501) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:31:25.204+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:31:25.204+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:31:25.204+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:31:25.206+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:31:25.222+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:31:25.255+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:31:25.255+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:31:25.285+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:31:25.285+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:31:25.304+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.107 seconds
+[2023-03-18T07:31:55.632+0000] {processor.py:153} INFO - Started process (PID=55527) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:31:55.634+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:31:55.634+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:31:55.634+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:31:55.636+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:31:55.651+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:31:55.682+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:31:55.682+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:31:55.707+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:31:55.707+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:31:55.727+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.100 seconds
+[2023-03-18T07:32:26.061+0000] {processor.py:153} INFO - Started process (PID=55552) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:32:26.062+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:32:26.063+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:32:26.062+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:32:26.064+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:32:26.080+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:32:26.125+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:32:26.125+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:32:26.152+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:32:26.152+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:32:26.170+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.114 seconds
+[2023-03-18T07:32:56.534+0000] {processor.py:153} INFO - Started process (PID=55581) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:32:56.536+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:32:56.537+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:32:56.536+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:32:56.538+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:32:56.554+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:32:56.587+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:32:56.587+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:32:56.616+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:32:56.616+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:32:56.638+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.109 seconds
+[2023-03-18T07:33:26.961+0000] {processor.py:153} INFO - Started process (PID=55606) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:33:26.962+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:33:26.963+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:33:26.962+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:33:26.964+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:33:26.980+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:33:27.012+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:33:27.012+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:33:27.038+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:33:27.037+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:33:27.056+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.099 seconds
+[2023-03-18T07:33:57.381+0000] {processor.py:153} INFO - Started process (PID=55632) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:33:57.383+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:33:57.383+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:33:57.383+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:33:57.385+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:33:57.401+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:33:57.434+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:33:57.434+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:33:57.461+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:33:57.461+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:33:57.479+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.103 seconds
+[2023-03-18T07:34:27.811+0000] {processor.py:153} INFO - Started process (PID=55658) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:34:27.812+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:34:27.812+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:34:27.812+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:34:27.814+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:34:27.830+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:34:27.862+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:34:27.862+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:34:27.888+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:34:27.888+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:34:27.906+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.101 seconds
+[2023-03-18T07:34:58.270+0000] {processor.py:153} INFO - Started process (PID=55684) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:34:58.274+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:34:58.275+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:34:58.274+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:34:58.277+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:34:58.300+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:34:58.338+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:34:58.338+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:34:58.367+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:34:58.367+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:34:58.390+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.125 seconds
+[2023-03-18T07:35:28.665+0000] {processor.py:153} INFO - Started process (PID=55730) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:35:28.666+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:35:28.667+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:35:28.666+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:35:28.668+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:35:28.684+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:35:28.728+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:35:28.728+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:35:28.763+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:35:28.762+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:35:28.786+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.127 seconds
+[2023-03-18T07:35:59.226+0000] {processor.py:153} INFO - Started process (PID=55756) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:35:59.229+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:35:59.230+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:35:59.230+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:35:59.233+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:35:59.250+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:35:59.285+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:35:59.285+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:35:59.322+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:35:59.321+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:35:59.347+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.127 seconds
+[2023-03-18T07:36:29.696+0000] {processor.py:153} INFO - Started process (PID=55782) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:36:29.697+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:36:29.698+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:36:29.698+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:36:29.699+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:36:29.717+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:36:29.753+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:36:29.752+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:36:29.783+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:36:29.783+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:36:29.807+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.116 seconds
+[2023-03-18T07:37:00.166+0000] {processor.py:153} INFO - Started process (PID=55832) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:37:00.168+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:37:00.169+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:37:00.169+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:37:00.171+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:37:00.188+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:37:00.223+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:37:00.223+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:37:00.255+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:37:00.255+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:37:00.280+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.119 seconds
+[2023-03-18T07:37:30.640+0000] {processor.py:153} INFO - Started process (PID=55858) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:37:30.641+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:37:30.642+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:37:30.642+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:37:30.644+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:37:30.665+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:37:30.703+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:37:30.703+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:37:30.737+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:37:30.737+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:37:30.767+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.133 seconds
+[2023-03-18T07:38:01.131+0000] {processor.py:153} INFO - Started process (PID=55886) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:38:01.133+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:38:01.134+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:38:01.134+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:38:01.136+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:38:01.158+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:38:01.192+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:38:01.192+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:38:01.223+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:38:01.223+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:38:01.246+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.122 seconds
+[2023-03-18T07:38:31.529+0000] {processor.py:153} INFO - Started process (PID=55913) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:38:31.531+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:38:31.532+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:38:31.531+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:38:31.533+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:38:31.552+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:38:31.587+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:38:31.587+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:38:31.622+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:38:31.621+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:38:31.642+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.118 seconds
+[2023-03-18T07:39:01.998+0000] {processor.py:153} INFO - Started process (PID=55943) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:39:01.999+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:39:02.000+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:39:02.000+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:39:02.001+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:39:02.019+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:39:02.053+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:39:02.053+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:39:02.083+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:39:02.083+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:39:02.105+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.111 seconds
+[2023-03-18T07:39:32.455+0000] {processor.py:153} INFO - Started process (PID=55969) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:39:32.456+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:39:32.456+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:39:32.456+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:39:32.458+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:39:32.477+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:39:32.514+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:39:32.514+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:39:32.545+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:39:32.544+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:39:32.569+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.120 seconds
+[2023-03-18T07:40:02.926+0000] {processor.py:153} INFO - Started process (PID=56012) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:40:02.928+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:40:02.928+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:40:02.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:40:02.930+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:40:02.948+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:40:02.983+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:40:02.983+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:40:03.013+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:40:03.013+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:40:03.035+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.115 seconds
+[2023-03-18T07:40:33.276+0000] {processor.py:153} INFO - Started process (PID=56038) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:40:33.277+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:40:33.277+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:40:33.277+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:40:33.279+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:40:33.298+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:40:33.336+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:40:33.335+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:40:33.368+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:40:33.368+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:40:33.392+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.121 seconds
+[2023-03-18T07:41:03.765+0000] {processor.py:153} INFO - Started process (PID=56063) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:41:03.766+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:41:03.767+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:41:03.767+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:41:03.769+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:41:03.785+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:41:03.821+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:41:03.820+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:41:03.854+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:41:03.854+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:41:03.880+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.121 seconds
+[2023-03-18T07:41:34.140+0000] {processor.py:153} INFO - Started process (PID=56089) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:41:34.141+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:41:34.142+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:41:34.142+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:41:34.143+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:41:34.162+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:41:34.203+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:41:34.202+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:41:34.233+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:41:34.232+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:41:34.260+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.125 seconds
+[2023-03-18T07:42:04.626+0000] {processor.py:153} INFO - Started process (PID=56114) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:42:04.628+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:42:04.628+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:42:04.628+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:42:04.630+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:42:04.647+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:42:04.684+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:42:04.683+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:42:04.713+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:42:04.712+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:42:04.735+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.115 seconds
+[2023-03-18T07:42:34.988+0000] {processor.py:153} INFO - Started process (PID=56142) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:42:34.989+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:42:34.990+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:42:34.990+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:42:34.991+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:42:35.008+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:42:35.044+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:42:35.044+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:42:35.075+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:42:35.075+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:42:35.098+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.114 seconds
+[2023-03-18T07:43:05.450+0000] {processor.py:153} INFO - Started process (PID=56167) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:43:05.451+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:43:05.452+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:43:05.452+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:43:05.454+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:43:05.475+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:43:05.511+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:43:05.511+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:43:05.540+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:43:05.540+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:43:05.564+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.119 seconds
+[2023-03-18T07:43:35.924+0000] {processor.py:153} INFO - Started process (PID=56193) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:43:35.925+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:43:35.926+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:43:35.926+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:43:35.928+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:43:35.945+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:43:35.978+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:43:35.977+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:43:36.007+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:43:36.007+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:43:36.032+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.113 seconds
+[2023-03-18T07:44:06.397+0000] {processor.py:153} INFO - Started process (PID=56219) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:44:06.399+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:44:06.400+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:44:06.400+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:44:06.401+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:44:06.419+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:44:06.452+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:44:06.452+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:44:06.482+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:44:06.481+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:44:06.505+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.113 seconds
+[2023-03-18T07:44:36.871+0000] {processor.py:153} INFO - Started process (PID=56245) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:44:36.872+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:44:36.872+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:44:36.872+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:44:36.874+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:44:36.891+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:44:36.924+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:44:36.924+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:44:36.955+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:44:36.954+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:44:36.978+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.113 seconds
+[2023-03-18T07:45:07.383+0000] {processor.py:153} INFO - Started process (PID=56291) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:45:07.386+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:45:07.388+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:45:07.387+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:45:07.390+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:45:07.408+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:45:07.443+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:45:07.443+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:45:07.473+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:45:07.473+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:45:07.496+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.119 seconds
+[2023-03-18T07:45:37.851+0000] {processor.py:153} INFO - Started process (PID=56317) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:45:37.852+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:45:37.853+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:45:37.853+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:45:37.854+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:45:37.871+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:45:37.904+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:45:37.904+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:45:37.934+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:45:37.933+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:45:37.960+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.114 seconds
+[2023-03-18T07:46:08.325+0000] {processor.py:153} INFO - Started process (PID=56342) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:46:08.327+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:46:08.328+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:46:08.328+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:46:08.329+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:46:08.349+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:46:08.384+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:46:08.384+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:46:08.416+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:46:08.415+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:46:08.439+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.119 seconds
+[2023-03-18T07:46:38.789+0000] {processor.py:153} INFO - Started process (PID=56368) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:46:38.790+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:46:38.790+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:46:38.790+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:46:38.792+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:46:38.809+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:46:38.846+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:46:38.845+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:46:38.874+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:46:38.874+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:46:38.899+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.115 seconds
+[2023-03-18T07:47:09.163+0000] {processor.py:153} INFO - Started process (PID=56393) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:47:09.165+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:47:09.166+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:47:09.166+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:47:09.168+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:47:09.185+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:47:09.223+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:47:09.223+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:47:09.259+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:47:09.258+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:47:09.287+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.129 seconds
+[2023-03-18T07:47:39.653+0000] {processor.py:153} INFO - Started process (PID=56421) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:47:39.654+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:47:39.655+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:47:39.655+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:47:39.656+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:47:39.674+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:47:39.712+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:47:39.712+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:47:39.744+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:47:39.744+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:47:39.769+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.122 seconds
+[2023-03-18T07:48:10.152+0000] {processor.py:153} INFO - Started process (PID=56447) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:48:10.154+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:48:10.156+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:48:10.155+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:48:10.157+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:48:10.176+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:48:10.213+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:48:10.213+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:48:10.242+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:48:10.242+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:48:10.265+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.119 seconds
+[2023-03-18T07:48:40.633+0000] {processor.py:153} INFO - Started process (PID=56472) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:48:40.635+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:48:40.636+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:48:40.636+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:48:40.637+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:48:40.655+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:48:40.693+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:48:40.693+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:48:40.724+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:48:40.724+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:48:40.749+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.121 seconds
+[2023-03-18T07:49:11.133+0000] {processor.py:153} INFO - Started process (PID=56498) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:49:11.134+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:49:11.135+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:49:11.135+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:49:11.137+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:49:11.154+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:49:11.193+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:49:11.193+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:49:11.227+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:49:11.226+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:49:11.260+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.133 seconds
+[2023-03-18T07:49:41.616+0000] {processor.py:153} INFO - Started process (PID=56530) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:49:41.618+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:49:41.619+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:49:41.619+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:49:41.621+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:49:41.638+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:49:41.677+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:49:41.677+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:49:41.710+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:49:41.710+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:49:41.734+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.124 seconds
+[2023-03-18T07:50:11.997+0000] {processor.py:153} INFO - Started process (PID=56604) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:50:11.999+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:50:11.999+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:50:11.999+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:50:12.001+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:50:12.018+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:50:12.063+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:50:12.063+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:50:12.095+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:50:12.095+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:50:12.123+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.132 seconds
+[2023-03-18T07:50:42.575+0000] {processor.py:153} INFO - Started process (PID=56737) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:50:42.576+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:50:42.579+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:50:42.578+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:50:42.580+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:50:42.608+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:50:42.660+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:50:42.660+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:50:42.694+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:50:42.694+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:50:42.720+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.151 seconds
+[2023-03-18T07:51:13.091+0000] {processor.py:153} INFO - Started process (PID=56762) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:51:13.093+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:51:13.094+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:51:13.094+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:51:13.096+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:51:13.117+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:51:13.159+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:51:13.159+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:51:13.195+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:51:13.194+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:51:13.218+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.132 seconds
+[2023-03-18T07:51:43.588+0000] {processor.py:153} INFO - Started process (PID=56789) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:51:43.591+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:51:43.592+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:51:43.591+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:51:43.593+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:51:43.612+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:51:43.647+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:51:43.647+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:51:43.676+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:51:43.676+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:51:43.699+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.116 seconds
+[2023-03-18T07:52:14.096+0000] {processor.py:153} INFO - Started process (PID=56815) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:52:14.097+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:52:14.098+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:52:14.097+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:52:14.099+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:52:14.120+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:52:14.157+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:52:14.157+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:52:14.186+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:52:14.186+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:52:14.209+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.118 seconds
+[2023-03-18T07:52:44.569+0000] {processor.py:153} INFO - Started process (PID=56842) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:52:44.572+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:52:44.573+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:52:44.573+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:52:44.575+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:52:44.593+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:52:44.635+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:52:44.635+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:52:44.668+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:52:44.668+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:52:44.691+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.129 seconds
+[2023-03-18T07:53:15.061+0000] {processor.py:153} INFO - Started process (PID=56868) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:53:15.063+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:53:15.063+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:53:15.063+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:53:15.065+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:53:15.089+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:53:15.133+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:53:15.133+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:53:15.163+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:53:15.163+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:53:15.186+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.130 seconds
+[2023-03-18T07:53:45.581+0000] {processor.py:153} INFO - Started process (PID=56893) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:53:45.582+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:53:45.583+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:53:45.583+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:53:45.585+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:53:45.604+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:53:45.645+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:53:45.645+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:53:45.681+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:53:45.681+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:53:45.704+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.128 seconds
+[2023-03-18T07:54:16.077+0000] {processor.py:153} INFO - Started process (PID=56919) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:54:16.079+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:54:16.080+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:54:16.080+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:54:16.081+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:54:16.098+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:54:16.135+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:54:16.134+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:54:16.165+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:54:16.165+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:54:16.190+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.119 seconds
+[2023-03-18T07:54:46.594+0000] {processor.py:153} INFO - Started process (PID=56944) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:54:46.595+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:54:46.596+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:54:46.596+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:54:46.598+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:54:46.616+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:54:46.652+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:54:46.652+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:54:46.680+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:54:46.680+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:54:46.707+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.119 seconds
+[2023-03-18T07:55:17.103+0000] {processor.py:153} INFO - Started process (PID=56991) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:55:17.105+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:55:17.105+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:55:17.105+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:55:17.107+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:55:17.124+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:55:17.162+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:55:17.162+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:55:17.192+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:55:17.192+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:55:17.218+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.121 seconds
+[2023-03-18T07:55:47.613+0000] {processor.py:153} INFO - Started process (PID=57017) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:55:47.614+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:55:47.614+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:55:47.614+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:55:47.616+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:55:47.633+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:55:47.668+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:55:47.668+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:55:47.698+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:55:47.698+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:55:47.724+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.116 seconds
+[2023-03-18T07:56:18.111+0000] {processor.py:153} INFO - Started process (PID=57043) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:56:18.113+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:56:18.114+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:56:18.114+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:56:18.116+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:56:18.135+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:56:18.172+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:56:18.172+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:56:18.204+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:56:18.203+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:56:18.238+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.133 seconds
+[2023-03-18T07:56:48.665+0000] {processor.py:153} INFO - Started process (PID=57068) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:56:48.666+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:56:48.667+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:56:48.667+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:56:48.668+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:56:48.685+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:56:48.722+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:56:48.722+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:56:48.752+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:56:48.752+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:56:48.776+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.118 seconds
+[2023-03-18T07:57:19.145+0000] {processor.py:153} INFO - Started process (PID=57094) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:57:19.147+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:57:19.148+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:57:19.148+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:57:19.150+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:57:19.168+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:57:19.204+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:57:19.204+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:57:19.234+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:57:19.234+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:57:19.260+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.119 seconds
+[2023-03-18T07:57:49.702+0000] {processor.py:153} INFO - Started process (PID=57123) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:57:49.703+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:57:49.704+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:57:49.704+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:57:49.705+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:57:49.723+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:57:49.770+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:57:49.769+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:57:49.804+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:57:49.803+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:57:49.830+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.134 seconds
+[2023-03-18T07:58:20.226+0000] {processor.py:153} INFO - Started process (PID=57149) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:58:20.228+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:58:20.230+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:58:20.229+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:58:20.231+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:58:20.253+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:58:20.292+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:58:20.292+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:58:20.324+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:58:20.324+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:58:20.358+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.138 seconds
+[2023-03-18T07:58:50.767+0000] {processor.py:153} INFO - Started process (PID=57175) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:58:50.769+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:58:50.770+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:58:50.770+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:58:50.772+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:58:50.798+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:58:50.846+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:58:50.846+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:58:50.881+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:58:50.881+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:58:50.911+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.149 seconds
+[2023-03-18T07:59:21.296+0000] {processor.py:153} INFO - Started process (PID=57200) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:59:21.298+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:59:21.299+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:59:21.299+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:59:21.301+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:59:21.322+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:59:21.362+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:59:21.362+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:59:21.398+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:59:21.398+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:59:21.427+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.139 seconds
+[2023-03-18T07:59:51.839+0000] {processor.py:153} INFO - Started process (PID=57232) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:59:51.841+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T07:59:51.842+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:59:51.842+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:59:51.844+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T07:59:51.863+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T07:59:51.901+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:59:51.901+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T07:59:51.931+0000] {logging_mixin.py:137} INFO - [2023-03-18T07:59:51.931+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T07:59:51.956+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.123 seconds
+[2023-03-18T08:00:22.471+0000] {processor.py:153} INFO - Started process (PID=57484) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:00:22.475+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T08:00:22.476+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:00:22.476+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:00:22.479+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T08:00:22.535+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:00:22.632+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:00:22.628+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:00:22.696+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:00:22.695+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T08:00:22.767+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.312 seconds
+[2023-03-18T08:00:53.146+0000] {processor.py:153} INFO - Started process (PID=57546) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:00:53.147+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T08:00:53.148+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:00:53.148+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:00:53.149+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T08:00:53.166+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:00:53.202+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:00:53.202+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:00:53.235+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:00:53.235+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T08:00:53.263+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.123 seconds
+[2023-03-18T08:01:23.445+0000] {processor.py:153} INFO - Started process (PID=57571) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:01:23.447+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T08:01:23.449+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:01:23.448+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:01:23.452+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T08:01:23.478+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:01:23.521+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:01:23.521+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:01:23.554+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:01:23.554+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T08:01:23.587+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.149 seconds
+[2023-03-18T08:01:53.977+0000] {processor.py:153} INFO - Started process (PID=57597) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:01:53.978+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T08:01:53.979+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:01:53.979+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:01:53.980+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T08:01:53.997+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:01:54.036+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:01:54.036+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:01:54.068+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:01:54.068+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T08:01:54.094+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.122 seconds
+[2023-03-18T08:02:24.495+0000] {processor.py:153} INFO - Started process (PID=57622) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:02:24.497+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T08:02:24.498+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:02:24.498+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:02:24.500+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T08:02:24.518+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:02:24.559+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:02:24.558+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:02:24.607+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:02:24.606+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T08:02:24.638+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.149 seconds
+[2023-03-18T08:02:55.031+0000] {processor.py:153} INFO - Started process (PID=57650) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:02:55.033+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T08:02:55.034+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:02:55.034+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:02:55.036+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T08:02:55.058+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:02:55.101+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:02:55.100+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:02:55.135+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:02:55.134+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T08:02:55.162+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.136 seconds
+[2023-03-18T08:03:25.605+0000] {processor.py:153} INFO - Started process (PID=57676) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:03:25.607+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T08:03:25.607+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:03:25.607+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:03:25.609+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T08:03:25.630+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:03:25.682+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:03:25.681+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:03:25.717+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:03:25.717+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T08:03:25.747+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.147 seconds
+[2023-03-18T08:03:56.154+0000] {processor.py:153} INFO - Started process (PID=57702) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:03:56.156+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T08:03:56.157+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:03:56.157+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:03:56.158+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T08:03:56.181+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:03:56.219+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:03:56.219+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:03:56.249+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:03:56.249+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T08:03:56.283+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.134 seconds
+[2023-03-18T08:04:26.693+0000] {processor.py:153} INFO - Started process (PID=57727) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:04:26.694+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T08:04:26.695+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:04:26.695+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:04:26.697+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T08:04:26.715+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:04:26.751+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:04:26.751+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:04:26.784+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:04:26.784+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T08:04:26.812+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.124 seconds
+[2023-03-18T08:04:57.203+0000] {processor.py:153} INFO - Started process (PID=57753) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:04:57.205+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T08:04:57.206+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:04:57.206+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:04:57.208+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T08:04:57.227+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:04:57.267+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:04:57.267+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:04:57.300+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:04:57.299+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T08:04:57.330+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.133 seconds
+[2023-03-18T08:05:27.728+0000] {processor.py:153} INFO - Started process (PID=57799) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:05:27.730+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T08:05:27.731+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:05:27.731+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:05:27.733+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T08:05:27.751+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:05:27.789+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:05:27.788+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:05:27.821+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:05:27.821+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T08:05:27.850+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.126 seconds
+[2023-03-18T08:05:58.220+0000] {processor.py:153} INFO - Started process (PID=57825) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:05:58.222+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T08:05:58.223+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:05:58.222+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:05:58.224+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T08:05:58.242+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:05:58.281+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:05:58.281+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:05:58.314+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:05:58.314+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T08:05:58.339+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.124 seconds
+[2023-03-18T08:06:28.724+0000] {processor.py:153} INFO - Started process (PID=57875) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:06:28.725+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T08:06:28.726+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:06:28.726+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:06:28.727+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T08:06:28.745+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:06:28.781+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:06:28.781+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:06:28.813+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:06:28.813+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T08:06:28.840+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.125 seconds
+[2023-03-18T08:06:59.033+0000] {processor.py:153} INFO - Started process (PID=57901) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:06:59.035+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T08:06:59.036+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:06:59.036+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:06:59.037+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T08:06:59.057+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:06:59.094+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:06:59.094+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:06:59.123+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:06:59.122+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T08:06:59.147+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.119 seconds
+[2023-03-18T08:07:29.562+0000] {processor.py:153} INFO - Started process (PID=57928) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:07:29.564+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T08:07:29.565+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:07:29.564+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:07:29.566+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T08:07:29.586+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:07:29.628+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:07:29.628+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:07:29.666+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:07:29.666+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T08:07:29.697+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.141 seconds
+[2023-03-18T08:08:00.087+0000] {processor.py:153} INFO - Started process (PID=57959) to work on /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:08:00.090+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/first_dag.py for tasks to queue
+[2023-03-18T08:08:00.091+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:08:00.091+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:08:00.092+0000] {logging_mixin.py:137} INFO - hamster example DAG
+[2023-03-18T08:08:00.111+0000] {processor.py:753} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/melicharovykrecek/diploma/dags/first_dag.py
+[2023-03-18T08:08:00.149+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:08:00.149+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T08:08:00.192+0000] {logging_mixin.py:137} INFO - [2023-03-18T08:08:00.192+0000] {dag.py:3437} INFO - Setting next_dagrun for first_dag to 2023-03-18T00:00:00+00:00, run_after=2023-03-19T00:00:00+00:00
+[2023-03-18T08:08:00.219+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/first_dag.py took 0.137 seconds

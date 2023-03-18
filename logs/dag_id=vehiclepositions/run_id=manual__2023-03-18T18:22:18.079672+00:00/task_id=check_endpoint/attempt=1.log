@@ -1,0 +1,23 @@
+[2023-03-18T18:22:19.205+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: vehiclepositions.check_endpoint manual__2023-03-18T18:22:18.079672+00:00 [queued]>
+[2023-03-18T18:22:19.218+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: vehiclepositions.check_endpoint manual__2023-03-18T18:22:18.079672+00:00 [queued]>
+[2023-03-18T18:22:19.219+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-18T18:22:19.219+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-03-18T18:22:19.219+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-18T18:22:19.236+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): check_endpoint> on 2023-03-18 18:22:18.079672+00:00
+[2023-03-18T18:22:19.241+0000] {standard_task_runner.py:55} INFO - Started process 93987 to run task
+[2023-03-18T18:22:19.247+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'vehiclepositions', 'check_endpoint', 'manual__2023-03-18T18:22:18.079672+00:00', '--job-id', '758', '--raw', '--subdir', 'DAGS_FOLDER/vehiclepositions.py', '--cfg-path', '/tmp/tmpi2ls66o5']
+[2023-03-18T18:22:19.249+0000] {standard_task_runner.py:83} INFO - Job 758: Subtask check_endpoint
+[2023-03-18T18:22:19.348+0000] {task_command.py:388} INFO - Running <TaskInstance: vehiclepositions.check_endpoint manual__2023-03-18T18:22:18.079672+00:00 [running]> on host diploma-vm.europe-west1-b.c.diploma-380314.internal
+[2023-03-18T18:22:19.440+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=vehiclepositions
+AIRFLOW_CTX_TASK_ID=check_endpoint
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-18T18:22:18.079672+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-18T18:22:18.079672+00:00
+[2023-03-18T18:22:19.713+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-03-18T18:22:19.729+0000] {taskinstance.py:1318} INFO - Marking task as SUCCESS. dag_id=vehiclepositions, task_id=check_endpoint, execution_date=20230318T182218, start_date=20230318T182219, end_date=20230318T182219
+[2023-03-18T18:22:19.780+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-03-18T18:22:19.818+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

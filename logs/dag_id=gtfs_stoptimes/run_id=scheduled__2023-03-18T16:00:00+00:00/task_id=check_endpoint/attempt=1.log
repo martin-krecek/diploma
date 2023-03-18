@@ -1,0 +1,32 @@
+[2023-03-18T17:03:03.810+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: gtfs_stoptimes.check_endpoint scheduled__2023-03-18T16:00:00+00:00 [queued]>
+[2023-03-18T17:03:03.822+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: gtfs_stoptimes.check_endpoint scheduled__2023-03-18T16:00:00+00:00 [queued]>
+[2023-03-18T17:03:03.823+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-18T17:03:03.823+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-03-18T17:03:03.823+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-18T17:03:03.838+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): check_endpoint> on 2023-03-18 16:00:00+00:00
+[2023-03-18T17:03:03.843+0000] {standard_task_runner.py:55} INFO - Started process 84616 to run task
+[2023-03-18T17:03:03.849+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'gtfs_stoptimes', 'check_endpoint', 'scheduled__2023-03-18T16:00:00+00:00', '--job-id', '670', '--raw', '--subdir', 'DAGS_FOLDER/gtfs_stoptimes.py', '--cfg-path', '/tmp/tmpfpz9bjju']
+[2023-03-18T17:03:03.852+0000] {standard_task_runner.py:83} INFO - Job 670: Subtask check_endpoint
+[2023-03-18T17:03:03.946+0000] {task_command.py:388} INFO - Running <TaskInstance: gtfs_stoptimes.check_endpoint scheduled__2023-03-18T16:00:00+00:00 [running]> on host diploma-vm.europe-west1-b.c.diploma-380314.internal
+[2023-03-18T17:03:04.032+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gtfs_stoptimes
+AIRFLOW_CTX_TASK_ID=check_endpoint
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-18T16:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-03-18T16:00:00+00:00
+[2023-03-18T17:03:04.198+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/melicharovykrecek/diploma/dags/gtfs_stoptimes.py", line 37, in check_endpoint
+    raise ValueError('Endpoint not available')
+ValueError: Endpoint not available
+[2023-03-18T17:03:04.222+0000] {taskinstance.py:1318} INFO - Marking task as FAILED. dag_id=gtfs_stoptimes, task_id=check_endpoint, execution_date=20230318T160000, start_date=20230318T170303, end_date=20230318T170304
+[2023-03-18T17:03:04.244+0000] {standard_task_runner.py:100} ERROR - Failed to execute job 670 for task check_endpoint (Endpoint not available; 84616)
+[2023-03-18T17:03:04.262+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-03-18T17:03:04.297+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

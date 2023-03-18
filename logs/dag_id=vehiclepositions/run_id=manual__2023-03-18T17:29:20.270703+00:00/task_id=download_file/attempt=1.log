@@ -1,0 +1,33 @@
+[2023-03-18T17:29:22.110+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: vehiclepositions.download_file manual__2023-03-18T17:29:20.270703+00:00 [queued]>
+[2023-03-18T17:29:22.123+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: vehiclepositions.download_file manual__2023-03-18T17:29:20.270703+00:00 [queued]>
+[2023-03-18T17:29:22.124+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-18T17:29:22.124+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-03-18T17:29:22.124+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-18T17:29:22.142+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): download_file> on 2023-03-18 17:29:20.270703+00:00
+[2023-03-18T17:29:22.148+0000] {standard_task_runner.py:55} INFO - Started process 87755 to run task
+[2023-03-18T17:29:22.154+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'vehiclepositions', 'download_file', 'manual__2023-03-18T17:29:20.270703+00:00', '--job-id', '701', '--raw', '--subdir', 'DAGS_FOLDER/vehiclepositions.py', '--cfg-path', '/tmp/tmpgawq_vpq']
+[2023-03-18T17:29:22.156+0000] {standard_task_runner.py:83} INFO - Job 701: Subtask download_file
+[2023-03-18T17:29:22.256+0000] {task_command.py:388} INFO - Running <TaskInstance: vehiclepositions.download_file manual__2023-03-18T17:29:20.270703+00:00 [running]> on host diploma-vm.europe-west1-b.c.diploma-380314.internal
+[2023-03-18T17:29:22.353+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=vehiclepositions
+AIRFLOW_CTX_TASK_ID=download_file
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-18T17:29:20.270703+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-18T17:29:20.270703+00:00
+[2023-03-18T17:29:22.605+0000] {logging_mixin.py:137} INFO - <Response [200]>
+[2023-03-18T17:29:22.605+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 44, in download_file
+    response = response['features']
+TypeError: 'Response' object is not subscriptable
+[2023-03-18T17:29:22.620+0000] {taskinstance.py:1318} INFO - Marking task as FAILED. dag_id=vehiclepositions, task_id=download_file, execution_date=20230318T172920, start_date=20230318T172922, end_date=20230318T172922
+[2023-03-18T17:29:22.635+0000] {standard_task_runner.py:100} ERROR - Failed to execute job 701 for task download_file ('Response' object is not subscriptable; 87755)
+[2023-03-18T17:29:22.647+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-03-18T17:29:22.684+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

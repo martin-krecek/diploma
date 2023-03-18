@@ -1,0 +1,245 @@
+[2023-03-18T18:27:14.100+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: vehiclepositions.stg_table_vehiclepositions manual__2023-03-18T18:27:06.011622+00:00 [queued]>
+[2023-03-18T18:27:14.114+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: vehiclepositions.stg_table_vehiclepositions manual__2023-03-18T18:27:06.011622+00:00 [queued]>
+[2023-03-18T18:27:14.114+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-18T18:27:14.114+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-03-18T18:27:14.114+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-18T18:27:14.137+0000] {taskinstance.py:1300} INFO - Executing <Task(MySqlOperator): stg_table_vehiclepositions> on 2023-03-18 18:27:06.011622+00:00
+[2023-03-18T18:27:14.141+0000] {standard_task_runner.py:55} INFO - Started process 94721 to run task
+[2023-03-18T18:27:14.147+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'vehiclepositions', 'stg_table_vehiclepositions', 'manual__2023-03-18T18:27:06.011622+00:00', '--job-id', '769', '--raw', '--subdir', 'DAGS_FOLDER/vehiclepositions.py', '--cfg-path', '/tmp/tmpagi754vc']
+[2023-03-18T18:27:14.149+0000] {standard_task_runner.py:83} INFO - Job 769: Subtask stg_table_vehiclepositions
+[2023-03-18T18:27:14.260+0000] {task_command.py:388} INFO - Running <TaskInstance: vehiclepositions.stg_table_vehiclepositions manual__2023-03-18T18:27:06.011622+00:00 [running]> on host diploma-vm.europe-west1-b.c.diploma-380314.internal
+[2023-03-18T18:27:14.362+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=vehiclepositions
+AIRFLOW_CTX_TASK_ID=stg_table_vehiclepositions
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-18T18:27:06.011622+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-18T18:27:06.011622+00:00
+[2023-03-18T18:27:14.363+0000] {sql.py:254} INFO - Executing: INSERT IGNORE INTO stg_vehiclepositions
+(
+SELECT
+    CONCAT(`gtfs_trip_id`, '_', `gtfs_route_id`, '_', `gtfs_route_type`, '_', `gtfs_route_short_name`, '_', `gtfs_trip_short_name`, '_', `last_stop_arrival_time`) AS vehicleposition_id,
+    `type`,
+    `geometry_type`,
+    `geometry_coordinates`,        
+    `cis_line_id`,
+    `cis_trip_number`,
+    `gtfs_trip_id`,
+    `gtfs_route_id`,
+    `gtfs_route_type`,
+    `gtfs_trip_headsign`,
+    `gtfs_trip_short_name`,
+    `gtfs_route_short_name`,
+    `agency_name_real`,
+    `agency_name_scheduled`,
+    `sequence_id`,
+    `vehicle_type_id`,
+    `vehicle_type_description_cs`,
+    `vehicle_type_description_en`,
+    `air_conditioned`,
+    `start_timestamp`,
+    `origin_route_name`,
+    `wheelchair_accessible`,
+    `vehicle_registration_number`,
+    `actual`,
+    `last_stop_arrival`,
+    `last_stop_departure`,
+    `speed`,
+    `bearing`,
+    `tracking`,
+    `last_stop_id`,
+    `last_stop_sequence`,
+    `last_stop_arrival_time`,
+    `last_stop_departure_time`,
+    `next_stop_id`,
+    `next_stop_sequence`,
+    `next_stop_arrival_time`,
+    `next_stop_departure_time`,
+    `is_canceled`,
+    `state_position`,
+    `origin_timestamp`,
+    `shape_dist_traveled`,
+    `_sys_record_id`,
+    `_sys_load_id`,
+    `_sys_load_at`,
+    `_sys_is_deleted`,
+    i
+FROM (
+    SELECT
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.type')) AS `type`,
+
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.geometry.type')) AS `geometry_type`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.geometry.coordinates')) AS `geometry_coordinates`,
+        
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.cis.line_id')) AS `cis_line_id`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.cis.trip_number')) AS `cis_trip_number`,
+
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.gtfs.trip_id')) AS `gtfs_trip_id`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.gtfs.route_id')) AS `gtfs_route_id`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.gtfs.route_type')) AS `gtfs_route_type`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.gtfs.trip_headsign')) AS `gtfs_trip_headsign`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.gtfs.trip_short_name')) AS `gtfs_trip_short_name`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.gtfs.route_short_name')) AS `gtfs_route_short_name`,
+
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.agency_name.real')) AS `agency_name_real`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.agency_name.scheduled')) AS `agency_name_scheduled`,
+
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.sequence_id')) AS `sequence_id`,
+
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.vehicle_type.id')) AS `vehicle_type_id`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.vehicle_type.description_cs')) AS `vehicle_type_description_cs`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.vehicle_type.description_en')) AS `vehicle_type_description_en`,
+
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.air_conditioned')) AS `air_conditioned`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.start_timestamp')) AS `start_timestamp`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.origin_route_name')) AS `origin_route_name`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.wheelchair_accessible')) AS `wheelchair_accessible`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.vehicle_registration_number')) AS `vehicle_registration_number`,
+
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.delay.actual')) AS `actual`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.delay.last_stop_arrival')) AS `last_stop_arrival`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.delay.last_stop_departure')) AS `last_stop_departure`,
+
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.speed')) AS `speed`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.bearing')) AS `bearing`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.tracking')) AS `tracking`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.last_stop.id')) AS `last_stop_id`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.last_stop.sequence')) AS `last_stop_sequence`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.last_stop.arrival_time')) AS `last_stop_arrival_time`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.last_stop.departure_time')) AS `last_stop_departure_time`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.next_stop.id')) AS `next_stop_id`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.next_stop.sequence')) AS `next_stop_sequence`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.next_stop.arrival_time')) AS `next_stop_arrival_time`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.next_stop.departure_time')) AS `next_stop_departure_time`,
+
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.is_canceled')) AS `is_canceled`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.state_position')) AS `state_position`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.origin_timestamp')) AS `origin_timestamp`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.shape_dist_traveled')) AS `shape_dist_traveled`,        
+
+        `_sys_record_id`,
+        `_sys_load_id`,
+        `_sys_load_at`,
+        `_sys_is_deleted`,
+        i
+    FROM src_vehiclepositions
+    ) a
+);
+[2023-03-18T18:27:14.379+0000] {base.py:73} INFO - Using connection ID 'mysql-db' for task execution.
+[2023-03-18T18:27:14.477+0000] {base.py:73} INFO - Using connection ID 'mysql-db' for task execution.
+[2023-03-18T18:27:14.491+0000] {sql.py:375} INFO - Running statement: INSERT IGNORE INTO stg_vehiclepositions
+(
+SELECT
+    CONCAT(`gtfs_trip_id`, '_', `gtfs_route_id`, '_', `gtfs_route_type`, '_', `gtfs_route_short_name`, '_', `gtfs_trip_short_name`, '_', `last_stop_arrival_time`) AS vehicleposition_id,
+    `type`,
+    `geometry_type`,
+    `geometry_coordinates`,        
+    `cis_line_id`,
+    `cis_trip_number`,
+    `gtfs_trip_id`,
+    `gtfs_route_id`,
+    `gtfs_route_type`,
+    `gtfs_trip_headsign`,
+    `gtfs_trip_short_name`,
+    `gtfs_route_short_name`,
+    `agency_name_real`,
+    `agency_name_scheduled`,
+    `sequence_id`,
+    `vehicle_type_id`,
+    `vehicle_type_description_cs`,
+    `vehicle_type_description_en`,
+    `air_conditioned`,
+    `start_timestamp`,
+    `origin_route_name`,
+    `wheelchair_accessible`,
+    `vehicle_registration_number`,
+    `actual`,
+    `last_stop_arrival`,
+    `last_stop_departure`,
+    `speed`,
+    `bearing`,
+    `tracking`,
+    `last_stop_id`,
+    `last_stop_sequence`,
+    `last_stop_arrival_time`,
+    `last_stop_departure_time`,
+    `next_stop_id`,
+    `next_stop_sequence`,
+    `next_stop_arrival_time`,
+    `next_stop_departure_time`,
+    `is_canceled`,
+    `state_position`,
+    `origin_timestamp`,
+    `shape_dist_traveled`,
+    `_sys_record_id`,
+    `_sys_load_id`,
+    `_sys_load_at`,
+    `_sys_is_deleted`,
+    i
+FROM (
+    SELECT
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.type')) AS `type`,
+
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.geometry.type')) AS `geometry_type`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.geometry.coordinates')) AS `geometry_coordinates`,
+        
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.cis.line_id')) AS `cis_line_id`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.cis.trip_number')) AS `cis_trip_number`,
+
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.gtfs.trip_id')) AS `gtfs_trip_id`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.gtfs.route_id')) AS `gtfs_route_id`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.gtfs.route_type')) AS `gtfs_route_type`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.gtfs.trip_headsign')) AS `gtfs_trip_headsign`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.gtfs.trip_short_name')) AS `gtfs_trip_short_name`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.gtfs.route_short_name')) AS `gtfs_route_short_name`,
+
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.agency_name.real')) AS `agency_name_real`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.agency_name.scheduled')) AS `agency_name_scheduled`,
+
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.sequence_id')) AS `sequence_id`,
+
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.vehicle_type.id')) AS `vehicle_type_id`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.vehicle_type.description_cs')) AS `vehicle_type_description_cs`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.vehicle_type.description_en')) AS `vehicle_type_description_en`,
+
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.air_conditioned')) AS `air_conditioned`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.start_timestamp')) AS `start_timestamp`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.origin_route_name')) AS `origin_route_name`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.wheelchair_accessible')) AS `wheelchair_accessible`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.trip.vehicle_registration_number')) AS `vehicle_registration_number`,
+
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.delay.actual')) AS `actual`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.delay.last_stop_arrival')) AS `last_stop_arrival`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.delay.last_stop_departure')) AS `last_stop_departure`,
+
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.speed')) AS `speed`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.bearing')) AS `bearing`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.tracking')) AS `tracking`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.last_stop.id')) AS `last_stop_id`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.last_stop.sequence')) AS `last_stop_sequence`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.last_stop.arrival_time')) AS `last_stop_arrival_time`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.last_stop.departure_time')) AS `last_stop_departure_time`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.next_stop.id')) AS `next_stop_id`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.next_stop.sequence')) AS `next_stop_sequence`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.next_stop.arrival_time')) AS `next_stop_arrival_time`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.next_stop.departure_time')) AS `next_stop_departure_time`,
+
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.is_canceled')) AS `is_canceled`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.state_position')) AS `state_position`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.origin_timestamp')) AS `origin_timestamp`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.properties.last_position.shape_dist_traveled')) AS `shape_dist_traveled`,        
+
+        `_sys_record_id`,
+        `_sys_load_id`,
+        `_sys_load_at`,
+        `_sys_is_deleted`,
+        i
+    FROM src_vehiclepositions
+    ) a
+);, parameters: None
+[2023-03-18T18:27:14.611+0000] {sql.py:384} INFO - Rows affected: 719
+[2023-03-18T18:27:14.640+0000] {taskinstance.py:1318} INFO - Marking task as SUCCESS. dag_id=vehiclepositions, task_id=stg_table_vehiclepositions, execution_date=20230318T182706, start_date=20230318T182714, end_date=20230318T182714
+[2023-03-18T18:27:14.680+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-03-18T18:27:14.710+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

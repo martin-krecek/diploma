@@ -1,0 +1,1689 @@
+[2023-03-18T17:14:33.548+0000] {processor.py:153} INFO - Started process (PID=85975) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:14:33.549+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:14:33.550+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:14:33.550+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:14:33.601+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:14:33.735+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:14:33.734+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:vehiclepositions
+[2023-03-18T17:14:33.745+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:14:33.745+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:vehiclepositions
+[2023-03-18T17:14:33.754+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:14:33.754+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:vehiclepositions
+[2023-03-18T17:14:33.754+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:14:33.754+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:14:33.917+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:14:33.917+0000] {dag.py:2711} INFO - Creating ORM DAG for vehiclepositions
+[2023-03-18T17:14:33.937+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:14:33.936+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T16:00:00+00:00, run_after=2023-03-18T17:00:00+00:00
+[2023-03-18T17:14:33.958+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.416 seconds
+[2023-03-18T17:15:04.252+0000] {processor.py:153} INFO - Started process (PID=86028) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:15:04.253+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:15:04.254+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:15:04.254+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:15:04.306+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:15:04.382+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:15:04.381+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:15:04.415+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:15:04.414+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T16:00:00+00:00, run_after=2023-03-18T17:00:00+00:00
+[2023-03-18T17:15:04.451+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.204 seconds
+[2023-03-18T17:15:35.118+0000] {processor.py:153} INFO - Started process (PID=86114) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:15:35.120+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:15:35.121+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:15:35.121+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:15:35.173+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:15:35.242+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:15:35.242+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:15:35.427+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:15:35.427+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:15:35.458+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.345 seconds
+[2023-03-18T17:16:05.999+0000] {processor.py:153} INFO - Started process (PID=86164) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:16:06.000+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:16:06.001+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:16:06.001+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:16:06.050+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:16:06.123+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:16:06.123+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:16:06.155+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:16:06.155+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:16:06.182+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.189 seconds
+[2023-03-18T17:16:36.803+0000] {processor.py:153} INFO - Started process (PID=86213) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:16:36.804+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:16:36.804+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:16:36.804+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:16:36.850+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:16:36.922+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:16:36.922+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:16:36.948+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:16:36.948+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:16:36.972+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.175 seconds
+[2023-03-18T17:16:52.159+0000] {processor.py:153} INFO - Started process (PID=86251) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:16:52.161+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:16:52.162+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:16:52.162+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:16:52.211+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:16:52.234+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:16:52.233+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:16:52.264+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:16:52.264+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:16:52.295+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.141 seconds
+[2023-03-18T17:17:22.432+0000] {processor.py:153} INFO - Started process (PID=86347) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:17:22.433+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:17:22.434+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:17:22.434+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:17:22.486+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:17:22.563+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:17:22.562+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:17:22.595+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:17:22.595+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:17:22.623+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.195 seconds
+[2023-03-18T17:17:52.839+0000] {processor.py:153} INFO - Started process (PID=86404) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:17:52.841+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:17:52.842+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:17:52.842+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:17:52.889+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:17:52.968+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:17:52.967+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:17:53.003+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:17:53.003+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:17:53.031+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.197 seconds
+[2023-03-18T17:18:23.469+0000] {processor.py:153} INFO - Started process (PID=86454) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:18:23.470+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:18:23.471+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:18:23.471+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:18:23.529+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:18:23.616+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:18:23.616+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:18:23.650+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:18:23.650+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:18:23.827+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.364 seconds
+[2023-03-18T17:18:53.891+0000] {processor.py:153} INFO - Started process (PID=86505) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:18:53.892+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:18:53.894+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:18:53.894+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:18:53.953+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:18:54.037+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:18:54.037+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:18:54.068+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:18:54.067+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:18:54.097+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.211 seconds
+[2023-03-18T17:19:24.395+0000] {processor.py:153} INFO - Started process (PID=86555) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:19:24.397+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:19:24.399+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:19:24.398+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:19:24.451+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:19:24.545+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:19:24.545+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:19:24.578+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:19:24.578+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:19:24.611+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.222 seconds
+[2023-03-18T17:19:54.837+0000] {processor.py:153} INFO - Started process (PID=86604) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:19:54.838+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:19:54.839+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:19:54.839+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:19:54.884+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:19:54.959+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:19:54.958+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:19:54.993+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:19:54.993+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:19:55.022+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.190 seconds
+[2023-03-18T17:20:25.275+0000] {processor.py:153} INFO - Started process (PID=86654) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:20:25.277+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:20:25.278+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:20:25.278+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:20:25.332+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:20:25.408+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:20:25.408+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:20:25.434+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:20:25.434+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:20:25.460+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.191 seconds
+[2023-03-18T17:20:55.808+0000] {processor.py:153} INFO - Started process (PID=86703) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:20:55.809+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:20:55.810+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:20:55.810+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:20:55.857+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:20:55.947+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:20:55.947+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:20:55.975+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:20:55.975+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:20:56.160+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.357 seconds
+[2023-03-18T17:21:16.470+0000] {processor.py:153} INFO - Started process (PID=86722) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:21:16.472+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:21:16.473+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:21:16.472+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:21:16.521+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:21:16.541+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:21:16.541+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:21:16.571+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:21:16.571+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:21:16.600+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.135 seconds
+[2023-03-18T17:21:47.227+0000] {processor.py:153} INFO - Started process (PID=86888) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:21:47.229+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:21:47.230+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:21:47.230+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:21:47.317+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:21:47.412+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:21:47.412+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:21:47.599+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:21:47.598+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:21:47.670+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.449 seconds
+[2023-03-18T17:22:17.871+0000] {processor.py:153} INFO - Started process (PID=86937) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:22:17.872+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:22:17.873+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:22:17.873+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:22:17.956+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:22:18.212+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:22:18.211+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:22:18.237+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:22:18.237+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:22:18.329+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.463 seconds
+[2023-03-18T17:22:48.383+0000] {processor.py:153} INFO - Started process (PID=86989) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:22:48.386+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:22:48.387+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:22:48.386+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:22:48.476+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:22:48.598+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:22:48.597+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:22:48.628+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:22:48.628+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:22:48.702+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.324 seconds
+[2023-03-18T17:23:19.356+0000] {processor.py:153} INFO - Started process (PID=87039) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:23:19.358+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:23:19.359+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:23:19.359+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:23:19.470+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:23:19.585+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:23:19.585+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:23:19.617+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:23:19.617+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:23:19.696+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.345 seconds
+[2023-03-18T17:23:50.231+0000] {processor.py:153} INFO - Started process (PID=87088) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:23:50.233+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:23:50.234+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:23:50.234+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:23:50.395+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:23:50.588+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:23:50.587+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:23:50.874+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:23:50.874+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:23:50.949+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.728 seconds
+[2023-03-18T17:24:21.433+0000] {processor.py:153} INFO - Started process (PID=87138) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:24:21.438+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:24:21.439+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:24:21.439+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:24:21.606+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:24:21.784+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:24:21.783+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:24:22.009+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:24:22.009+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:24:22.081+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.656 seconds
+[2023-03-18T17:24:52.969+0000] {processor.py:153} INFO - Started process (PID=87188) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:24:52.972+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:24:52.973+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:24:52.973+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:24:53.120+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:24:53.274+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:24:53.274+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:24:53.455+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:24:53.455+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:24:53.537+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.575 seconds
+[2023-03-18T17:25:24.038+0000] {processor.py:153} INFO - Started process (PID=87242) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:25:24.041+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:25:24.042+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:25:24.042+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:25:24.230+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:25:24.373+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:25:24.372+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:25:24.400+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:25:24.400+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:25:24.476+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.446 seconds
+[2023-03-18T17:25:55.078+0000] {processor.py:153} INFO - Started process (PID=87291) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:25:55.080+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:25:55.081+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:25:55.081+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:25:55.217+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:25:55.391+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:25:55.391+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:25:55.425+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:25:55.425+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:25:55.493+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.423 seconds
+[2023-03-18T17:26:26.235+0000] {processor.py:153} INFO - Started process (PID=87341) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:26:26.237+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:26:26.238+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:26:26.238+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:26:26.379+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:26:26.531+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:26:26.531+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:26:26.588+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:26:26.588+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:26:26.831+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.604 seconds
+[2023-03-18T17:26:56.915+0000] {processor.py:153} INFO - Started process (PID=87390) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:26:56.918+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:26:56.919+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:26:56.919+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:26:57.049+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:26:57.209+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:26:57.209+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:26:57.448+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:26:57.448+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:26:57.518+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.612 seconds
+[2023-03-18T17:27:27.712+0000] {processor.py:153} INFO - Started process (PID=87446) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:27:27.714+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:27:27.715+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:27:27.714+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:27:27.814+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:27:27.923+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:27:27.923+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:27:28.101+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:27:28.101+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:27:28.177+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.470 seconds
+[2023-03-18T17:27:58.211+0000] {processor.py:153} INFO - Started process (PID=87501) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:27:58.213+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:27:58.214+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:27:58.214+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:27:58.309+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:27:58.575+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:27:58.575+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:27:58.600+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:27:58.600+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:27:58.668+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.462 seconds
+[2023-03-18T17:28:28.232+0000] {processor.py:153} INFO - Started process (PID=87552) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:28:28.234+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:28:28.235+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:28:28.235+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:28:28.387+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:28:28.539+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:28:28.539+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:28:28.568+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:28:28.568+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:28:28.640+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.416 seconds
+[2023-03-18T17:28:34.930+0000] {processor.py:153} INFO - Started process (PID=87576) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:28:34.932+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:28:34.933+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:28:34.933+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:28:35.037+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:28:35.058+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:28:35.058+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:28:35.088+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:28:35.088+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:28:35.113+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.189 seconds
+[2023-03-18T17:28:35.958+0000] {processor.py:153} INFO - Started process (PID=87582) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:28:35.959+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:28:35.960+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:28:35.960+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:28:36.043+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:28:36.072+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:28:36.072+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:28:36.107+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:28:36.107+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:28:36.139+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.187 seconds
+[2023-03-18T17:29:07.016+0000] {processor.py:153} INFO - Started process (PID=87693) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:29:07.017+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:29:07.018+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:29:07.018+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:29:07.103+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:29:07.215+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:29:07.214+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:29:07.243+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:29:07.243+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:29:07.316+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.309 seconds
+[2023-03-18T17:29:17.030+0000] {processor.py:153} INFO - Started process (PID=87723) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:29:17.032+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:29:17.033+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:29:17.033+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:29:17.121+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:29:17.143+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:29:17.143+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:29:17.179+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:29:17.178+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:29:17.207+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.182 seconds
+[2023-03-18T17:29:47.412+0000] {processor.py:153} INFO - Started process (PID=87809) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:29:47.413+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:29:47.414+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:29:47.414+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:29:47.502+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:29:47.614+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:29:47.613+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:29:47.805+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:29:47.804+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:29:47.874+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.469 seconds
+[2023-03-18T17:30:18.429+0000] {processor.py:153} INFO - Started process (PID=87858) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:30:18.431+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:30:18.432+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:30:18.432+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:30:18.523+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:30:18.627+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:30:18.627+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:30:18.823+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:30:18.823+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:30:18.898+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.474 seconds
+[2023-03-18T17:30:48.943+0000] {processor.py:153} INFO - Started process (PID=87909) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:30:48.944+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:30:48.945+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:30:48.945+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:30:49.040+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:30:49.309+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:30:49.309+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:30:49.335+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:30:49.335+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:30:49.406+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.469 seconds
+[2023-03-18T17:31:12.899+0000] {processor.py:153} INFO - Started process (PID=87934) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:31:12.901+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:31:12.906+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:31:12.905+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:31:12.993+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:31:13.016+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:31:13.016+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:31:13.047+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:31:13.047+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:31:13.244+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.351 seconds
+[2023-03-18T17:31:20.409+0000] {processor.py:153} INFO - Started process (PID=87965) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:31:20.410+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:31:20.411+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:31:20.411+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:31:20.509+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:31:20.622+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:31:20.621+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:31:20.651+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:31:20.651+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:31:20.725+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.322 seconds
+[2023-03-18T17:31:50.753+0000] {processor.py:153} INFO - Started process (PID=88050) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:31:50.755+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:31:50.756+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:31:50.756+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:31:50.845+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:31:50.949+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:31:50.949+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:31:50.983+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:31:50.983+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:31:51.057+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.309 seconds
+[2023-03-18T17:32:21.754+0000] {processor.py:153} INFO - Started process (PID=88100) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:32:21.756+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:32:21.757+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:32:21.756+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:32:21.854+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:32:21.959+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:32:21.958+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:32:22.146+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:32:22.146+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:32:22.215+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.466 seconds
+[2023-03-18T17:32:24.257+0000] {processor.py:153} INFO - Started process (PID=88106) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:32:24.259+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:32:24.260+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:32:24.260+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:32:24.367+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:32:24.391+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:32:24.390+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:32:24.423+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:32:24.423+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:32:24.453+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.202 seconds
+[2023-03-18T17:32:28.288+0000] {processor.py:153} INFO - Started process (PID=88112) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:32:28.289+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:32:28.290+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:32:28.290+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:32:28.408+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:32:28.434+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:32:28.433+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:32:28.468+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:32:28.468+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:32:28.503+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.225 seconds
+[2023-03-18T17:32:58.608+0000] {processor.py:153} INFO - Started process (PID=88200) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:32:58.609+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:32:58.610+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:32:58.610+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:32:58.700+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:32:58.802+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:32:58.802+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:32:58.987+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:32:58.987+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:32:59.059+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.455 seconds
+[2023-03-18T17:33:29.131+0000] {processor.py:153} INFO - Started process (PID=88252) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:33:29.132+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:33:29.133+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:33:29.133+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:33:29.231+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:33:29.342+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:33:29.342+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:33:29.517+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:33:29.517+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:33:29.586+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.460 seconds
+[2023-03-18T17:33:34.649+0000] {processor.py:153} INFO - Started process (PID=88264) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:33:34.652+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:33:34.653+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:33:34.652+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:33:34.744+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:33:34.765+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:33:34.765+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T17:33:34.796+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:33:34.796+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T17:33:34.827+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.182 seconds
+[2023-03-18T17:34:05.069+0000] {processor.py:153} INFO - Started process (PID=88355) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:34:05.071+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:34:05.072+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:34:05.072+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:34:05.112+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:34:05.102+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:34:05.113+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:34:05.142+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.078 seconds
+[2023-03-18T17:34:27.808+0000] {processor.py:153} INFO - Started process (PID=88398) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:34:27.809+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:34:27.810+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:34:27.809+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:34:27.840+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:34:27.839+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:34:27.841+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:34:27.869+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.067 seconds
+[2023-03-18T17:34:52.494+0000] {processor.py:153} INFO - Started process (PID=88435) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:34:52.497+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:34:52.498+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:34:52.498+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:34:52.550+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:34:52.548+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:34:52.551+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:34:52.593+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.106 seconds
+[2023-03-18T17:35:22.938+0000] {processor.py:153} INFO - Started process (PID=88488) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:35:22.941+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:35:22.942+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:35:22.942+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:35:22.981+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:35:22.980+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:35:22.982+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:35:23.010+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.079 seconds
+[2023-03-18T17:35:46.171+0000] {processor.py:153} INFO - Started process (PID=88527) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:35:46.173+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:35:46.174+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:35:46.174+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:35:46.207+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:35:46.205+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:35:46.207+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:35:46.237+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.071 seconds
+[2023-03-18T17:36:16.337+0000] {processor.py:153} INFO - Started process (PID=88576) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:36:16.339+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:36:16.341+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:36:16.340+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:36:16.371+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:36:16.370+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:36:16.371+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:36:16.398+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.066 seconds
+[2023-03-18T17:36:47.123+0000] {processor.py:153} INFO - Started process (PID=88626) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:36:47.124+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:36:47.125+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:36:47.125+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:36:47.153+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:36:47.152+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:36:47.154+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:36:47.181+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.065 seconds
+[2023-03-18T17:37:18.134+0000] {processor.py:153} INFO - Started process (PID=88675) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:37:18.136+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:37:18.137+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:37:18.137+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:37:18.170+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:37:18.168+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:37:18.170+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:37:18.196+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.067 seconds
+[2023-03-18T17:37:46.937+0000] {processor.py:153} INFO - Started process (PID=88715) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:37:46.938+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:37:46.939+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:37:46.938+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:37:46.970+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:37:46.968+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:37:46.970+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:37:46.998+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.067 seconds
+[2023-03-18T17:38:17.146+0000] {processor.py:153} INFO - Started process (PID=88773) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:38:17.148+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:38:17.149+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:38:17.149+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:38:17.182+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:38:17.181+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:38:17.182+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:38:17.212+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.072 seconds
+[2023-03-18T17:38:47.471+0000] {processor.py:153} INFO - Started process (PID=88823) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:38:47.473+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:38:47.474+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:38:47.473+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:38:47.504+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:38:47.503+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:38:47.504+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:38:47.534+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.071 seconds
+[2023-03-18T17:39:17.895+0000] {processor.py:153} INFO - Started process (PID=88872) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:39:17.897+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:39:17.898+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:39:17.898+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:39:17.931+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:39:17.929+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:39:17.932+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:39:17.962+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.072 seconds
+[2023-03-18T17:39:48.913+0000] {processor.py:153} INFO - Started process (PID=88922) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:39:48.914+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:39:48.914+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:39:48.914+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:39:48.944+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:39:48.942+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:39:48.944+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:39:48.976+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.069 seconds
+[2023-03-18T17:40:19.517+0000] {processor.py:153} INFO - Started process (PID=88973) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:40:19.519+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:40:19.520+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:40:19.520+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:40:19.549+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:40:19.548+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:40:19.550+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:40:19.580+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.068 seconds
+[2023-03-18T17:40:20.532+0000] {processor.py:153} INFO - Started process (PID=88979) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:40:20.534+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:40:20.536+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:40:20.535+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:40:20.573+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:40:20.572+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:40:20.574+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:40:20.609+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.083 seconds
+[2023-03-18T17:40:50.840+0000] {processor.py:153} INFO - Started process (PID=89029) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:40:50.841+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:40:50.842+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:40:50.842+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:40:50.873+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:40:50.871+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:40:50.873+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:40:50.904+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.068 seconds
+[2023-03-18T17:41:21.166+0000] {processor.py:153} INFO - Started process (PID=89079) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:41:21.168+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:41:21.169+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:41:21.169+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:41:21.202+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:41:21.199+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:41:21.204+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:41:21.235+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.076 seconds
+[2023-03-18T17:41:51.336+0000] {processor.py:153} INFO - Started process (PID=89129) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:41:51.337+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:41:51.338+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:41:51.338+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:41:51.371+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:41:51.370+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:41:51.372+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:41:51.401+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.072 seconds
+[2023-03-18T17:42:13.148+0000] {processor.py:153} INFO - Started process (PID=89172) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:42:13.150+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:42:13.151+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:42:13.151+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:42:13.185+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:42:13.183+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:42:13.185+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:42:13.213+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.070 seconds
+[2023-03-18T17:54:36.215+0000] {processor.py:153} INFO - Started process (PID=90252) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:54:36.217+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:54:36.218+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:54:36.218+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:54:36.253+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:54:36.252+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:54:36.254+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:54:36.283+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.074 seconds
+[2023-03-18T17:55:06.411+0000] {processor.py:153} INFO - Started process (PID=90305) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:55:06.412+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:55:06.413+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:55:06.413+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:55:06.444+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:55:06.443+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:55:06.445+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:55:06.478+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.073 seconds
+[2023-03-18T17:55:36.620+0000] {processor.py:153} INFO - Started process (PID=90379) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:55:36.623+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:55:36.624+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:55:36.624+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:55:36.654+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:55:36.653+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:55:36.654+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:55:36.684+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.069 seconds
+[2023-03-18T17:56:07.110+0000] {processor.py:153} INFO - Started process (PID=90429) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:56:07.111+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:56:07.114+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:56:07.114+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:56:07.154+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:56:07.153+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:56:07.155+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:56:07.190+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.087 seconds
+[2023-03-18T17:56:37.649+0000] {processor.py:153} INFO - Started process (PID=90478) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:56:37.651+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:56:37.652+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:56:37.652+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:56:37.680+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:56:37.679+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:56:37.681+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:56:37.713+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.069 seconds
+[2023-03-18T17:57:08.301+0000] {processor.py:153} INFO - Started process (PID=90528) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:57:08.302+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:57:08.304+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:57:08.303+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:57:08.334+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:57:08.333+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:57:08.335+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:57:08.363+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.067 seconds
+[2023-03-18T17:57:14.333+0000] {processor.py:153} INFO - Started process (PID=90534) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:57:14.335+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:57:14.336+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:57:14.336+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:57:14.371+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:57:14.370+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:57:14.372+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:57:14.406+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.078 seconds
+[2023-03-18T17:57:45.129+0000] {processor.py:153} INFO - Started process (PID=90599) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:57:45.130+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:57:45.131+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:57:45.131+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:57:45.161+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:57:45.160+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:57:45.162+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:57:45.190+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.066 seconds
+[2023-03-18T17:58:15.222+0000] {processor.py:153} INFO - Started process (PID=90649) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:58:15.225+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:58:15.226+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:58:15.226+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:58:15.256+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:58:15.254+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:58:15.256+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:58:15.285+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.068 seconds
+[2023-03-18T17:58:45.454+0000] {processor.py:153} INFO - Started process (PID=90699) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:58:45.455+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:58:45.456+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:58:45.456+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:58:45.489+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:58:45.488+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:58:45.490+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:58:45.520+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.072 seconds
+[2023-03-18T17:59:15.600+0000] {processor.py:153} INFO - Started process (PID=90755) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:59:15.603+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:59:15.604+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:59:15.604+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:59:15.637+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:59:15.634+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:59:15.638+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:59:15.669+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.076 seconds
+[2023-03-18T17:59:18.620+0000] {processor.py:153} INFO - Started process (PID=90761) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:59:18.621+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:59:18.622+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:59:18.622+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:59:18.656+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:59:18.654+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:59:18.656+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:59:18.685+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.072 seconds
+[2023-03-18T17:59:48.737+0000] {processor.py:153} INFO - Started process (PID=90811) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:59:48.739+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T17:59:48.739+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:59:48.739+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:59:48.769+0000] {logging_mixin.py:137} INFO - [2023-03-18T17:59:48.768+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T17:59:48.769+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T17:59:48.797+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.065 seconds
+[2023-03-18T18:00:19.576+0000] {processor.py:153} INFO - Started process (PID=91309) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:00:19.591+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:00:19.592+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:00:19.592+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:00:19.730+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:00:19.728+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:00:19.732+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:00:19.795+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.238 seconds
+[2023-03-18T18:00:49.890+0000] {processor.py:153} INFO - Started process (PID=91539) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:00:49.895+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:00:49.896+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:00:49.896+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:00:49.926+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:00:49.925+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:00:49.927+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:00:49.957+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.072 seconds
+[2023-03-18T18:09:37.060+0000] {processor.py:153} INFO - Started process (PID=92401) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:09:37.062+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:09:37.063+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:09:37.063+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:09:37.093+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:09:37.092+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:09:37.093+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:09:37.122+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.067 seconds
+[2023-03-18T18:10:07.405+0000] {processor.py:153} INFO - Started process (PID=92457) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:10:07.408+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:10:07.409+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:10:07.409+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:10:07.446+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:10:07.444+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:10:07.448+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:10:07.480+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.082 seconds
+[2023-03-18T18:10:37.578+0000] {processor.py:153} INFO - Started process (PID=92506) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:10:37.580+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:10:37.581+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:10:37.580+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:10:37.617+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:10:37.616+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:10:37.618+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:10:37.647+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.074 seconds
+[2023-03-18T18:11:08.005+0000] {processor.py:153} INFO - Started process (PID=92556) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:11:08.007+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:11:08.008+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:11:08.008+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:11:08.041+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:11:08.040+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:11:08.041+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:11:08.071+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.071 seconds
+[2023-03-18T18:11:38.296+0000] {processor.py:153} INFO - Started process (PID=92605) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:11:38.298+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:11:38.299+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:11:38.299+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:11:38.332+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:11:38.331+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:11:38.332+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:11:38.363+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.076 seconds
+[2023-03-18T18:12:08.926+0000] {processor.py:153} INFO - Started process (PID=92655) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:12:08.928+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:12:08.929+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:12:08.929+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:12:08.961+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:12:08.960+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:12:08.962+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:12:08.994+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.075 seconds
+[2023-03-18T18:12:39.495+0000] {processor.py:153} INFO - Started process (PID=92705) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:12:39.496+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:12:39.497+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:12:39.496+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:12:39.535+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:12:39.533+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:12:39.536+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:12:39.571+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.081 seconds
+[2023-03-18T18:13:10.048+0000] {processor.py:153} INFO - Started process (PID=92762) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:13:10.050+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:13:10.050+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:13:10.050+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:13:10.079+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:13:10.078+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:13:10.080+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:13:10.113+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.070 seconds
+[2023-03-18T18:13:40.484+0000] {processor.py:153} INFO - Started process (PID=92812) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:13:40.486+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:13:40.486+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:13:40.486+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:13:40.516+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:13:40.515+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:13:40.517+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:13:40.546+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.067 seconds
+[2023-03-18T18:14:03.223+0000] {processor.py:153} INFO - Started process (PID=92868) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:14:03.225+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:14:03.227+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:14:03.227+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:14:03.259+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:14:03.258+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 19, in <module>
+    jsondata = json.loads(f.read())
+NameError: name 'json' is not defined
+[2023-03-18T18:14:03.260+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:14:03.292+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.074 seconds
+[2023-03-18T18:14:33.457+0000] {processor.py:153} INFO - Started process (PID=92918) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:14:33.459+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:14:33.460+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:14:33.460+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:14:33.492+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:14:33.491+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 19, in <module>
+    jsondata = json.loads(f.read())
+NameError: name 'json' is not defined
+[2023-03-18T18:14:33.493+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:14:33.521+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.072 seconds
+[2023-03-18T18:14:49.573+0000] {processor.py:153} INFO - Started process (PID=92925) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:14:49.574+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:14:49.575+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:14:49.575+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:14:49.616+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:14:49.615+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:14:49.617+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:14:49.649+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.082 seconds
+[2023-03-18T18:15:20.391+0000] {processor.py:153} INFO - Started process (PID=92978) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:15:20.394+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:15:20.395+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:15:20.394+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:15:20.439+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:15:20.437+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:15:20.440+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:15:20.476+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.090 seconds
+[2023-03-18T18:15:51.121+0000] {processor.py:153} INFO - Started process (PID=93029) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:15:51.125+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:15:51.126+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:15:51.125+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:15:51.160+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:15:51.159+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:15:51.161+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:15:51.198+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.082 seconds
+[2023-03-18T18:15:57.757+0000] {processor.py:153} INFO - Started process (PID=93047) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:15:57.759+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:15:57.760+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:15:57.760+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:15:57.794+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:15:57.793+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:15:57.795+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:15:57.827+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.077 seconds
+[2023-03-18T18:16:28.083+0000] {processor.py:153} INFO - Started process (PID=93097) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:16:28.093+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:16:28.094+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:16:28.094+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:16:28.130+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:16:28.129+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:16:28.131+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:16:28.164+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.087 seconds
+[2023-03-18T18:16:54.206+0000] {processor.py:153} INFO - Started process (PID=93134) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:16:54.207+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:16:54.208+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:16:54.208+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:16:54.244+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:16:54.243+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:16:54.245+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:16:54.278+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.076 seconds
+[2023-03-18T18:17:20.637+0000] {processor.py:153} INFO - Started process (PID=93187) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:17:20.640+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:17:20.641+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:17:20.641+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:17:20.673+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:17:20.671+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:17:20.673+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:17:20.703+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.072 seconds
+[2023-03-18T18:17:51.011+0000] {processor.py:153} INFO - Started process (PID=93242) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:17:51.013+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:17:51.014+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:17:51.014+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:17:51.045+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:17:51.043+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:17:51.046+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:17:51.079+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.073 seconds
+[2023-03-18T18:18:21.144+0000] {processor.py:153} INFO - Started process (PID=93293) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:18:21.146+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:18:21.148+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:18:21.147+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:18:21.180+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:18:21.179+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:18:21.181+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:18:21.216+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.078 seconds
+[2023-03-18T18:18:51.446+0000] {processor.py:153} INFO - Started process (PID=93342) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:18:51.448+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:18:51.449+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:18:51.448+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:18:51.479+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:18:51.477+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:18:51.479+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:18:51.510+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.069 seconds
+[2023-03-18T18:19:21.749+0000] {processor.py:153} INFO - Started process (PID=93393) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:19:21.751+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:19:21.752+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:19:21.752+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:19:21.801+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:19:21.878+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:19:21.878+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T18:19:22.078+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:19:22.078+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T17:00:00+00:00, run_after=2023-03-18T18:00:00+00:00
+[2023-03-18T18:19:22.105+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.361 seconds
+[2023-03-18T18:19:52.505+0000] {processor.py:153} INFO - Started process (PID=93559) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:19:52.507+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:19:52.508+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:19:52.508+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:19:52.556+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:19:52.792+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:19:52.792+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T18:19:52.819+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:19:52.818+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T18:00:00+00:00, run_after=2023-03-18T19:00:00+00:00
+[2023-03-18T18:19:52.845+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.346 seconds
+[2023-03-18T18:20:23.016+0000] {processor.py:153} INFO - Started process (PID=93730) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:20:23.017+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:20:23.018+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:20:23.018+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:20:23.069+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:20:23.163+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:20:23.162+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T18:20:23.202+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:20:23.202+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T18:00:00+00:00, run_after=2023-03-18T19:00:00+00:00
+[2023-03-18T18:20:23.229+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.219 seconds
+[2023-03-18T18:20:53.862+0000] {processor.py:153} INFO - Started process (PID=93780) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:20:53.863+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:20:53.864+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:20:53.864+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:20:53.919+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:20:53.989+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:20:53.988+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T18:20:54.018+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:20:54.018+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T18:00:00+00:00, run_after=2023-03-18T19:00:00+00:00
+[2023-03-18T18:20:54.049+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.192 seconds
+[2023-03-18T18:20:56.923+0000] {processor.py:153} INFO - Started process (PID=93786) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:20:56.924+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:20:56.925+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:20:56.925+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:20:56.976+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:20:57.004+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:20:57.003+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T18:20:57.041+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:20:57.041+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T18:00:00+00:00, run_after=2023-03-18T19:00:00+00:00
+[2023-03-18T18:20:57.073+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.156 seconds
+[2023-03-18T18:21:27.849+0000] {processor.py:153} INFO - Started process (PID=93873) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:21:27.851+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:21:27.852+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:21:27.852+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:21:27.884+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:21:27.883+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:21:27.885+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:21:27.916+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.073 seconds
+[2023-03-18T18:21:46.067+0000] {processor.py:153} INFO - Started process (PID=93914) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:21:46.068+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:21:46.069+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:21:46.069+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:21:46.113+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:21:46.111+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:21:46.114+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:21:46.154+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.093 seconds
+[2023-03-18T18:22:16.315+0000] {processor.py:153} INFO - Started process (PID=93961) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:22:16.317+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:22:16.319+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:22:16.318+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:22:16.395+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:22:16.775+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:22:16.774+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T18:22:16.816+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:22:16.816+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T18:00:00+00:00, run_after=2023-03-18T19:00:00+00:00
+[2023-03-18T18:22:16.864+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.557 seconds
+[2023-03-18T18:22:47.345+0000] {processor.py:153} INFO - Started process (PID=94067) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:22:47.347+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:22:47.349+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:22:47.348+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:22:47.438+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:22:47.747+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:22:47.747+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T18:22:47.790+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:22:47.789+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T18:00:00+00:00, run_after=2023-03-18T19:00:00+00:00
+[2023-03-18T18:22:47.825+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.487 seconds
+[2023-03-18T18:23:17.880+0000] {processor.py:153} INFO - Started process (PID=94117) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:23:17.881+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:23:17.882+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:23:17.882+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:23:17.927+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:23:18.006+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:23:18.006+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T18:23:18.035+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:23:18.035+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T18:00:00+00:00, run_after=2023-03-18T19:00:00+00:00
+[2023-03-18T18:23:18.066+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.191 seconds
+[2023-03-18T18:23:22.448+0000] {processor.py:153} INFO - Started process (PID=94136) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:23:22.450+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:23:22.451+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:23:22.451+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:23:22.455+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:23:22.454+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 923, in get_code
+  File "<frozen importlib._bootstrap_external>", line 853, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 46
+    f.write((response, sort_keys=True, indent=4))
+                                ^
+SyntaxError: invalid syntax
+[2023-03-18T18:23:22.456+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:23:22.487+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.043 seconds
+[2023-03-18T18:23:24.462+0000] {processor.py:153} INFO - Started process (PID=94142) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:23:24.464+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:23:24.465+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:23:24.465+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:23:24.516+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:23:24.536+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:23:24.536+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T18:23:24.571+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:23:24.571+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T18:00:00+00:00, run_after=2023-03-18T19:00:00+00:00
+[2023-03-18T18:23:24.606+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.151 seconds
+[2023-03-18T18:23:45.981+0000] {processor.py:153} INFO - Started process (PID=94228) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:23:45.982+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:23:45.983+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:23:45.983+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:23:46.024+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:23:46.023+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:23:46.024+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:23:46.055+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.079 seconds
+[2023-03-18T18:24:16.972+0000] {processor.py:153} INFO - Started process (PID=94278) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:24:16.974+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:24:16.975+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:24:16.975+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:24:17.027+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:24:17.108+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:24:17.108+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T18:24:17.298+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:24:17.298+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T18:00:00+00:00, run_after=2023-03-18T19:00:00+00:00
+[2023-03-18T18:24:17.332+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.368 seconds
+[2023-03-18T18:24:19.336+0000] {processor.py:153} INFO - Started process (PID=94302) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:24:19.337+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:24:19.338+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:24:19.338+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:24:19.389+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:24:19.410+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:24:19.410+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T18:24:19.442+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:24:19.442+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T18:00:00+00:00, run_after=2023-03-18T19:00:00+00:00
+[2023-03-18T18:24:19.467+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.137 seconds
+[2023-03-18T18:24:50.338+0000] {processor.py:153} INFO - Started process (PID=94389) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:24:50.340+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:24:50.341+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:24:50.341+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:24:50.376+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:24:50.374+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:24:50.376+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:24:50.409+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.077 seconds
+[2023-03-18T18:25:20.740+0000] {processor.py:153} INFO - Started process (PID=94443) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:25:20.741+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:25:20.741+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:25:20.741+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:25:20.771+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:25:20.770+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:25:20.772+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:25:20.801+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.067 seconds
+[2023-03-18T18:25:51.133+0000] {processor.py:153} INFO - Started process (PID=94490) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:25:51.137+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:25:51.139+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:25:51.138+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:25:51.182+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:25:51.181+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:25:51.183+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:25:51.214+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.094 seconds
+[2023-03-18T18:26:11.796+0000] {processor.py:153} INFO - Started process (PID=94511) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:26:11.798+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:26:11.799+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:26:11.799+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:26:11.840+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:26:11.838+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:26:11.841+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:26:11.873+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.083 seconds
+[2023-03-18T18:26:17.169+0000] {processor.py:153} INFO - Started process (PID=94529) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:26:17.171+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:26:17.172+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:26:17.172+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:26:17.202+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:26:17.201+0000] {dagbag.py:343} ERROR - Failed to import: /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/melicharovykrecek/diploma/dags/vehiclepositions.py", line 20, in <module>
+    jsondata = json.loads(f.read())
+  File "/usr/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-18T18:26:17.203+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:26:17.232+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.071 seconds
+[2023-03-18T18:26:48.240+0000] {processor.py:153} INFO - Started process (PID=94581) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:26:48.243+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:26:48.244+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:26:48.244+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:26:48.356+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:26:48.467+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:26:48.467+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T18:26:48.503+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:26:48.502+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T18:00:00+00:00, run_after=2023-03-18T19:00:00+00:00
+[2023-03-18T18:26:48.701+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.470 seconds
+[2023-03-18T18:27:19.075+0000] {processor.py:153} INFO - Started process (PID=94746) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:27:19.076+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:27:19.077+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:27:19.077+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:27:19.323+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:27:19.402+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:27:19.401+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T18:27:19.430+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:27:19.430+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T18:00:00+00:00, run_after=2023-03-18T19:00:00+00:00
+[2023-03-18T18:27:19.502+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.431 seconds
+[2023-03-18T18:27:49.846+0000] {processor.py:153} INFO - Started process (PID=94801) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:27:49.849+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:27:49.850+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:27:49.850+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:27:50.095+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:27:50.208+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:27:50.207+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T18:27:50.235+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:27:50.235+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T18:00:00+00:00, run_after=2023-03-18T19:00:00+00:00
+[2023-03-18T18:27:50.304+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.464 seconds
+[2023-03-18T18:28:21.139+0000] {processor.py:153} INFO - Started process (PID=94852) to work on /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:28:21.143+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/vehiclepositions.py for tasks to queue
+[2023-03-18T18:28:21.145+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:28:21.144+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:28:21.406+0000] {processor.py:753} INFO - DAG(s) dict_keys(['vehiclepositions']) retrieved from /home/melicharovykrecek/diploma/dags/vehiclepositions.py
+[2023-03-18T18:28:21.509+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:28:21.509+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T18:28:21.543+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:28:21.542+0000] {dag.py:3437} INFO - Setting next_dagrun for vehiclepositions to 2023-03-18T18:00:00+00:00, run_after=2023-03-18T19:00:00+00:00
+[2023-03-18T18:28:21.617+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/vehiclepositions.py took 0.483 seconds

@@ -1,0 +1,105 @@
+[2023-03-18T16:46:02.750+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: routes.create_table_routes scheduled__2023-03-18T15:00:00+00:00 [queued]>
+[2023-03-18T16:46:02.762+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: routes.create_table_routes scheduled__2023-03-18T15:00:00+00:00 [queued]>
+[2023-03-18T16:46:02.763+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-18T16:46:02.763+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-03-18T16:46:02.763+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-18T16:46:02.779+0000] {taskinstance.py:1300} INFO - Executing <Task(MySqlOperator): create_table_routes> on 2023-03-18 15:00:00+00:00
+[2023-03-18T16:46:02.784+0000] {standard_task_runner.py:55} INFO - Started process 82297 to run task
+[2023-03-18T16:46:02.792+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'routes', 'create_table_routes', 'scheduled__2023-03-18T15:00:00+00:00', '--job-id', '643', '--raw', '--subdir', 'DAGS_FOLDER/gtfs_routes.py', '--cfg-path', '/tmp/tmpqek7gdhu']
+[2023-03-18T16:46:02.795+0000] {standard_task_runner.py:83} INFO - Job 643: Subtask create_table_routes
+[2023-03-18T16:46:02.898+0000] {task_command.py:388} INFO - Running <TaskInstance: routes.create_table_routes scheduled__2023-03-18T15:00:00+00:00 [running]> on host diploma-vm.europe-west1-b.c.diploma-380314.internal
+[2023-03-18T16:46:02.987+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=routes
+AIRFLOW_CTX_TASK_ID=create_table_routes
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-18T15:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-03-18T15:00:00+00:00
+[2023-03-18T16:46:02.988+0000] {sql.py:254} INFO - Executing: CREATE TABLE IF NOT EXISTS pre_gtfs_routes (
+    _sys_record_id INT NOT NULL AUTO_INCREMENT,
+    jdoc JSON,
+    _sys_load_id INT,
+    _sys_load_at TIMESTAMP,
+    _sys_is_deleted BOOLEAN,
+    CONSTRAINT id PRIMARY KEY (_sys_record_id, _sys_load_at)
+);
+
+CREATE TABLE IF NOT EXISTS src_gtfs_routes (
+    _sys_record_id INT,
+    _sys_load_id INT,
+    _sys_load_at TIMESTAMP,
+    _sys_is_deleted BOOLEAN,
+    i INT,
+    jdoc JSON,
+    CONSTRAINT id PRIMARY KEY (_sys_record_id,i,_sys_load_at)
+);
+
+CREATE TABLE IF NOT EXISTS stg_gtfs_routes (
+    gtfs_route_id VARCHAR(255) NOT NULL,
+    route_id VARCHAR(255),
+    is_night VARCHAR(255),
+    agency_id VARCHAR(255),
+    route_url VARCHAR(255),
+    route_desc VARCHAR(255),
+    route_type VARCHAR(255),
+    is_regional VARCHAR(255),
+    route_color VARCHAR(255),
+    route_long_name VARCHAR(255),
+    route_short_name VARCHAR(255),
+    route_text_color VARCHAR(255),
+    is_substitute_transport VARCHAR(255),
+    _sys_record_id INT,
+    _sys_load_id INT,
+    _sys_load_at TIMESTAMP,
+    _sys_is_deleted VARCHAR(255),
+    i INT,
+    PRIMARY KEY (gtfs_route_id)
+  );
+[2023-03-18T16:46:03.004+0000] {base.py:73} INFO - Using connection ID 'mysql-db' for task execution.
+[2023-03-18T16:46:03.120+0000] {base.py:73} INFO - Using connection ID 'mysql-db' for task execution.
+[2023-03-18T16:46:03.139+0000] {sql.py:375} INFO - Running statement: CREATE TABLE IF NOT EXISTS pre_gtfs_routes (
+    _sys_record_id INT NOT NULL AUTO_INCREMENT,
+    jdoc JSON,
+    _sys_load_id INT,
+    _sys_load_at TIMESTAMP,
+    _sys_is_deleted BOOLEAN,
+    CONSTRAINT id PRIMARY KEY (_sys_record_id, _sys_load_at)
+);
+
+CREATE TABLE IF NOT EXISTS src_gtfs_routes (
+    _sys_record_id INT,
+    _sys_load_id INT,
+    _sys_load_at TIMESTAMP,
+    _sys_is_deleted BOOLEAN,
+    i INT,
+    jdoc JSON,
+    CONSTRAINT id PRIMARY KEY (_sys_record_id,i,_sys_load_at)
+);
+
+CREATE TABLE IF NOT EXISTS stg_gtfs_routes (
+    gtfs_route_id VARCHAR(255) NOT NULL,
+    route_id VARCHAR(255),
+    is_night VARCHAR(255),
+    agency_id VARCHAR(255),
+    route_url VARCHAR(255),
+    route_desc VARCHAR(255),
+    route_type VARCHAR(255),
+    is_regional VARCHAR(255),
+    route_color VARCHAR(255),
+    route_long_name VARCHAR(255),
+    route_short_name VARCHAR(255),
+    route_text_color VARCHAR(255),
+    is_substitute_transport VARCHAR(255),
+    _sys_record_id INT,
+    _sys_load_id INT,
+    _sys_load_at TIMESTAMP,
+    _sys_is_deleted VARCHAR(255),
+    i INT,
+    PRIMARY KEY (gtfs_route_id)
+  );, parameters: None
+[2023-03-18T16:46:03.187+0000] {sql.py:384} INFO - Rows affected: 0
+[2023-03-18T16:46:03.315+0000] {taskinstance.py:1318} INFO - Marking task as SUCCESS. dag_id=routes, task_id=create_table_routes, execution_date=20230318T150000, start_date=20230318T164602, end_date=20230318T164603
+[2023-03-18T16:46:03.404+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-03-18T16:46:03.468+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check
