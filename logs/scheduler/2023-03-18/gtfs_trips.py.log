@@ -1616,3 +1616,17 @@ jinja2.exceptions.TemplateNotFound: /gtfs/trips/020_stg.sql
 [2023-03-18T18:28:30.058+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:28:30.057+0000] {dag.py:2690} INFO - Sync 1 DAGs
 [2023-03-18T18:28:30.082+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:28:30.082+0000] {dag.py:3437} INFO - Setting next_dagrun for gtfs_trips to 2023-03-18T18:00:00+00:00, run_after=2023-03-18T19:00:00+00:00
 [2023-03-18T18:28:30.214+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/gtfs_trips.py took 0.619 seconds
+[2023-03-18T18:29:00.354+0000] {processor.py:153} INFO - Started process (PID=94930) to work on /home/melicharovykrecek/diploma/dags/gtfs_trips.py
+[2023-03-18T18:29:00.356+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/gtfs_trips.py for tasks to queue
+[2023-03-18T18:29:00.357+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:29:00.357+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/gtfs_trips.py
+[2023-03-18T18:29:00.497+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gtfs_trips']) retrieved from /home/melicharovykrecek/diploma/dags/gtfs_trips.py
+[2023-03-18T18:29:00.659+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:29:00.659+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T18:29:00.687+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:29:00.687+0000] {dag.py:3437} INFO - Setting next_dagrun for gtfs_trips to 2023-03-18T18:00:00+00:00, run_after=2023-03-18T19:00:00+00:00
+[2023-03-18T18:29:00.826+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/gtfs_trips.py took 0.479 seconds
+[2023-03-18T18:29:31.697+0000] {processor.py:153} INFO - Started process (PID=94985) to work on /home/melicharovykrecek/diploma/dags/gtfs_trips.py
+[2023-03-18T18:29:31.700+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/gtfs_trips.py for tasks to queue
+[2023-03-18T18:29:31.701+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:29:31.701+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/gtfs_trips.py
+[2023-03-18T18:29:31.842+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gtfs_trips']) retrieved from /home/melicharovykrecek/diploma/dags/gtfs_trips.py
+[2023-03-18T18:29:31.997+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:29:31.996+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T18:29:32.180+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:29:32.180+0000] {dag.py:3437} INFO - Setting next_dagrun for gtfs_trips to 2023-03-18T18:00:00+00:00, run_after=2023-03-18T19:00:00+00:00
+[2023-03-18T18:29:32.331+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/gtfs_trips.py took 0.640 seconds

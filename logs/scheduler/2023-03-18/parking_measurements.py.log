@@ -15272,3 +15272,17 @@
 [2023-03-18T18:28:22.965+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:28:22.964+0000] {dag.py:2690} INFO - Sync 1 DAGs
 [2023-03-18T18:28:22.994+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:28:22.993+0000] {dag.py:3437} INFO - Setting next_dagrun for parking_measurements to 2023-03-18T18:00:00+00:00, run_after=2023-03-18T19:00:00+00:00
 [2023-03-18T18:28:23.024+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/parking_measurements.py took 0.374 seconds
+[2023-03-18T18:28:53.393+0000] {processor.py:153} INFO - Started process (PID=94911) to work on /home/melicharovykrecek/diploma/dags/parking_measurements.py
+[2023-03-18T18:28:53.396+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/parking_measurements.py for tasks to queue
+[2023-03-18T18:28:53.397+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:28:53.397+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/parking_measurements.py
+[2023-03-18T18:28:53.445+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parking_measurements']) retrieved from /home/melicharovykrecek/diploma/dags/parking_measurements.py
+[2023-03-18T18:28:53.681+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:28:53.681+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T18:28:53.711+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:28:53.711+0000] {dag.py:3437} INFO - Setting next_dagrun for parking_measurements to 2023-03-18T18:00:00+00:00, run_after=2023-03-18T19:00:00+00:00
+[2023-03-18T18:28:53.744+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/parking_measurements.py took 0.357 seconds
+[2023-03-18T18:29:24.333+0000] {processor.py:153} INFO - Started process (PID=94967) to work on /home/melicharovykrecek/diploma/dags/parking_measurements.py
+[2023-03-18T18:29:24.335+0000] {processor.py:743} INFO - Processing file /home/melicharovykrecek/diploma/dags/parking_measurements.py for tasks to queue
+[2023-03-18T18:29:24.336+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:29:24.336+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/melicharovykrecek/diploma/dags/parking_measurements.py
+[2023-03-18T18:29:24.386+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parking_measurements']) retrieved from /home/melicharovykrecek/diploma/dags/parking_measurements.py
+[2023-03-18T18:29:24.464+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:29:24.464+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-18T18:29:24.491+0000] {logging_mixin.py:137} INFO - [2023-03-18T18:29:24.491+0000] {dag.py:3437} INFO - Setting next_dagrun for parking_measurements to 2023-03-18T18:00:00+00:00, run_after=2023-03-18T19:00:00+00:00
+[2023-03-18T18:29:24.520+0000] {processor.py:175} INFO - Processing /home/melicharovykrecek/diploma/dags/parking_measurements.py took 0.194 seconds
