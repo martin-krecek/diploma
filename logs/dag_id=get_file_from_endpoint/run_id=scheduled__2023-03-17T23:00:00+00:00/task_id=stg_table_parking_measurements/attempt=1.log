@@ -1,0 +1,95 @@
+[2023-03-18T00:00:37.388+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: get_file_from_endpoint.stg_table_parking_measurements scheduled__2023-03-17T23:00:00+00:00 [queued]>
+[2023-03-18T00:00:37.402+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: get_file_from_endpoint.stg_table_parking_measurements scheduled__2023-03-17T23:00:00+00:00 [queued]>
+[2023-03-18T00:00:37.402+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-18T00:00:37.402+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-03-18T00:00:37.402+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-18T00:00:37.417+0000] {taskinstance.py:1300} INFO - Executing <Task(MySqlOperator): stg_table_parking_measurements> on 2023-03-17 23:00:00+00:00
+[2023-03-18T00:00:37.422+0000] {standard_task_runner.py:55} INFO - Started process 25973 to run task
+[2023-03-18T00:00:37.428+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'get_file_from_endpoint', 'stg_table_parking_measurements', 'scheduled__2023-03-17T23:00:00+00:00', '--job-id', '376', '--raw', '--subdir', 'DAGS_FOLDER/api.py', '--cfg-path', '/tmp/tmpjv8cj3de']
+[2023-03-18T00:00:37.430+0000] {standard_task_runner.py:83} INFO - Job 376: Subtask stg_table_parking_measurements
+[2023-03-18T00:00:37.522+0000] {task_command.py:388} INFO - Running <TaskInstance: get_file_from_endpoint.stg_table_parking_measurements scheduled__2023-03-17T23:00:00+00:00 [running]> on host diploma-vm.europe-west1-b.c.diploma-380314.internal
+[2023-03-18T00:00:37.607+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=get_file_from_endpoint
+AIRFLOW_CTX_TASK_ID=stg_table_parking_measurements
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-17T23:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-03-17T23:00:00+00:00
+[2023-03-18T00:00:37.607+0000] {sql.py:254} INFO - Executing: INSERT IGNORE INTO stg_parking_measurements
+(
+SELECT
+    CONCAT(`source_id`, '_', `parking_id`, '_', `date_modified`) AS `parking_measurement_id`,
+    `source`,
+    `source_id`,
+    `parking_id`,
+    `date_modified`,
+    `total_spot_number`,
+    `closed_spot_number`,
+    `occupied_spot_number`,
+    `available_spot_number`,
+    `_sys_record_id`,
+    `_sys_load_id`,
+    `_sys_load_at`,
+    `_sys_is_deleted`,
+    `i`
+FROM (
+    SELECT
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.source')) AS `source`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.source_id')) AS `source_id`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.parking_id')) AS `parking_id`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.date_modified')) AS `date_modified`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.total_spot_number')) AS `total_spot_number`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.closed_spot_number')) AS `closed_spot_number`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.occupied_spot_number')) AS `occupied_spot_number`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.available_spot_number')) AS `available_spot_number`,
+        `_sys_record_id`,
+        `_sys_load_id`,
+        `_sys_load_at`,
+        `_sys_is_deleted`,
+        `i`
+    FROM src_parking_measurements
+    ) a
+);
+[2023-03-18T00:00:37.622+0000] {base.py:73} INFO - Using connection ID 'mysql-db' for task execution.
+[2023-03-18T00:00:37.726+0000] {base.py:73} INFO - Using connection ID 'mysql-db' for task execution.
+[2023-03-18T00:00:37.740+0000] {sql.py:375} INFO - Running statement: INSERT IGNORE INTO stg_parking_measurements
+(
+SELECT
+    CONCAT(`source_id`, '_', `parking_id`, '_', `date_modified`) AS `parking_measurement_id`,
+    `source`,
+    `source_id`,
+    `parking_id`,
+    `date_modified`,
+    `total_spot_number`,
+    `closed_spot_number`,
+    `occupied_spot_number`,
+    `available_spot_number`,
+    `_sys_record_id`,
+    `_sys_load_id`,
+    `_sys_load_at`,
+    `_sys_is_deleted`,
+    `i`
+FROM (
+    SELECT
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.source')) AS `source`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.source_id')) AS `source_id`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.parking_id')) AS `parking_id`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.date_modified')) AS `date_modified`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.total_spot_number')) AS `total_spot_number`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.closed_spot_number')) AS `closed_spot_number`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.occupied_spot_number')) AS `occupied_spot_number`,
+        TRIM(BOTH '"' FROM JSON_EXTRACT(`jdoc`, '$.available_spot_number')) AS `available_spot_number`,
+        `_sys_record_id`,
+        `_sys_load_id`,
+        `_sys_load_at`,
+        `_sys_is_deleted`,
+        `i`
+    FROM src_parking_measurements
+    ) a
+);, parameters: None
+[2023-03-18T00:00:37.780+0000] {sql.py:384} INFO - Rows affected: 149
+[2023-03-18T00:00:37.801+0000] {taskinstance.py:1318} INFO - Marking task as SUCCESS. dag_id=get_file_from_endpoint, task_id=stg_table_parking_measurements, execution_date=20230317T230000, start_date=20230318T000037, end_date=20230318T000037
+[2023-03-18T00:00:37.840+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-03-18T00:00:37.863+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

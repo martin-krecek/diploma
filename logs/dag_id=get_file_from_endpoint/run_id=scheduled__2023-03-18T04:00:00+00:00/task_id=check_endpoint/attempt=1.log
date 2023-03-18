@@ -1,0 +1,23 @@
+[2023-03-18T05:00:00.909+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: get_file_from_endpoint.check_endpoint scheduled__2023-03-18T04:00:00+00:00 [queued]>
+[2023-03-18T05:00:00.923+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: get_file_from_endpoint.check_endpoint scheduled__2023-03-18T04:00:00+00:00 [queued]>
+[2023-03-18T05:00:00.923+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-18T05:00:00.923+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-03-18T05:00:00.923+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-18T05:00:00.942+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): check_endpoint> on 2023-03-18 04:00:00+00:00
+[2023-03-18T05:00:00.947+0000] {standard_task_runner.py:55} INFO - Started process 44596 to run task
+[2023-03-18T05:00:00.960+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'get_file_from_endpoint', 'check_endpoint', 'scheduled__2023-03-18T04:00:00+00:00', '--job-id', '461', '--raw', '--subdir', 'DAGS_FOLDER/api.py', '--cfg-path', '/tmp/tmpmd370mn3']
+[2023-03-18T05:00:00.963+0000] {standard_task_runner.py:83} INFO - Job 461: Subtask check_endpoint
+[2023-03-18T05:00:01.090+0000] {task_command.py:388} INFO - Running <TaskInstance: get_file_from_endpoint.check_endpoint scheduled__2023-03-18T04:00:00+00:00 [running]> on host diploma-vm.europe-west1-b.c.diploma-380314.internal
+[2023-03-18T05:00:01.205+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=get_file_from_endpoint
+AIRFLOW_CTX_TASK_ID=check_endpoint
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-18T04:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-03-18T04:00:00+00:00
+[2023-03-18T05:00:36.012+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-03-18T05:00:36.025+0000] {taskinstance.py:1318} INFO - Marking task as SUCCESS. dag_id=get_file_from_endpoint, task_id=check_endpoint, execution_date=20230318T040000, start_date=20230318T050000, end_date=20230318T050036
+[2023-03-18T05:00:36.078+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-03-18T05:00:36.110+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

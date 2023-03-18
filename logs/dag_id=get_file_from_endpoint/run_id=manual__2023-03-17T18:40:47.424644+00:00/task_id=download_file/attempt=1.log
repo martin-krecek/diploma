@@ -1,0 +1,23 @@
+[2023-03-17T18:41:04.686+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: get_file_from_endpoint.download_file manual__2023-03-17T18:40:47.424644+00:00 [queued]>
+[2023-03-17T18:41:04.699+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: get_file_from_endpoint.download_file manual__2023-03-17T18:40:47.424644+00:00 [queued]>
+[2023-03-17T18:41:04.699+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-17T18:41:04.699+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-03-17T18:41:04.699+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-17T18:41:04.714+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): download_file> on 2023-03-17 18:40:47.424644+00:00
+[2023-03-17T18:41:04.718+0000] {standard_task_runner.py:55} INFO - Started process 6140 to run task
+[2023-03-17T18:41:04.724+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'get_file_from_endpoint', 'download_file', 'manual__2023-03-17T18:40:47.424644+00:00', '--job-id', '248', '--raw', '--subdir', 'DAGS_FOLDER/api.py', '--cfg-path', '/tmp/tmpzy6fwmew']
+[2023-03-17T18:41:04.726+0000] {standard_task_runner.py:83} INFO - Job 248: Subtask download_file
+[2023-03-17T18:41:04.820+0000] {task_command.py:388} INFO - Running <TaskInstance: get_file_from_endpoint.download_file manual__2023-03-17T18:40:47.424644+00:00 [running]> on host diploma-vm.europe-west1-b.c.diploma-380314.internal
+[2023-03-17T18:41:04.900+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=get_file_from_endpoint
+AIRFLOW_CTX_TASK_ID=download_file
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-17T18:40:47.424644+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-17T18:40:47.424644+00:00
+[2023-03-17T18:41:04.961+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-03-17T18:41:04.975+0000] {taskinstance.py:1318} INFO - Marking task as SUCCESS. dag_id=get_file_from_endpoint, task_id=download_file, execution_date=20230317T184047, start_date=20230317T184104, end_date=20230317T184104
+[2023-03-17T18:41:05.017+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-03-17T18:41:05.045+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

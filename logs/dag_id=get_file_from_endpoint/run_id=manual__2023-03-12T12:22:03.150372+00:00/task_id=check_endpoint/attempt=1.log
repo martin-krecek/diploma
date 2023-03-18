@@ -1,0 +1,33 @@
+[2023-03-12T12:22:04.367+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: get_file_from_endpoint.check_endpoint manual__2023-03-12T12:22:03.150372+00:00 [queued]>
+[2023-03-12T12:22:04.380+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: get_file_from_endpoint.check_endpoint manual__2023-03-12T12:22:03.150372+00:00 [queued]>
+[2023-03-12T12:22:04.380+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-12T12:22:04.381+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-03-12T12:22:04.381+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-12T12:22:04.395+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): check_endpoint> on 2023-03-12 12:22:03.150372+00:00
+[2023-03-12T12:22:04.401+0000] {standard_task_runner.py:55} INFO - Started process 12504 to run task
+[2023-03-12T12:22:04.406+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'get_file_from_endpoint', 'check_endpoint', 'manual__2023-03-12T12:22:03.150372+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/api.py', '--cfg-path', '/tmp/tmpvz7toy3x']
+[2023-03-12T12:22:04.408+0000] {standard_task_runner.py:83} INFO - Job 16: Subtask check_endpoint
+[2023-03-12T12:22:04.501+0000] {task_command.py:388} INFO - Running <TaskInstance: get_file_from_endpoint.check_endpoint manual__2023-03-12T12:22:03.150372+00:00 [running]> on host diploma-vm.europe-west1-b.c.diploma-380314.internal
+[2023-03-12T12:22:04.591+0000] {taskinstance.py:1507} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=get_file_from_endpoint
+AIRFLOW_CTX_TASK_ID=check_endpoint
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-12T12:22:03.150372+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-12T12:22:03.150372+00:00
+[2023-03-12T12:22:04.592+0000] {logging_mixin.py:137} INFO - https://api.golemio.cz/v2/parking/measurements
+[2023-03-12T12:22:04.714+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/melicharovykrecek/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/melicharovykrecek/diploma/dags/api.py", line 21, in check_endpoint
+    raise ValueError('Endpoint not available')
+ValueError: Endpoint not available
+[2023-03-12T12:22:04.732+0000] {taskinstance.py:1318} INFO - Marking task as FAILED. dag_id=get_file_from_endpoint, task_id=check_endpoint, execution_date=20230312T122203, start_date=20230312T122204, end_date=20230312T122204
+[2023-03-12T12:22:04.746+0000] {standard_task_runner.py:100} ERROR - Failed to execute job 16 for task check_endpoint (Endpoint not available; 12504)
+[2023-03-12T12:22:04.778+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-03-12T12:22:04.814+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
