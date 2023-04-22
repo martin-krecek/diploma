@@ -7,6 +7,7 @@ from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 from datetime import datetime, timedelta
 import json
 import os
+import logging
 
 headers = {"Content-Type": "application/json; charset=utf-8", "x-access-token": 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hcnRpbmtyZWNlazlAZ21haWwuY29tIiwiaWQiOjE0NTIsIm5hbWUiOm51bGwsInN1cm5hbWUiOm51bGwsImlhdCI6MTY2NDM1Nzc3NCwiZXhwIjoxMTY2NDM1Nzc3NCwiaXNzIjoiZ29sZW1pbyIsImp0aSI6IjU1MWMxM2I2LTZiYzktNDg4My05NTNmLTA0MWRkNmYwZjVjOCJ9.jss-5Fw6bCRxVWZuzm4Og2D353afsmcAyDxkxMWCdik'}
 
@@ -37,6 +38,7 @@ dag = DAG(
 # Define a Python function to check if the endpoint is available
 def check_endpoint(headers, endpoint, query):
     url = f'https://api.golemio.cz/v2/{endpoint}{query}'
+    logging.info(url)
     response = requests.get(url,headers=headers)
     if response.status_code != 200:
         raise ValueError('Endpoint not available')
