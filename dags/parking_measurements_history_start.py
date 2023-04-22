@@ -55,11 +55,20 @@ def download_file(headers, endpoint, query, filename):
 # Define the function to decide which task to execute next
 def timedelta_fn(fromm, to):
     fromm = datetime.strptime(fromm, "%Y-%m-%dT%H:%M:%S.%fZ") + timedelta(hours=12)
-    fromm = fromm.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+    frommm = fromm.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
     to = datetime.strptime(to, "%Y-%m-%dT%H:%M:%S.%fZ") + timedelta(hours=12)
-    to = to.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
-    logging.info(fromm)
-    logging.info(to)
+    too = to.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+    logging.info(frommm)
+    logging.info(too)
+    return TriggerDagRunOperator(
+        task_id='trigger_next_dag_run',
+        trigger_dag_id=def_entity,
+        conf={
+            'from': frommm,
+            'to': too
+        },
+        dag=dag
+    )
 
 # Define a task to check if the endpoint is available
 check_endpoint_task = PythonOperator(
@@ -121,18 +130,5 @@ timedelta_add = PythonOperator(
     dag=dag,
 )
 
-
-
-# Define the task to trigger the next DAG run with new parameters
-trigger_next_dag_run_task = TriggerDagRunOperator(
-    task_id='trigger_next_dag_run',
-    trigger_dag_id=def_entity,
-    conf={
-        'from': fromm,
-        'to': to
-    },
-    dag=dag
-)
-
 # Set task dependencies
-check_endpoint_task >> download_file_task >> create_table >> insert_values >> src_table >> stg_table >> timedelta_add >> trigger_next_dag_run_task
+check_endpoint_task >> download_file_task >> create_table >> insert_values >> src_table >> stg_table >> timedelta_add
