@@ -16,7 +16,7 @@ to = '{{ dag_run.conf["to"]}}'
 
 def_entity = 'parking_measurements_history'
 def_endpoint = 'parking/measurements'
-def_query = '?source=TSK&limit=10000&from={{ dag_run.conf["from"]}}&to={{ dag_run.conf["to"]}}'
+def_query = f'?source=TSK&limit=10000&from={fromm}&to={to}'
 def_conn_id = "mysql-db"
 
 jsondata = f'/tmp/{def_entity}.csv'
@@ -113,7 +113,7 @@ timedelta_add = PythonOperator(
     task_id='timedelta_add',
     python_callable=timedelta_fn,
     op_kwargs={
-        'from': fromm,
+        'fromm': fromm,
         'to': to
     },
     dag=dag,
