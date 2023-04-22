@@ -53,7 +53,7 @@ def download_file(headers, endpoint, query, filename):
                 f.write(chunk)
 
 # Define the function to decide which task to execute next
-def timedelta_add(fromm, to):
+def timedelta_fn(fromm, to):
     fromm = datetime.strptime(fromm, "%Y-%m-%dT%H:%M:%S.%fZ") + timedelta(hours=12)
     fromm = fromm.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
     to = datetime.strptime(to, "%Y-%m-%dT%H:%M:%S.%fZ") + timedelta(hours=12)
@@ -111,7 +111,7 @@ stg_table = MySqlOperator(
 
 timedelta_add = PythonOperator(
     task_id='timedelta_add',
-    python_callable=timedelta_add,
+    python_callable=timedelta_fn,
     op_kwargs={
         'from': fromm,
         'to': to
