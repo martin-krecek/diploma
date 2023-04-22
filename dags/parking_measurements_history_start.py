@@ -28,7 +28,7 @@ if os.path.exists(file):
 
 # Define the DAG
 dag = DAG(
-    dag_id=def_entity,
+    dag_id=def_entity+"_start",
     start_date=datetime(2023, 3, 12),
     schedule_interval='0 * * * *',
     catchup=False,
