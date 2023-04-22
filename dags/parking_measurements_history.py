@@ -58,6 +58,8 @@ def timedelta_fn(fromm, to):
     fromm = fromm.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
     to = datetime.strptime(to, "%Y-%m-%dT%H:%M:%S.%fZ") + timedelta(hours=12)
     to = to.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+    logging.info(fromm)
+    logging.info(to)
 
 # Define a task to check if the endpoint is available
 check_endpoint_task = PythonOperator(
@@ -133,4 +135,4 @@ trigger_next_dag_run_task = TriggerDagRunOperator(
 )
 
 # Set task dependencies
-check_endpoint_task >> download_file_task >> create_table >> insert_values >> src_table >> stg_table >> timedelta_add >> trigger_next_dag_run_task
+check_endpoint_task >> download_file_task >> create_table >> insert_values >> src_table >> stg_table >> timedelta_add #>> trigger_next_dag_run_task
