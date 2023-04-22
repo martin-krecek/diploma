@@ -53,22 +53,21 @@ def download_file(headers, endpoint, query, filename):
                 f.write(chunk)
 
 # Define the function to decide which task to execute next
-def timedelta_fn(fromm, to):
+def timedelta_fn(fromm, to, **kwargs):
     fromm = datetime.strptime(fromm, "%Y-%m-%dT%H:%M:%S.%fZ") + timedelta(hours=12)
     frommm = fromm.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
     to = datetime.strptime(to, "%Y-%m-%dT%H:%M:%S.%fZ") + timedelta(hours=12)
     too = to.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
     logging.info(frommm)
     logging.info(too)
-    return TriggerDagRunOperator(
+    TriggerDagRunOperator(
         task_id='trigger_next_dag_run',
         trigger_dag_id=def_entity,
         conf={
             'from': frommm,
             'to': too
-        },
-        dag=dag
-    )
+        }
+    ).execute(context=kwargs)
 
 # Define a task to check if the endpoint is available
 check_endpoint_task = PythonOperator(
