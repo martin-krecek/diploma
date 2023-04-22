@@ -1,4 +1,4 @@
-INSERT IGNORE INTO src_vehiclepositions
+INSERT IGNORE INTO src_meteosensors
 (
 SELECT
     _sys_record_id,
@@ -7,7 +7,7 @@ SELECT
     _sys_is_deleted,
     r.*
 FROM
-    pre_vehiclepositions,
+    pre_meteosensors,
     JSON_TABLE(
         jdoc,
         '$[*]'
@@ -17,5 +17,3 @@ FROM
             )
     ) AS r
 );
-
-TRUNCATE pre_vehiclepositions;

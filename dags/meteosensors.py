@@ -8,8 +8,8 @@ import os
 
 headers = {"Content-Type": "application/json; charset=utf-8", "x-access-token": 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hcnRpbmtyZWNlazlAZ21haWwuY29tIiwiaWQiOjE0NTIsIm5hbWUiOm51bGwsInN1cm5hbWUiOm51bGwsImlhdCI6MTY2NDM1Nzc3NCwiZXhwIjoxMTY2NDM1Nzc3NCwiaXNzIjoiZ29sZW1pbyIsImp0aSI6IjU1MWMxM2I2LTZiYzktNDg4My05NTNmLTA0MWRkNmYwZjVjOCJ9.jss-5Fw6bCRxVWZuzm4Og2D353afsmcAyDxkxMWCdik'}
 
-def_entity = 'vehiclepositions'
-def_endpoint = 'vehiclepositions'
+def_entity = 'meteosensors'
+def_endpoint = 'meteosensors'
 def_query = ''
 def_conn_id = "mysql-db"
 
@@ -24,7 +24,7 @@ if os.path.exists(file):
 dag = DAG(
     dag_id=def_entity,
     start_date=datetime(2023, 3, 12),
-    schedule_interval='*/2 * * * *',
+    schedule_interval='0 * * * *',
     catchup=False,
     template_searchpath=["/home/melicharovykrecek/diploma/sql"]
 )
@@ -39,11 +39,12 @@ def check_endpoint(headers, endpoint, query):
 # Define a Python function to download the file
 def download_file(headers, endpoint, query, filename):
     url = f'https://api.golemio.cz/v2/{endpoint}{query}'
-    response = requests.get(url, headers=headers)
-    response = response.json()
+    response = requests.get(url, headers=headers, stream=True)
     response = response['features']
-    with open(f'/tmp/{filename}.csv', 'w') as f:
-        f.write(json.dumps(response, sort_keys=True, indent=4))
+    with open(f'/tmp/{filename}.csv', 'wb') as f:
+        for chunk in response.iter_content(chunk_size=1024):
+            if chunk:
+                f.write(chunk)
 
 # Define a task to check if the endpoint is available
 check_endpoint_task = PythonOperator(

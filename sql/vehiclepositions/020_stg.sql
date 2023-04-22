@@ -108,3 +108,5 @@ FROM (
     FROM src_vehiclepositions
     ) a
 );
+
+TRUNCATE TABLE src_vehiclepositions;
