@@ -84,7 +84,7 @@ download_file_task = PythonOperator(
 )
 
 create_table = MySqlOperator(
-    sql=f'/{def_endpoint}/create_table.sql',
+    sql=f'/{def_entity}/create_table.sql',
     task_id=f"create_table_{def_entity}",
     mysql_conn_id=def_conn_id,
 )
@@ -96,13 +96,13 @@ insert_values = MySqlOperator(
 )
 
 src_table = MySqlOperator(
-    sql=f'/{def_endpoint}/010_src.sql',
+    sql=f'/{def_entity}/010_src.sql',
     task_id=f"src_table_{def_entity}",
     mysql_conn_id=def_conn_id,
 )
 
 stg_table = MySqlOperator(
-    sql=f'/{def_endpoint}/020_stg.sql',
+    sql=f'/{def_entity}/020_stg.sql',
     task_id=f"stg_table_{def_entity}",
     mysql_conn_id=def_conn_id,
 )
