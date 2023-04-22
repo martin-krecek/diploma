@@ -13,10 +13,11 @@ headers = {"Content-Type": "application/json; charset=utf-8", "x-access-token": 
 
 fromm = '{{ dag_run.conf["from"]}}'
 to = '{{ dag_run.conf["to"]}}'
+source = '&sourceId=534017'
 
 def_entity = 'parking_measurements_history'
 def_endpoint = 'parking/measurements'
-def_query = f'?source=TSK&limit=10000&from={fromm}&to={to}'
+def_query = f'?source=TSK&limit=10000{source}&from={fromm}&to={to}'
 def_conn_id = "mysql-db"
 
 jsondata = f'/tmp/{def_entity}.csv'
