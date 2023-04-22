@@ -2,15 +2,20 @@ import requests
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.mysql_operator import MySqlOperator
+from airflow.operators.python_operator import BranchPythonOperator
+from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 from datetime import datetime, timedelta
 import json
 import os
 
 headers = {"Content-Type": "application/json; charset=utf-8", "x-access-token": 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hcnRpbmtyZWNlazlAZ21haWwuY29tIiwiaWQiOjE0NTIsIm5hbWUiOm51bGwsInN1cm5hbWUiOm51bGwsImlhdCI6MTY2NDM1Nzc3NCwiZXhwIjoxMTY2NDM1Nzc3NCwiaXNzIjoiZ29sZW1pbyIsImp0aSI6IjU1MWMxM2I2LTZiYzktNDg4My05NTNmLTA0MWRkNmYwZjVjOCJ9.jss-5Fw6bCRxVWZuzm4Og2D353afsmcAyDxkxMWCdik'}
 
+fromm = '{{ dag_run.conf["from"]}}'
+to = '{{ dag_run.conf["to"]}}'
+
 def_entity = 'parking_measurements_history'
 def_endpoint = 'parking/measurements'
-def_query = '?source=TSK&limit=10000'
+def_query = '?source=TSK&limit=10000&from={{ dag_run.conf["from"]}}&to={{ dag_run.conf["to"]}}'
 def_conn_id = "mysql-db"
 
 jsondata = f'/tmp/{def_entity}.csv'
@@ -44,6 +49,13 @@ def download_file(headers, endpoint, query, filename):
         for chunk in response.iter_content(chunk_size=1024):
             if chunk:
                 f.write(chunk)
+
+# Define the function to decide which task to execute next
+def timedelta_add(fromm, to):
+    fromm = datetime.strptime(fromm, "%Y-%m-%dT%H:%M:%S.%fZ") + timedelta(hours=12)
+    fromm = fromm.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+    to = datetime.strptime(to, "%Y-%m-%dT%H:%M:%S.%fZ") + timedelta(hours=12)
+    to = to.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
 
 # Define a task to check if the endpoint is available
 check_endpoint_task = PythonOperator(
@@ -95,5 +107,28 @@ stg_table = MySqlOperator(
     mysql_conn_id=def_conn_id,
 )
 
+timedelta_add = PythonOperator(
+    task_id='timedelta_add',
+    python_callable=timedelta_add,
+    op_kwargs={
+        'from': fromm,
+        'to': to
+    },
+    dag=dag,
+)
+
+
+
+# Define the task to trigger the next DAG run with new parameters
+trigger_next_dag_run_task = TriggerDagRunOperator(
+    task_id='trigger_next_dag_run',
+    trigger_dag_id='def_entity',
+    conf={
+        'from': fromm,
+        'to': to
+    },
+    dag=dag
+)
+
 # Set task dependencies
-check_endpoint_task >> download_file_task >> create_table >> insert_values >> src_table >> stg_table
+check_endpoint_task >> download_file_task >> create_table >> insert_values >> src_table >> stg_table >> timedelta_add >> trigger_next_dag_run_task
