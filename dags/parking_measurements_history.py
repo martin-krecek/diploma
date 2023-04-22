@@ -124,7 +124,7 @@ timedelta_add = PythonOperator(
 # Define the task to trigger the next DAG run with new parameters
 trigger_next_dag_run_task = TriggerDagRunOperator(
     task_id='trigger_next_dag_run',
-    trigger_dag_id='def_entity',
+    trigger_dag_id=def_entity,
     conf={
         'from': fromm,
         'to': to
