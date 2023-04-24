@@ -13,7 +13,7 @@ headers = {"Content-Type": "application/json; charset=utf-8", "x-access-token": 
 
 fromm = '{{ dag_run.conf["from"]}}'
 to = '{{ dag_run.conf["to"]}}'
-source = '&sourceId=534016'
+source = '&sourceId=534015'
 
 def_entity = 'parking_measurements_history'
 def_endpoint = 'parking/measurements'
@@ -31,7 +31,7 @@ if os.path.exists(file):
 dag = DAG(
     dag_id=def_entity+"_start",
     start_date=datetime(2023, 3, 12),
-    schedule_interval='0 * * * *',
+    schedule_interval=None,
     catchup=False,
     template_searchpath=["/home/melicharovykrecek/diploma/sql"]
 )
