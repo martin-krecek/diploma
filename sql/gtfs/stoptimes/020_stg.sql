@@ -1,4 +1,4 @@
-INSERT IGNORE INTO stg_gtfs_routes
+INSERT IGNORE INTO stg_gtfs_stoptimes
 (
 SELECT
     CONCAT(`route_id`, '_', `agency_id`, '_', `route_type`) AS `gtfs_route_id`,
@@ -39,8 +39,8 @@ FROM (
         `_sys_load_at`,
         `_sys_is_deleted`,
         `i`
-    FROM src_gtfs_routes
+    FROM src_gtfs_stoptimes
     ) a
 );
 
-TRUNCATE src_gtfs_routes
+TRUNCATE src_gtfs_routessrc_gtfs_stoptimes
