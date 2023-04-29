@@ -33,3 +33,5 @@ FROM (
     FROM src_parking_measurements
     ) a
 );
+
+TRUNCATE src_parking_measurements
