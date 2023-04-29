@@ -41,3 +41,5 @@ FROM (
     FROM src_gtfs_trips
     ) a
 );
+
+TRUNCATE src_gtfs_trips

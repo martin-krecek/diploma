@@ -49,3 +49,5 @@ FROM (
     FROM src_gtfs_services
     ) a
 );
+
+TRUNCATE src_gtfs_services

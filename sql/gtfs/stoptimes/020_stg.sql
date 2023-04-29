@@ -42,3 +42,5 @@ FROM (
     FROM src_gtfs_routes
     ) a
 );
+
+TRUNCATE src_gtfs_routes

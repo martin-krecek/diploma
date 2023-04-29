@@ -71,3 +71,5 @@ FROM (
     FROM src_parking_spaces
     ) a
 );
+
+TRUNCATE src_parking_spaces

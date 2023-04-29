@@ -17,3 +17,5 @@ FROM
             )
     ) AS r
 );
+
+TRUNCATE pre_meteosensors;

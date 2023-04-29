@@ -39,3 +39,5 @@ FROM (
     FROM src_meteosensors
     ) a
 );
+
+TRUNCATE src_meteosensors;

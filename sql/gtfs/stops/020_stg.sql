@@ -33,3 +33,5 @@ FROM (
     FROM src_gtfs_stops
     ) a
 );
+
+TRUNCATE src_gtfs_stops
