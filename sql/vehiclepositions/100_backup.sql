@@ -10,8 +10,6 @@ SELECT
     gtfs_trip_headsign,
     gtfs_trip_short_name,
     gtfs_route_short_name,
-    agency_name_real,
-    agency_name_scheduled,
     sequence_id,
     start_timestamp,
     last_stop_arrival,
@@ -19,10 +17,8 @@ SELECT
     last_stop_id,
     last_stop_sequence,
     last_stop_arrival_time,
-    next_stop_id,
-    next_stop_sequence,
-    next_stop_arrival_time,
-    next_stop_departure_time,
-    is_canceled,
-    origin_timestamp
+    origin_timestamp,
+    _sys_record_id,
+    _sys_load_at,
+    i
 FROM stg_vehiclepositions;
