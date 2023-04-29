@@ -18,13 +18,13 @@ dag = DAG(
 
 
 parking_measurements = MySqlOperator(
-    sql='/parking/measurements/create_table.sql',
+    sql='/parking/measurements/100_backup.sql',
     task_id="backup_table_parking_measurements",
     mysql_conn_id=def_conn_id,
 )
 
 parking_spaces = MySqlOperator(
-    sql='/parking/create_table.sql',
+    sql='/parking/100_backup.sql',
     task_id="backup_table_parking",
     mysql_conn_id=def_conn_id,
 )
