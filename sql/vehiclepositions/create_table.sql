@@ -91,5 +91,5 @@ CREATE TABLE IF NOT EXISTS stg_vehiclepositions_backup (
     next_stop_departure_time TIMESTAMP,
     is_canceled VARCHAR(255),
     origin_timestamp TIMESTAMP,
-    CONSTRAINT id PRIMARY KEY (_sys_record_id,i,_sys_load_at,gtfs_trip_id)
+    CONSTRAINT id PRIMARY KEY (gtfs_trip_id)
   );
