@@ -4,9 +4,7 @@ from airflow.operators.mysql_operator import MySqlOperator
 from datetime import datetime
 
 
-def_entity = 'parking_measurements'
-def_endpoint = 'parking/measurements'
-
+def_entity = 'backup_tables'
 def_conn_id = "mysql-db"
 
 # Define the DAG
