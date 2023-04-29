@@ -76,8 +76,6 @@ CREATE TABLE IF NOT EXISTS stg_vehiclepositions_backup (
     gtfs_trip_headsign VARCHAR(255),
     gtfs_trip_short_name VARCHAR(255),
     gtfs_route_short_name VARCHAR(255),
-    agency_name_real VARCHAR(255),
-    agency_name_scheduled VARCHAR(255),
     sequence_id VARCHAR(255),
     start_timestamp TIMESTAMP,
     last_stop_arrival VARCHAR(255),
@@ -85,11 +83,9 @@ CREATE TABLE IF NOT EXISTS stg_vehiclepositions_backup (
     last_stop_id VARCHAR(255),
     last_stop_sequence VARCHAR(255),
     last_stop_arrival_time TIMESTAMP,
-    next_stop_id VARCHAR(255),
-    next_stop_sequence VARCHAR(255),
-    next_stop_arrival_time TIMESTAMP,
-    next_stop_departure_time TIMESTAMP,
-    is_canceled VARCHAR(255),
     origin_timestamp TIMESTAMP,
-    CONSTRAINT id PRIMARY KEY (gtfs_trip_id)
+    _sys_record_id INT,
+    _sys_load_at TIMESTAMP,
+    i INT,
+    CONSTRAINT id PRIMARY KEY (_sys_record_id,i,_sys_load_at,gtfs_trip_id)
   );
