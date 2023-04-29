@@ -11,7 +11,7 @@ def_conn_id = "mysql-db"
 dag = DAG(
     dag_id=def_entity,
     start_date=datetime(2023, 3, 12),
-    schedule_interval=None,
+    schedule_interval='30 0 * * *',
     catchup=False,
     template_searchpath=["/home/melicharovykrecek/diploma/sql"]
 )
@@ -29,6 +29,12 @@ parking_spaces = MySqlOperator(
     mysql_conn_id=def_conn_id,
 )
 
+vehicle_positions = MySqlOperator(
+    sql='/vehiclepositions/100_backup.sql',
+    task_id="backup_table_vehiclepositions",
+    mysql_conn_id=def_conn_id,
+)
+
 # Define a task to trigger all tasks at once
 trigger_tasks = PythonOperator(
     task_id='trigger_tasks',
@@ -38,6 +44,4 @@ trigger_tasks = PythonOperator(
 
 # Set task dependencies
 
-trigger_tasks >> [parking_measurements, parking_spaces]
-
-
+trigger_tasks >> [parking_measurements, parking_spaces, vehicle_positions]
