@@ -17,7 +17,6 @@ SELECT
     last_stop_id,
     last_stop_sequence,
     last_stop_arrival_time,
-    origin_timestamp,
     _sys_record_id,
     _sys_load_at,
     i

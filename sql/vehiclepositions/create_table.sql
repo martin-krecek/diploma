@@ -83,7 +83,6 @@ CREATE TABLE IF NOT EXISTS stg_vehiclepositions_backup (
     last_stop_id VARCHAR(255),
     last_stop_sequence VARCHAR(255),
     last_stop_arrival_time TIMESTAMP,
-    origin_timestamp TIMESTAMP,
     _sys_record_id INT,
     _sys_load_at TIMESTAMP,
     i INT,
