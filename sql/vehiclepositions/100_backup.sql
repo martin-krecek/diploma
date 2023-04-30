@@ -12,6 +12,7 @@ SELECT
     gtfs_route_short_name,
     sequence_id,
     start_timestamp,
+    actual,
     last_stop_arrival,
     last_stop_departure,
     last_stop_id,

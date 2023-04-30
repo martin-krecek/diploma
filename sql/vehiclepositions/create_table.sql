@@ -78,6 +78,7 @@ CREATE TABLE IF NOT EXISTS stg_vehiclepositions_backup (
     gtfs_route_short_name VARCHAR(255),
     sequence_id VARCHAR(255),
     start_timestamp TIMESTAMP,
+    actual VARCHAR(255),
     last_stop_arrival VARCHAR(255),
     last_stop_departure VARCHAR(255),
     last_stop_id VARCHAR(255),
