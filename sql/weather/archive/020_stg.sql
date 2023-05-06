@@ -21,7 +21,7 @@ FROM (
         `time`,
         `rain`,
         `snowfall`,
-        `temperature`,
+        `temperature`
     FROM src_weather_archive
     )
 );
