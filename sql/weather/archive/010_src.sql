@@ -16,7 +16,7 @@ FROM
             time JSON PATH '$[0][0]',
             rain JSON PATH '$[0][1]',
             snowfall JSON PATH '$[0][2]',
-            temperature JSON PATH '$[0][3]',
+            temperature JSON PATH '$[0][3]'
             )
     ) AS r
 );
