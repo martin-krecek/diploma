@@ -31,5 +31,5 @@ CREATE TABLE IF NOT EXISTS stg_weather_archive (
     _sys_load_at TIMESTAMP,
     _sys_is_deleted VARCHAR(255),
     i INT,
-    PRIMARY KEY (time)
+    PRIMARY KEY (weather_archive_id)
   );

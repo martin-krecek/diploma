@@ -18,7 +18,7 @@ FROM (
         `_sys_load_at`,
         `_sys_is_deleted`,
         `i`,
-        `time`,
+        REPLACE(`time`, '"', '') AS `time`,
         `rain`,
         `snowfall`,
         `temperature`
