@@ -4,6 +4,7 @@ SELECT
     CONCAT(`time`, '_', `rain`, '_', `temperature`) AS `weather_archive_id`,
     `time_ts`,
     `time`,
+    `precipitation`,
     `rain`,
     `snowfall`,
     `temperature`,
@@ -21,6 +22,7 @@ FROM (
         `i`,
         `time` AS `time_ts`,
         REPLACE(`time`, '"', '') AS `time`,
+        `precipitation`,
         `rain`,
         `snowfall`,
         `temperature`

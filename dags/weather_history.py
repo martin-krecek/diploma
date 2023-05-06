@@ -10,7 +10,7 @@ def_entity = 'weather_archive'
 def_endpoint = 'archive'
 start_date = '{{ dag_run.conf["start_date"]}}'
 end_date = '{{ dag_run.conf["end_date"]}}'
-def_query = f'?latitude=50.09&longitude=14.42&start_date={start_date}&end_date={end_date}&hourly=temperature_2m,rain,snowfall&daily=sunrise&timezone=Europe%2FBerlin'
+def_query = f'?latitude=50.09&longitude=14.42&start_date={start_date}&end_date={end_date}&hourly=temperature_2m,precipitation,rain,snowfall&daily=sunrise&timezone=Europe%2FBerlin'
 def_conn_id = "mysql-db"
 
 jsondata = f'/tmp/{def_entity}.csv'
@@ -21,12 +21,13 @@ if os.path.exists(file):
 
     hourly_time = jsondata['hourly']['time']
     # Extract remaining data from hourly data
+    precipitation = jsondata['hourly']['precipitation']
     rain = jsondata['hourly']['rain']
     snow = jsondata['hourly']['snowfall']
     temperature = jsondata['hourly']['temperature_2m']
     data = []
     for i in range(len(hourly_time)):
-            data.append([hourly_time[i], rain[i], snow[i], temperature[i]])
+            data.append([hourly_time[i], precipitation[i], rain[i], snow[i], temperature[i]])
 
     jsondata = str((data)).replace('\'','\"').replace('None','null').replace('True', 'true').replace('False', 'false')
 

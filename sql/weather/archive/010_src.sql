@@ -14,9 +14,10 @@ FROM
         COLUMNS (
             i FOR ORDINALITY,
             time JSON PATH '$[0][0]',
-            rain JSON PATH '$[1][0]',
-            snowfall JSON PATH '$[2][0]',
-            temperature JSON PATH '$[3][0]'
+            precipitation JSON PATH '$[1][0]',
+            rain JSON PATH '$[2][0]',
+            snowfall JSON PATH '$[3][0]',
+            temperature JSON PATH '$[4][0]'
             )
     ) AS r
 );
