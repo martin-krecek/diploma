@@ -40,14 +40,14 @@ dag = DAG(
 
 # Define a Python function to check if the endpoint is available
 def check_endpoint(endpoint, query):
-    url = f'https://archive-api.open-meteo.com/v1/{endpoint}{query}'
+    url = f'https://api.open-meteo.com/v1/{endpoint}{query}'
     response = requests.get(url)
     if response.status_code != 200:
         raise ValueError('Endpoint not available')
 
 # Define a Python function to download the file
 def download_file(endpoint, query, filename):
-    url = f'https://archive-api.open-meteo.com/v1/{endpoint}{query}'
+    url = f'https://api.open-meteo.com/v1/{endpoint}{query}'
     response = requests.get(url, stream=True)
     with open(f'/tmp/{filename}.csv', 'wb') as f:
         for chunk in response.iter_content(chunk_size=1024):
