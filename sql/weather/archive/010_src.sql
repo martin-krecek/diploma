@@ -20,5 +20,3 @@ FROM
             )
     ) AS r
 );
-
---TRUNCATE pre_weather_archive

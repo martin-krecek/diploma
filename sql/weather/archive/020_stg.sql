@@ -25,5 +25,3 @@ FROM (
     FROM src_weather_archive
     ) a
 );
-
---TRUNCATE src_weather_archive
