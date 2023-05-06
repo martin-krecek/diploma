@@ -2,6 +2,7 @@ INSERT IGNORE INTO stg_weather_archive
 (
 SELECT
     CONCAT(`time`, '_', `rain`, '_', `temperature`) AS `weather_archive_id`,
+    `time_ts`,
     `time`,
     `rain`,
     `snowfall`,
@@ -18,6 +19,7 @@ FROM (
         `_sys_load_at`,
         `_sys_is_deleted`,
         `i`,
+        `time` AS `time_ts`,
         REPLACE(`time`, '"', '') AS `time`,
         `rain`,
         `snowfall`,
@@ -25,5 +27,3 @@ FROM (
     FROM src_weather_archive
     ) AS r
 );
-
-TRUNCATE TABLE src_weather_archive;
