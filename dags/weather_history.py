@@ -86,7 +86,7 @@ create_table = MySqlOperator(
 )
 
 insert_values = MySqlOperator(
-    sql=f"INSERT INTO pre_{def_entity} VALUES (\'0\',\'[{jsondata}]\',\' 0 \',\'"+str(datetime.now())+"\',\'0\');",
+    sql=f"INSERT INTO pre_{def_entity} VALUES (\'0\',\'{jsondata}\',\' 0 \',\'"+str(datetime.now())+"\',\'0\');",
     task_id=f"insert_values_{def_entity}",
     mysql_conn_id=def_conn_id,
 )
