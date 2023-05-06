@@ -23,5 +23,5 @@ FROM (
         `snowfall`,
         `temperature`
     FROM src_weather_archive
-    )
+    ) AS r
 );
