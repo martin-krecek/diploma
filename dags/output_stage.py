@@ -17,6 +17,7 @@ create_output_stage = MySqlOperator(
     sql=f'/output_stage.sql',
     task_id=f"output_stage",
     mysql_conn_id=def_conn_id,
+    dag=dag
 )
 
 # Set task dependencies
