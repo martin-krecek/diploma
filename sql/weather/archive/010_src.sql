@@ -13,8 +13,10 @@ FROM
         '$[*]'
         COLUMNS (
             i FOR ORDINALITY,
-            jdoc JSON PATH '$[0]'
-            time JSON PATH '$.hourly.time'
+            time JSON PATH '$.hourly.time',
+            rain JSON PATH '$.hourly.rain',
+            snowfall JSON PATH '$.hourly.snowfall',
+            temperature JSON PATH '$.hourly.temperature'
             )
     ) AS r
 );

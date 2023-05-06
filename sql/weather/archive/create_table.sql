@@ -13,7 +13,10 @@ CREATE TABLE IF NOT EXISTS src_weather_archive (
     _sys_load_at TIMESTAMP,
     _sys_is_deleted BOOLEAN,
     i INT,
-    jdoc JSON,
+    time JSON,
+    rain JSON,
+    snowfall JSON,
+    temperature JSON,
     CONSTRAINT id PRIMARY KEY (_sys_record_id,i,_sys_load_at)
 );
 
