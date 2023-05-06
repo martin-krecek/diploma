@@ -6,7 +6,7 @@ def_conn_id = "mysql-db"
 
 # Define the DAG
 dag = DAG(
-    dag_id=output_stage,
+    dag_id='output_stage',
     start_date=datetime(2023, 3, 12),
     schedule_interval=None,
     catchup=False,
