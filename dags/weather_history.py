@@ -19,11 +19,11 @@ if os.path.exists(file):
     with open (file,'r') as f:
         jsondata = json.loads(f.read())
 
-    hourly_time = jsondata[0]['hourly']['time']
+    hourly_time = jsondata['hourly']['time']
     # Extract remaining data from hourly data
-    rain = jsondata[0]['hourly']['rain']
-    snow = jsondata[0]['hourly']['snowfall']
-    temperature = jsondata[0]['hourly']['temperature_2m']
+    rain = jsondata['hourly']['rain']
+    snow = jsondata['hourly']['snowfall']
+    temperature = jsondata['hourly']['temperature_2m']
     data = []
     for i in range(len(hourly_time)):
             data.append('[',hourly_time[i] ,',', rain[i] ,',', snow[i] ,',', temperature[i],']')
