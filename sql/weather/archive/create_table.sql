@@ -22,8 +22,8 @@ CREATE TABLE IF NOT EXISTS src_weather_archive (
 
 CREATE TABLE IF NOT EXISTS stg_weather_archive (
     weather_archive_id VARCHAR(255) NOT NULL,
-    time TIMESTAMP,
-    temperature_2m VARCHAR(255),
+    time VARCHAR(255),
+    temperature_2m INT,
     snowfall VARCHAR(255),
     rain VARCHAR(255),
     _sys_record_id INT,
