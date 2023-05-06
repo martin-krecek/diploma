@@ -26,7 +26,7 @@ if os.path.exists(file):
     temperature = jsondata['hourly']['temperature_2m']
     data = []
     for i in range(len(hourly_time)):
-            data.append('[',hourly_time[i] ,',', rain[i] ,',', snow[i] ,',', temperature[i],']')
+            data.append([hourly_time[i], rain[i], snow[i], temperature[i]])
 
     jsondata = str((data)).replace('\'','\"').replace('None','null').replace('True', 'true').replace('False', 'false')
 
