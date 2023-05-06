@@ -29,3 +29,5 @@ FROM (
     FROM src_weather_archive
     ) AS r
 );
+
+TRUNCATE TABLE src_weather_archive;
