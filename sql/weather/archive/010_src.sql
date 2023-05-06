@@ -21,5 +21,3 @@ FROM
             )
     ) AS r
 );
-
-TRUNCATE TABLE pre_weather_archive;
