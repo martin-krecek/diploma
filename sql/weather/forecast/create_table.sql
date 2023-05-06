@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS stg_weather_forecast (
     time_ts TIMESTAMP,
     time VARCHAR(255),
     precipitation VARCHAR(255),
-    temperature_2m VARCHAR(255),
+    temperature VARCHAR(255),
     snowfall VARCHAR(255),
     rain VARCHAR(255),
     _sys_record_id INT,
