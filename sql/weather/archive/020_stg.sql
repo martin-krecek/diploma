@@ -26,4 +26,4 @@ FROM (
     ) a
 );
 
-TRUNCATE src_weather_archive
+--TRUNCATE src_weather_archive

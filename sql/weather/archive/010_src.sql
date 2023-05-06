@@ -14,8 +14,9 @@ FROM
         COLUMNS (
             i FOR ORDINALITY,
             jdoc JSON PATH '$[0]'
+            time JSON PATH '$.hourly.time'
             )
     ) AS r
 );
 
-TRUNCATE pre_weather_archive
+--TRUNCATE pre_weather_archive
