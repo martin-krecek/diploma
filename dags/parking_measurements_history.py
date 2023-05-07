@@ -127,6 +127,7 @@ timedelta_add = PythonOperator(
     task_id='timedelta_add',
     python_callable=timedelta_fn,
     op_kwargs={
+        'source_id': source_id,
         'fromm': fromm,
         'to': to
     },
