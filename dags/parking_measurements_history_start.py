@@ -62,6 +62,7 @@ def timedelta_fn(source_id, fromm, to, **kwargs):
     too = to.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
     logging.info(frommm)
     logging.info(too)
+    logging.info(source_id)
     TriggerDagRunOperator(
         task_id='trigger_next_dag_run',
         trigger_dag_id=def_entity,
