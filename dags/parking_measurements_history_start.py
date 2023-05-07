@@ -13,7 +13,8 @@ headers = {"Content-Type": "application/json; charset=utf-8", "x-access-token": 
 
 fromm = '{{ dag_run.conf["from"]}}'
 to = '{{ dag_run.conf["to"]}}'
-source = '&sourceId=534002'
+source_id = '{{ dag_run.conf["source_id"]}}'
+source = f'&sourceId={source_id}'
 
 def_entity = 'parking_measurements_history'
 def_endpoint = 'parking/measurements'
@@ -54,7 +55,7 @@ def download_file(headers, endpoint, query, filename):
                 f.write(chunk)
 
 # Define the function to decide which task to execute next
-def timedelta_fn(fromm, to, **kwargs):
+def timedelta_fn(source_id, fromm, to, **kwargs):
     fromm = datetime.strptime(fromm, "%Y-%m-%dT%H:%M:%S.%fZ") + timedelta(hours=12)
     frommm = fromm.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
     to = datetime.strptime(to, "%Y-%m-%dT%H:%M:%S.%fZ") + timedelta(hours=12)
@@ -66,7 +67,8 @@ def timedelta_fn(fromm, to, **kwargs):
         trigger_dag_id=def_entity,
         conf={
             'from': frommm,
-            'to': too
+            'to': too,
+            'source_id': source_id
         }
     ).execute(context=kwargs)
 
@@ -124,6 +126,7 @@ timedelta_add = PythonOperator(
     task_id='timedelta_add',
     python_callable=timedelta_fn,
     op_kwargs={
+        'source_id': source_id,
         'fromm': fromm,
         'to': to
     },
