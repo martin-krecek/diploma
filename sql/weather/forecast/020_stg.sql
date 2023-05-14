@@ -1,7 +1,7 @@
 INSERT IGNORE INTO stg_weather_forecast
 (
 SELECT
-    CONCAT(`time`, '_', `rain`, '_', `temperature`) AS `weather_forecast_id`,
+    CONCAT(`time`, '_', `rain`, '_', `temperature`, '_', `_sys_load_at`) AS `weather_forecast_id`,
     `time_ts`,
     `time`,
     `precipitation`,
