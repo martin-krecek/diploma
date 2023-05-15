@@ -38,7 +38,7 @@ table = 'parking_measurements'
 parking_id = 'tsk-534017'
 
 DATE_COLUMN = 'timestamp'
-DATA_URL = (f'predictions_output/predictions_{table}_{parking_id}_{current_date}.csv')
+DATA_URL = (f'predictions/output/predictions_{table}_{parking_id}_{current_date}.csv')
 
 @st.cache_data
 def load_data():
