@@ -209,7 +209,7 @@ def run_python_script():
         #plt.show()
 
         # Save the model
-        model.save(f'models/model_{table}_{parking_id}.h5')
+        model.save(f'diploma/models/model_{table}_{parking_id}.h5')
 
         return model
 

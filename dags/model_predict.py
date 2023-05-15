@@ -179,7 +179,7 @@ def run_model_predict():
 
         # evaluate predictions days for each week
         predictions = array(predictions)
-        np.savetxt(f'predictions_input/predictions_{table}_{parking_id}_{current_date}.csv', predictions, delimiter=',', fmt='%.1f')
+        np.savetxt(f'diploma/predictions/input/predictions_{table}_{parking_id}_{current_date}.csv', predictions, delimiter=',', fmt='%.1f')
 
         return predictions
 
@@ -239,7 +239,7 @@ def run_file_merge():
     parking_id = 'tsk-534017'
 
     # Open the CSV file for reading
-    with open(f'predictions_input/predictions_{table}_{parking_id}_{current_date}.csv', 'r') as file:
+    with open(f'diploma/predictions/input/predictions_{table}_{parking_id}_{current_date}.csv', 'r') as file:
         reader = csv.reader(file)
         
         # Read all rows into a list
@@ -277,7 +277,7 @@ def run_file_merge():
     rows = [line.split(',') for line in lines]
 
     # Open a new CSV file for writing
-    with open(f'predictions_output/predictions_{table}_{parking_id}_{current_date}.csv', 'w', newline='') as file:
+    with open(f'diploma/predictions/output/predictions_{table}_{parking_id}_{current_date}.csv', 'w', newline='') as file:
         
         writer = csv.writer(file)
         writer.writerow(header)
