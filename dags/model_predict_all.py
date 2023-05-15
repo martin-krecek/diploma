@@ -300,8 +300,8 @@ file_merge_tas_1 = PythonOperator(
     op_kwargs={
         'table': 'parking_measurements',
         'parking_id': 'tsk-534017',
-        'latitude': '14.492015',
-        'longitude': '50.032074'
+        'latitude': '50.032074',
+        'longitude': '14.492015'
     },
     dag=dag
 )
@@ -322,8 +322,8 @@ file_merge_tas_2 = PythonOperator(
     op_kwargs={
         'table': 'parking_measurements',
         'parking_id': 'tsk-534016',
-        'latitude': '14.514741',
-        'longitude': '50.125168'
+        'latitude': '50.125168',
+        'longitude': '14.514741'
     },
     dag=dag
 )
