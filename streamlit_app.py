@@ -59,8 +59,4 @@ if st.checkbox('Show raw data'):
 
 st.subheader('Number of pickups by hour')
 
-print('\ndata["value"] \n',data['value'])
-
-print('\ndata \n',data)
-
 st.bar_chart(data)
