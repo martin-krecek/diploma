@@ -37,8 +37,8 @@ current_date = date.today()
 DATE_COLUMN = 'timestamp'
 
 @st.cache_data
-def load_data():
-    data = pd.read_csv(f'predictions/output/predictions_{table}_{parking_id}_{current_date}.csv')
+def load_data(entity, parking):
+    data = pd.read_csv(f'predictions/output/predictions_{entity}_{parking}_{current_date}.csv')
     lowercase = lambda x: str(x).lower()
     data.rename(lowercase, axis='columns', inplace=True)
     print('\n\n\n',data)
