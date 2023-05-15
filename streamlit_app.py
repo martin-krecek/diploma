@@ -59,4 +59,7 @@ if st.checkbox('Show raw data'):
 
 st.subheader('Number of pickups by hour')
 
-st.bar_chart(data)
+# Rename the 'value' column to a different name
+data = data.rename(columns={"value": "my_value"})
+# Display the bar chart
+st.bar_chart(data["my_value"])
