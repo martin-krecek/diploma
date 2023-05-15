@@ -61,4 +61,4 @@ st.subheader('Number of used parking spaces by hour')
 # Rename the 'value' column to a different name
 data = data.rename(columns={"value": "Chodov"})
 # Display the bar chart
-st.bar_chart(data["Chodov"])
+st.bar_chart(data["Chodov"], x=data['timestamp'])
