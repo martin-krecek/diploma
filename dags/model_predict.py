@@ -4,7 +4,7 @@ from airflow.operators.python_operator import PythonOperator
 from datetime import datetime
 import subprocess
 
-def run_python_script():
+def run_model_predict():
     #
     # PREDICT - best results so far
     # WEEKLY PREDICTION (CANNOT BE DIFFERENT - THERE ARE SOME TIMESTAMP CALCULATED IN WEATHER TABLE FOR EXACTLY 1 WEEK PREDICTION)
@@ -179,7 +179,7 @@ def run_python_script():
 
         # evaluate predictions days for each week
         predictions = array(predictions)
-        np.savetxt(f'predictions/predictions_{table}_{parking_id}_{current_date}.csv', predictions, delimiter=',', fmt='%.1f')
+        np.savetxt(f'predictions\predictions_{table}_{parking_id}_{current_date}.csv', predictions, delimiter=',', fmt='%.1f')
 
         return predictions
 
@@ -218,6 +218,63 @@ def run_python_script():
 
     predictions = evaluate_model(test_predict, n_input)
 
+def run_file_merge():
+    import pandas as pd
+    from datetime import datetime, timedelta
+    import csv
+
+    current_date = datetime.date.today()
+    table = 'parking_measurements'
+    parking_id = 'tsk-534017'
+
+    # Open the CSV file for reading
+    with open(f'predictions\predictions_{table}_{parking_id}_{current_date}.csv', 'r') as file:
+        reader = csv.reader(file)
+        
+        # Read all rows into a list
+        rows = list(reader)
+
+    # Merge values into one row
+    merged_row = []
+    for row in rows:
+        merged_row.extend(row)
+
+    print(merged_row)
+
+
+    # Starting datetime (tomorrow at 00:00)
+    start_datetime = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=1)
+
+    # Increment in hours
+    increment = timedelta(hours=1)
+
+    # Add timestamp to every row
+    result = ""
+    for value in merged_row:
+        result += f"{start_datetime.strftime('%Y-%m-%d %H:%M:%S')},{value}\n"
+        start_datetime += increment
+
+    # Print the result
+    print(type(result))
+
+
+    # Split the data into individual lines
+    lines = result.strip().split('\n')
+
+    # Extract the header and data rows
+    header = ['Timestamp', 'Value']
+    rows = [line.split(',') for line in lines]
+
+    # Open a new CSV file for writing
+    with open(f'predictions_output/predictions_{table}_{parking_id}_{current_date}.csv', 'w', newline='') as file:
+        
+        writer = csv.writer(file)
+        writer.writerow(header)
+        # Write each line as a row to the CSV file
+        for line in lines:
+            writer.writerow(line.split(','))
+
+
 
 # Define the DAG
 dag = DAG(
@@ -230,9 +287,15 @@ dag = DAG(
 
 model_predict_task = PythonOperator(
     task_id='model_predict_task',
-    python_callable=run_python_script,
+    python_callable=run_model_predict,
+    dag=dag
+)
+
+file_merge_task = PythonOperator(
+    task_id='file_merge_task',
+    python_callable=run_file_merge,
     dag=dag
 )
 
 # Set task dependencies
-model_predict_task
+model_predict_task >> file_merge_task
