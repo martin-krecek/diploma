@@ -4,7 +4,7 @@ from airflow.operators.python_operator import PythonOperator
 from datetime import datetime
 import subprocess
 
-def run_model_predict(table, parking_id):
+def run_model_predict_all(table, parking_id):
     #
     # PREDICT - best results so far
     # WEEKLY PREDICTION (CANNOT BE DIFFERENT - THERE ARE SOME TIMESTAMP CALCULATED IN WEATHER TABLE FOR EXACTLY 1 WEEK PREDICTION)
@@ -278,16 +278,16 @@ def run_file_merge(table, parking_id):
 
 # Define the DAG
 dag = DAG(
-    dag_id='model_predict',
+    dag_id='model_predict_all',
     start_date=datetime(2023, 3, 12),
     schedule_interval=None,
     catchup=False,
     template_searchpath=["/home/melicharovykrecek/diploma/sql"]
 )
 
-model_predict_task_1 = PythonOperator(
-    task_id='model_predict_task_1',
-    python_callable=run_model_predict,
+model_predict_all_task_1 = PythonOperator(
+    task_id='model_predict_all_task_1',
+    python_callable=run_model_predict_all,
     op_kwargs={
         'table': 'parking_measurements',
         'parking_id': 'tsk-534017'
@@ -305,9 +305,9 @@ file_merge_tas_1 = PythonOperator(
     dag=dag
 )
 
-model_predict_task_2 = PythonOperator(
-    task_id='model_predict_task_2',
-    python_callable=run_model_predict,
+model_predict_all_task_2 = PythonOperator(
+    task_id='model_predict_all_task_2',
+    python_callable=run_model_predict_all,
     op_kwargs={
         'table': 'parking_measurements',
         'parking_id': 'tsk-534017'
@@ -326,4 +326,4 @@ file_merge_tas_2 = PythonOperator(
 )
 
 # Set task dependencies
-[model_predict_task_1, model_predict_task_2] >> [file_merge_tas_1, file_merge_tas_2]
+[model_predict_all_task_1, model_predict_all_task_2] >> [file_merge_tas_1, file_merge_tas_2]

@@ -34,15 +34,11 @@ from datetime import date
 st.title('P+R Chodov')
 
 current_date = date.today()
-table = 'parking_measurements'
-parking_id = 'tsk-534017'
-
 DATE_COLUMN = 'timestamp'
-DATA_URL = (f'predictions/output/predictions_{table}_{parking_id}_{current_date}.csv')
 
 @st.cache_data
 def load_data():
-    data = pd.read_csv(DATA_URL)
+    data = pd.read_csv(f'predictions/output/predictions_{table}_{parking_id}_{current_date}.csv')
     lowercase = lambda x: str(x).lower()
     data.rename(lowercase, axis='columns', inplace=True)
     print('\n\n\n',data)
@@ -51,7 +47,11 @@ def load_data():
     return data
 
 data_load_state = st.text('Loading data...')
-data = load_data()
+
+################################################################## 17
+table = 'parking_measurements'
+parking_id = 'tsk-534017'
+data = load_data(table, parking_id)
 
 if st.checkbox('Show raw data'):
     st.subheader('Raw data')
@@ -63,3 +63,19 @@ st.subheader('Number of used parking spaces by hour')
 data = data.rename(columns={"value": "chodov"})
 # Display the bar chart
 st.bar_chart(data["chodov"])
+
+################################################################## 16
+table = 'parking_measurements'
+parking_id = 'tsk-534016'
+data = load_data(table, parking_id)
+
+if st.checkbox('Show raw data'):
+    st.subheader('Raw data')
+    st.write(data)
+
+st.subheader('Number of used parking spaces by hour')
+
+# Rename the 'value' column to a different name
+data = data.rename(columns={"value": "letnany"})
+# Display the bar chart
+st.bar_chart(data["letnany"])
