@@ -277,7 +277,7 @@ def run_file_merge(table, parking_id):
 dag = DAG(
     dag_id='model_predict_all',
     start_date=datetime(2023, 3, 12),
-    schedule_interval=None,
+    schedule_interval='0 3 * * *',
     catchup=False,
     template_searchpath=["/home/melicharovykrecek/diploma/sql"]
 )

@@ -25,7 +25,7 @@ if os.path.exists(file):
 dag = DAG(
     dag_id=def_entity,
     start_date=datetime(2023, 3, 12),
-    schedule_interval='0 * * * *',
+    schedule_interval='0 9 * * 3',
     catchup=False,
     template_searchpath=["/home/melicharovykrecek/diploma/sql"]
 )
