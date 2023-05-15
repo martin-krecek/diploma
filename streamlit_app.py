@@ -47,6 +47,7 @@ def load_data():
     data.rename(lowercase, axis='columns', inplace=True)
     print('\n\n\n',data)
     data[DATE_COLUMN] = pd.to_datetime(data[DATE_COLUMN])
+    data.set_index('timestamp', inplace=True)
     return data
 
 data_load_state = st.text('Loading data...')
@@ -59,6 +60,6 @@ if st.checkbox('Show raw data'):
 st.subheader('Number of used parking spaces by hour')
 
 # Rename the 'value' column to a different name
-data = data.rename(columns={"value": "Chodov"})
+data = data.rename(columns={"value": "chodov"})
 # Display the bar chart
-st.bar_chart(data["Chodov"], x=data['timestamp'])
+st.bar_chart(data["chodov"])

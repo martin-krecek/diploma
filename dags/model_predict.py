@@ -250,8 +250,7 @@ def run_file_merge():
         merged_row.extend(row)
 
     # Starting datetime (tomorrow at 00:00)
-    start_datetime = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=1)
-
+    start_datetime = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
     # Increment in hours
     increment = timedelta(hours=1)
 
