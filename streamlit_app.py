@@ -53,7 +53,7 @@ table = 'parking_measurements'
 parking_id = 'tsk-534017'
 data = load_data(table, parking_id)
 
-if st.checkbox('Show raw data'):
+if st.checkbox('Show raw data', key='checkbox1'):
     st.subheader('Raw data')
     st.write(data)
 
@@ -69,7 +69,7 @@ table = 'parking_measurements'
 parking_id = 'tsk-534016'
 data = load_data(table, parking_id)
 
-if st.checkbox('Show raw data'):
+if st.checkbox('Show raw data', key='checkbox2'):
     st.subheader('Raw data')
     st.write(data)
 
