@@ -310,7 +310,7 @@ model_predict_all_task_2 = PythonOperator(
     python_callable=run_model_predict_all,
     op_kwargs={
         'table': 'parking_measurements',
-        'parking_id': 'tsk-534017'
+        'parking_id': 'tsk-534016'
     },
     dag=dag
 )
@@ -320,7 +320,7 @@ file_merge_tas_2 = PythonOperator(
     python_callable=run_file_merge,
     op_kwargs={
         'table': 'parking_measurements',
-        'parking_id': 'tsk-534017'
+        'parking_id': 'tsk-534016'
     },
     dag=dag
 )
