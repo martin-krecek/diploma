@@ -179,7 +179,7 @@ def run_model_predict():
 
         # evaluate predictions days for each week
         predictions = array(predictions)
-        np.savetxt(f'predictions\predictions_{table}_{parking_id}_{current_date}.csv', predictions, delimiter=',', fmt='%.1f')
+        np.savetxt(f'predictions_input/predictions_{table}_{parking_id}_{current_date}.csv', predictions, delimiter=',', fmt='%.1f')
 
         return predictions
 
@@ -218,17 +218,29 @@ def run_model_predict():
 
     predictions = evaluate_model(test_predict, n_input)
 
+
+
+
+
+
+
+
+
+
+
+
 def run_file_merge():
     import pandas as pd
     from datetime import datetime, timedelta
     import csv
+    import datetime
 
     current_date = datetime.date.today()
     table = 'parking_measurements'
     parking_id = 'tsk-534017'
 
     # Open the CSV file for reading
-    with open(f'predictions\predictions_{table}_{parking_id}_{current_date}.csv', 'r') as file:
+    with open(f'predictions_input/predictions_{table}_{parking_id}_{current_date}.csv', 'r') as file:
         reader = csv.reader(file)
         
         # Read all rows into a list
