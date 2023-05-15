@@ -231,15 +231,11 @@ def run_model_predict():
 
 def run_file_merge():
     import pandas as pd
-    from datetime import date, datetime, timedelta
+    from datetime import datetime, timedelta
     import csv
 
-    current_date = date.today()
-    table = 'parking_measurements'
-    parking_id = 'tsk-534017'
-
     # Open the CSV file for reading
-    with open(f'diploma/predictions/input/predictions_{table}_{parking_id}_{current_date}.csv', 'r') as file:
+    with open('predictions.csv', 'r') as file:
         reader = csv.reader(file)
         
         # Read all rows into a list
@@ -250,40 +246,33 @@ def run_file_merge():
     for row in rows:
         merged_row.extend(row)
 
-    print(merged_row)
-
-
     # Starting datetime (tomorrow at 00:00)
     start_datetime = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=1)
 
     # Increment in hours
     increment = timedelta(hours=1)
 
-    # Add timestamp to every row
-    result = ""
+    # Create a list to store the modified rows
+    modified_rows = []
+
+    # Add timestamp to every row and set value to 0 between 22:00 and 5:00
     for value in merged_row:
-        result += f"{start_datetime.strftime('%Y-%m-%d %H:%M:%S')},{value}\n"
+        timestamp = start_datetime.strftime('%Y-%m-%d %H:%M:%S')
+        if start_datetime.hour >= 22 or start_datetime.hour < 5:
+            value = 0
+        modified_rows.append([timestamp, value])
         start_datetime += increment
 
-    # Print the result
-    print(type(result))
-
-
-    # Split the data into individual lines
-    lines = result.strip().split('\n')
-
-    # Extract the header and data rows
-    header = ['Timestamp', 'Value']
-    rows = [line.split(',') for line in lines]
-
     # Open a new CSV file for writing
-    with open(f'diploma/predictions/output/predictions_{table}_{parking_id}_{current_date}.csv', 'w', newline='') as file:
-        
+    with open('output.csv', 'w', newline='') as file:
         writer = csv.writer(file)
-        writer.writerow(header)
-        # Write each line as a row to the CSV file
-        for line in lines:
-            writer.writerow(line.split(','))
+        
+        # Write the header
+        writer.writerow(['Timestamp', 'Value'])
+        
+        # Write each modified row to the CSV file
+        writer.writerows(modified_rows)
+
 
 
 
