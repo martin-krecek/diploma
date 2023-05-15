@@ -233,9 +233,12 @@ def run_file_merge():
     import pandas as pd
     from datetime import datetime, timedelta
     import csv
+    current_date = datetime.date.today()
+    table = 'parking_measurements'
+    parking_id = 'tsk-534017'
 
     # Open the CSV file for reading
-    with open('predictions.csv', 'r') as file:
+    with open(f'diploma/predictions/input/predictions_{table}_{parking_id}_{current_date}.csv', 'r') as file:
         reader = csv.reader(file)
         
         # Read all rows into a list
@@ -264,7 +267,7 @@ def run_file_merge():
         start_datetime += increment
 
     # Open a new CSV file for writing
-    with open('output.csv', 'w', newline='') as file:
+    with open(f'diploma/predictions/output/predictions_{table}_{parking_id}_{current_date}.csv', 'w', newline='') as file:
         writer = csv.writer(file)
         
         # Write the header
