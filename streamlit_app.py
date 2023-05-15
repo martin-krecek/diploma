@@ -57,10 +57,6 @@ if st.checkbox('Show raw data'):
     st.subheader('Raw data')
     st.write(data)
 
-'''st.subheader('Number of pickups by hour')
-hist_values = np.histogram(data, bins=168)
-st.bar_chart(hist_values)'''
-
 #df = pd.read_csv(StringIO(data))
 
 st.write("Here's our first attempt at using data to create a table:")
@@ -68,5 +64,7 @@ st.write(data)
 
 st.subheader('Number of pickups by hour')
 print('\ndata["value"] \n',data['value'])
+
+print('\ndata \n',data)
 #print('\nhist_values: \n',d)
 st.bar_chart(data['value'])
