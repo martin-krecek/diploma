@@ -231,11 +231,10 @@ def run_model_predict():
 
 def run_file_merge():
     import pandas as pd
-    from datetime import datetime, timedelta
+    from datetime import date, datetime, timedelta
     import csv
-    import datetime
 
-    current_date = datetime.date.today()
+    current_date = date.today()
     table = 'parking_measurements'
     parking_id = 'tsk-534017'
 
