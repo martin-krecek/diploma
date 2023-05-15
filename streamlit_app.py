@@ -29,13 +29,16 @@ st.write(df)'''
 
 import streamlit as st
 import pandas as pd
-import numpy as np
-from io import StringIO
+from datetime import date
 
 st.title('Uber pickups in NYC')
 
+current_date = date.today()
+table = 'parking_measurements'
+parking_id = 'tsk-534017'
+
 DATE_COLUMN = 'timestamp'
-DATA_URL = ('output.csv')
+DATA_URL = (f'predictions_output/predictions_{table}_{parking_id}_{current_date}.csv')
 
 @st.cache_data
 def load_data():
