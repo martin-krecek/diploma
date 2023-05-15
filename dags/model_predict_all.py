@@ -326,4 +326,4 @@ file_merge_tas_2 = PythonOperator(
 )
 
 # Set task dependencies
-[model_predict_all_task_1, model_predict_all_task_2] >> [file_merge_tas_1, file_merge_tas_2]
+[model_predict_all_task_1 >> file_merge_tas_1 >> model_predict_all_task_2 >>file_merge_tas_2
