@@ -226,7 +226,7 @@ def run_model_predict_all(table, parking_id):
 
 
 
-def run_file_merge(table, parking_id):
+def run_file_merge(table, parking_id, latitude, longitude):
     from datetime import date, datetime, timedelta
     import csv
 
@@ -257,7 +257,9 @@ def run_file_merge(table, parking_id):
         timestamp = start_datetime.strftime('%Y-%m-%d %H:%M:%S')
         if start_datetime.hour >= 22 or start_datetime.hour < 5:
             value = 0
-        modified_rows.append([timestamp, value])
+        lat = latitude
+        lon = longitude
+        modified_rows.append([timestamp, value, lat, lon])
         start_datetime += increment
 
     # Open a new CSV file for writing
@@ -265,7 +267,7 @@ def run_file_merge(table, parking_id):
         writer = csv.writer(file)
         
         # Write the header
-        writer.writerow(['Timestamp', 'Value'])
+        writer.writerow(['timestamp', 'value', 'lat', 'lon'])
         
         # Write each modified row to the CSV file
         writer.writerows(modified_rows)
@@ -297,7 +299,9 @@ file_merge_tas_1 = PythonOperator(
     python_callable=run_file_merge,
     op_kwargs={
         'table': 'parking_measurements',
-        'parking_id': 'tsk-534017'
+        'parking_id': 'tsk-534017',
+        'latitude': '14.492015',
+        'longitude': '50.032074'
     },
     dag=dag
 )
@@ -317,7 +321,9 @@ file_merge_tas_2 = PythonOperator(
     python_callable=run_file_merge,
     op_kwargs={
         'table': 'parking_measurements',
-        'parking_id': 'tsk-534016'
+        'parking_id': 'tsk-534016',
+        'latitude': '14.514741',
+        'longitude': '50.125168'
     },
     dag=dag
 )
