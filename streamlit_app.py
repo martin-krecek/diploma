@@ -31,7 +31,7 @@ import streamlit as st
 import pandas as pd
 from datetime import date
 
-st.title('Uber pickups in NYC')
+st.title('P+R Chodov')
 
 current_date = date.today()
 table = 'parking_measurements'
@@ -51,15 +51,14 @@ def load_data():
 
 data_load_state = st.text('Loading data...')
 data = load_data()
-data_load_state.text("Done! (using st.cache_data)")
 
 if st.checkbox('Show raw data'):
     st.subheader('Raw data')
     st.write(data)
 
-st.subheader('Number of pickups by hour')
+st.subheader('Number of used parking spaces by hour')
 
 # Rename the 'value' column to a different name
-data = data.rename(columns={"value": "my_value"})
+data = data.rename(columns={"value": "Chodov"})
 # Display the bar chart
-st.bar_chart(data["my_value"])
+st.bar_chart(data["Chodov"])
