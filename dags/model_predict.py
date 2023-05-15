@@ -179,7 +179,7 @@ def run_model_predict():
 
         # evaluate predictions days for each week
         predictions = array(predictions)
-        np.savetxt(f'/predictions_input/predictions_{table}_{parking_id}_{current_date}.csv', predictions, delimiter=',', fmt='%.1f')
+        np.savetxt(f'predictions_input/predictions_{table}_{parking_id}_{current_date}.csv', predictions, delimiter=',', fmt='%.1f')
 
         return predictions
 
