@@ -282,6 +282,14 @@ def run_file_merge(table, parking_id, latitude, longitude, name):
         # Write each modified row to the CSV file
         writer.writerows(modified_rows)
 
+def run_remove_files(table):
+    from datetime import date
+
+    current_date = date.today()
+
+    file_path = f'diploma/streamlit/predictions/output/predictions_{table}_{current_date}.csv'
+    if os.path.exists(file_path):
+        os.remove(file_path) 
 
 # Define the DAG
 dag = DAG(
@@ -290,6 +298,15 @@ dag = DAG(
     schedule_interval='0 4 * * *',
     catchup=False,
     template_searchpath=["/home/melicharovykrecek/diploma/sql"]
+)
+
+remove_files = PythonOperator(
+    task_id='remove_files',
+    python_callable=run_remove_files,
+    op_kwargs={
+        'table': 'parking_measurements'
+    },
+    dag=dag   
 )
 
 model_predict_all_task_1 = PythonOperator(
