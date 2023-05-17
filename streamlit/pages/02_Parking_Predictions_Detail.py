@@ -61,7 +61,7 @@ if st.checkbox('Show raw data', key='checkbox1'):
     st.subheader('Raw data')
     st.write(data)
 
-st.subheader('Number of used parking spaces by hour')
+st.subheader('Forecast of occupied parking spaces for 7 days in advance')
 
 # Rename the 'value' column to a different name
 data = data.rename(columns={"value": "Chodov"})
@@ -79,7 +79,7 @@ if st.checkbox('Show raw data', key='checkbox2'):
     st.subheader('Raw data')
     st.write(data2)
 
-st.subheader('Number of used parking spaces by hour')
+st.subheader('Forecast of occupied parking spaces for 7 days in advance')
 
 # Rename the 'value' column to a different name
 data2 = data2.rename(columns={"value": "Letnany"})
@@ -97,7 +97,7 @@ if st.checkbox('Show raw data', key='checkbox3'):
     st.subheader('Raw data')
     st.write(data3)
 
-st.subheader('Number of used parking spaces by hour')
+st.subheader('Forecast of occupied parking spaces for 7 days in advance')
 
 # Rename the 'value' column to a different name
 data3 = data3.rename(columns={"value": "Depo Hostivar"})
@@ -115,7 +115,7 @@ if st.checkbox('Show raw data', key='checkbox4'):
     st.subheader('Raw data')
     st.write(data4)
 
-st.subheader('Number of used parking spaces by hour')
+st.subheader('Forecast of occupied parking spaces for 7 days in advance')
 
 # Rename the 'value' column to a different name
 data4 = data4.rename(columns={"value": "Ladvi"})
@@ -133,7 +133,7 @@ if st.checkbox('Show raw data', key='checkbo54'):
     st.subheader('Raw data')
     st.write(data5)
 
-st.subheader('Number of used parking spaces by hour')
+st.subheader('Forecast of occupied parking spaces for 7 days in advance')
 
 # Rename the 'value' column to a different name
 data5 = data5.rename(columns={"value": "Skalka"})
@@ -151,7 +151,7 @@ if st.checkbox('Show raw data', key='checkbox6'):
     st.subheader('Raw data')
     st.write(data6)
 
-st.subheader('Number of used parking spaces by hour')
+st.subheader('Forecast of occupied parking spaces for 7 days in advance')
 
 # Rename the 'value' column to a different name
 data6 = data6.rename(columns={"value": "Cerny Most"})
@@ -169,7 +169,7 @@ if st.checkbox('Show raw data', key='checkbox7'):
     st.subheader('Raw data')
     st.write(data7)
 
-st.subheader('Number of used parking spaces by hour')
+st.subheader('Forecast of occupied parking spaces for 7 days in advance')
 
 # Rename the 'value' column to a different name
 data7 = data7.rename(columns={"value": "Zlicin 2"})
@@ -187,7 +187,7 @@ if st.checkbox('Show raw data', key='checkbox8'):
     st.subheader('Raw data')
     st.write(data8)
 
-st.subheader('Number of used parking spaces by hour')
+st.subheader('Forecast of occupied parking spaces for 7 days in advance')
 
 # Rename the 'value' column to a different name
 data8 = data8.rename(columns={"value": "Zlicin 1"})
@@ -205,7 +205,7 @@ if st.checkbox('Show raw data', key='checkbox9'):
     st.subheader('Raw data')
     st.write(data9)
 
-st.subheader('Number of used parking spaces by hour')
+st.subheader('Forecast of occupied parking spaces for 7 days in advance')
 
 # Rename the 'value' column to a different name
 data9 = data9.rename(columns={"value": "Opatov"})
@@ -223,7 +223,7 @@ if st.checkbox('Show raw data', key='checkbox10'):
     st.subheader('Raw data')
     st.write(data10)
 
-st.subheader('Number of used parking spaces by hour')
+st.subheader('Forecast of occupied parking spaces for 7 days in advance')
 
 # Rename the 'value' column to a different name
 data10 = data10.rename(columns={"value": "Rajska Zahrada"})
@@ -241,7 +241,7 @@ if st.checkbox('Show raw data', key='checkbox11'):
     st.subheader('Raw data')
     st.write(data11)
 
-st.subheader('Number of used parking spaces by hour')
+st.subheader('Forecast of occupied parking spaces for 7 days in advance')
 
 # Rename the 'value' column to a different name
 data11 = data11.rename(columns={"value": "Holesovice"})

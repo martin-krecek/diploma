@@ -101,7 +101,7 @@ st.pydeck_chart(pdk.Deck(
            get_position='[lon, lat]',
            get_elevation='value',
            get_color='[200, 30, 0]',
-           radius=200,
+           radius=500,
            elevation_scale=10,
            elevation_range=[0, 1000],
            pickable=True,
