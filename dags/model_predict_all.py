@@ -176,7 +176,7 @@ def run_model_predict_all(table, parking_id):
 
         # evaluate predictions days for each week
         predictions = array(predictions)
-        np.savetxt(f'diploma/predictions/input/predictions_{table}_{parking_id}_{current_date}.csv', predictions, delimiter=',', fmt='%.1f')
+        np.savetxt(f'diploma/streamlit/predictions/input/predictions_{table}_{parking_id}_{current_date}.csv', predictions, delimiter=',', fmt='%.1f')
 
         return predictions
 
@@ -226,14 +226,14 @@ def run_model_predict_all(table, parking_id):
 
 
 
-def run_file_merge(table, parking_id, latitude, longitude):
+def run_file_merge(table, parking_id, latitude, longitude, name):
     from datetime import date, datetime, timedelta
     import csv
 
     current_date = date.today()
 
     # Open the CSV file for reading
-    with open(f'diploma/predictions/input/predictions_{table}_{parking_id}_{current_date}.csv', 'r') as file:
+    with open(f'diploma/streamlit/predictions/input/predictions_{table}_{parking_id}_{current_date}.csv', 'r') as file:
         reader = csv.reader(file)
         
         # Read all rows into a list
@@ -259,11 +259,12 @@ def run_file_merge(table, parking_id, latitude, longitude):
             value = 0
         lat = latitude
         lon = longitude
-        modified_rows.append([timestamp, value, lat, lon])
+        value = int(value)
+        modified_rows.append([timestamp, value, lat, lon, name])
         start_datetime += increment
 
     # Open a new CSV file for writing
-    with open(f'diploma/predictions/output/predictions_{table}_{parking_id}_{current_date}.csv', 'w', newline='') as file:
+    with open(f'diploma/streamlit/predictions/output/predictions_{table}_{parking_id}_{current_date}.csv', 'w', newline='') as file:
         writer = csv.writer(file)
         
         # Write the header
@@ -272,14 +273,20 @@ def run_file_merge(table, parking_id, latitude, longitude):
         # Write each modified row to the CSV file
         writer.writerows(modified_rows)
 
-
+    # Create 1 consolidated file with all data
+    with open(f'diploma/streamlit/predictions/output/predictions_{table}_{current_date}.csv', 'a', newline='') as file:
+        writer = csv.writer(file)
+        # Write the header
+        writer.writerow(['timestamp', 'value', 'lat', 'lon'])
+        # Write each modified row to the CSV file
+        writer.writerows(modified_rows)
 
 
 # Define the DAG
 dag = DAG(
     dag_id='model_predict_all',
     start_date=datetime(2023, 3, 12),
-    schedule_interval='0 3 * * *',
+    schedule_interval='0 4 * * *',
     catchup=False,
     template_searchpath=["/home/melicharovykrecek/diploma/sql"]
 )
@@ -294,14 +301,15 @@ model_predict_all_task_1 = PythonOperator(
     dag=dag
 )
 
-file_merge_tas_1 = PythonOperator(
-    task_id='file_merge_tas_1',
+file_merge_task_1 = PythonOperator(
+    task_id='file_merge_task_1',
     python_callable=run_file_merge,
     op_kwargs={
         'table': 'parking_measurements',
         'parking_id': 'tsk-534017',
         'latitude': '50.032074',
-        'longitude': '14.492015'
+        'longitude': '14.492015',
+        'name': 'Chodov'
     },
     dag=dag
 )
@@ -316,17 +324,225 @@ model_predict_all_task_2 = PythonOperator(
     dag=dag
 )
 
-file_merge_tas_2 = PythonOperator(
-    task_id='file_merge_tas_2',
+file_merge_task_2 = PythonOperator(
+    task_id='file_merge_task_2',
     python_callable=run_file_merge,
     op_kwargs={
         'table': 'parking_measurements',
         'parking_id': 'tsk-534016',
         'latitude': '50.125168',
-        'longitude': '14.514741'
+        'longitude': '14.514741',
+        'name': 'Letnany'
+    },
+    dag=dag
+)
+
+model_predict_all_task_3 = PythonOperator(
+    task_id='model_predict_all_task_3',
+    python_callable=run_model_predict_all,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534015'
+    },
+    dag=dag,
+)
+
+file_merge_task_3 = PythonOperator(
+    task_id='file_merge_task_3',
+    python_callable=run_file_merge,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534015',
+        'latitude': '50.07622',
+        'longitude': '14.517897',
+        'name': 'Depo Hostivar'
+    },
+    dag=dag
+)
+
+model_predict_all_task_4 = PythonOperator(
+    task_id='model_predict_all_task_4',
+    python_callable=run_model_predict_all,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534014'
+    },
+    dag=dag,
+)
+
+file_merge_task_4 = PythonOperator(
+    task_id='file_merge_task_4',
+    python_callable=run_file_merge,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534014',
+        'latitude': '50.126156',
+        'longitude': '14.472344',
+        'name': 'Ladvi'
+    },
+    dag=dag
+)
+
+model_predict_all_task_5 = PythonOperator(
+    task_id='model_predict_all_task_5',
+    python_callable=run_model_predict_all,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534012'
+    },
+    dag=dag,
+)
+
+file_merge_task_5 = PythonOperator(
+    task_id='file_merge_task_5',
+    python_callable=run_file_merge,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534012',
+        'latitude': '50.069622',
+        'longitude': '14.507447',
+        'name': 'Skalka'
+    },
+    dag=dag
+)
+
+model_predict_all_task_6 = PythonOperator(
+    task_id='model_predict_all_task_6',
+    python_callable=run_model_predict_all,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534011'
+    },
+    dag=dag,
+)
+
+file_merge_task_6 = PythonOperator(
+    task_id='file_merge_task_6',
+    python_callable=run_file_merge,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534011',
+        'latitude': '50.110535',
+        'longitude': '14.582672',
+        'name': 'Cerny Most'
+    },
+    dag=dag
+)
+
+model_predict_all_task_7 = PythonOperator(
+    task_id='model_predict_all_task_7',
+    python_callable=run_model_predict_all,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534009'
+    },
+    dag=dag,
+)
+
+file_merge_task_7 = PythonOperator(
+    task_id='file_merge_task_7',
+    python_callable=run_file_merge,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534009',
+        'latitude': '50.053432',
+        'longitude': '14.290852',
+        'name': 'Zlicin 2'
+    },
+    dag=dag
+)
+
+model_predict_all_task_8 = PythonOperator(
+    task_id='model_predict_all_task_8',
+    python_callable=run_model_predict_all,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534008'
+    },
+    dag=dag,
+)
+
+file_merge_task_8 = PythonOperator(
+    task_id='file_merge_task_8',
+    python_callable=run_file_merge,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534008',
+        'latitude': '50.054527',
+        'longitude': '14.28977',
+        'name': 'Zlicin 1'
+    },
+    dag=dag
+)
+
+model_predict_all_task_9 = PythonOperator(
+    task_id='model_predict_all_task_9',
+    python_callable=run_model_predict_all,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534005'
+    },
+    dag=dag,
+)
+
+file_merge_task_9 = PythonOperator(
+    task_id='file_merge_task_9',
+    python_callable=run_file_merge,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534005',
+        'latitude': '50.02662',
+        'longitude': '14.509208',
+        'name': 'Opatov'
+    },
+    dag=dag
+)
+
+model_predict_all_task_10 = PythonOperator(
+    task_id='model_predict_all_task_10',
+    python_callable=run_model_predict_all,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534004'
+    },
+    dag=dag,
+)
+
+file_merge_task_10 = PythonOperator(
+    task_id='file_merge_task_10',
+    python_callable=run_file_merge,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534004',
+        'latitude': '50.10684',
+        'longitude': '14.56221',
+        'name': 'Rajska Zahrada'
+    },
+    dag=dag
+)
+
+model_predict_all_task_11 = PythonOperator(
+    task_id='model_predict_all_task_11',
+    python_callable=run_model_predict_all,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534002'
+    },
+    dag=dag,
+)
+
+file_merge_task_11 = PythonOperator(
+    task_id='file_merge_task_11',
+    python_callable=run_file_merge,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534004',
+        'latitude': '50.109318',
+        'longitude': '14.441252',
+        'name': 'Holesovice'
     },
     dag=dag
 )
 
 # Set task dependencies
-model_predict_all_task_1 >> file_merge_tas_1 >> model_predict_all_task_2 >>file_merge_tas_2
+model_predict_all_task_1 >> file_merge_task_1 >> model_predict_all_task_2 >> file_merge_task_2

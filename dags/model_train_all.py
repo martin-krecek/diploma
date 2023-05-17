@@ -197,15 +197,6 @@ def run_python_script(table, parking_id):
         # fit network
         history = model.fit(train_x, train_y, validation_data=(val_x, val_y), epochs=epochs, batch_size=batch_size, verbose=verbose)
 
-        # Plot training & validation loss values
-        #plt.plot(history.history['loss'])
-        #plt.plot(history.history['val_loss'])
-        #plt.title('Model loss')
-        #plt.ylabel('Loss')
-        #plt.xlabel('Epoch')
-        #plt.legend(['Train', 'Validation'], loc='upper left')
-        #plt.show()
-
         # Save the model
         model.save(f'diploma/models/model_{table}_{parking_id}.h5')
 
@@ -282,7 +273,7 @@ def run_python_script(table, parking_id):
 dag = DAG(
     dag_id='model_train_all',
     start_date=datetime(2023, 3, 12),
-    schedule_interval=None,
+    schedule_interval='10 22 * * 3',
     catchup=False,
     template_searchpath=["/home/melicharovykrecek/diploma/sql"]
 )
@@ -297,8 +288,6 @@ model_train_1 = PythonOperator(
     dag=dag,
 )
 
-
-
 model_train_2 = PythonOperator(
     task_id='model_train_2',
     python_callable=run_python_script,
@@ -309,7 +298,95 @@ model_train_2 = PythonOperator(
     dag=dag,
 )
 
+model_train_3 = PythonOperator(
+    task_id='model_train_3',
+    python_callable=run_python_script,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534015'
+    },
+    dag=dag,
+)
 
+model_train_4 = PythonOperator(
+    task_id='model_train_4',
+    python_callable=run_python_script,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534014'
+    },
+    dag=dag,
+)
+
+model_train_5 = PythonOperator(
+    task_id='model_train_5',
+    python_callable=run_python_script,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534012'
+    },
+    dag=dag,
+)
+
+model_train_6 = PythonOperator(
+    task_id='model_train_6',
+    python_callable=run_python_script,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534011'
+    },
+    dag=dag,
+)
+
+model_train_7 = PythonOperator(
+    task_id='model_train_7',
+    python_callable=run_python_script,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534009'
+    },
+    dag=dag,
+)
+
+model_train_8 = PythonOperator(
+    task_id='model_train_8',
+    python_callable=run_python_script,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534008'
+    },
+    dag=dag,
+)
+
+model_train_9 = PythonOperator(
+    task_id='model_train_9',
+    python_callable=run_python_script,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534005'
+    },
+    dag=dag,
+)
+
+model_train_10 = PythonOperator(
+    task_id='model_train_10',
+    python_callable=run_python_script,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534004'
+    },
+    dag=dag,
+)
+
+model_train_11 = PythonOperator(
+    task_id='model_train_11',
+    python_callable=run_python_script,
+    op_kwargs={
+        'table': 'parking_measurements',
+        'parking_id': 'tsk-534002'
+    },
+    dag=dag,
+)
 
 # Set task dependencies
-model_train_1 >> model_train_2
+model_train_1 >> model_train_2 >> model_train_3 >> model_train_4 >> model_train_5 >> model_train_6 >> model_train_7 >> model_train_8 >> model_train_9 >> model_train_10 >> model_train_11  
