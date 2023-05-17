@@ -1,4 +1,4 @@
-timestamp,value,lat,lon
+timestamp,value,lat,lon,name
 2023-05-17 00:00:00,0,50.125168,14.514741,Letnany
 2023-05-17 01:00:00,0,50.125168,14.514741,Letnany
 2023-05-17 02:00:00,0,50.125168,14.514741,Letnany
