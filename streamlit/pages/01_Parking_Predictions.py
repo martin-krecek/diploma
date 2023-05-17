@@ -16,7 +16,7 @@ DATE_COLUMN = 'timestamp'
 
 @st.cache_data
 def load_data(entity, parking):
-    data = pd.read_csv(f'predictions/output/predictions_{entity}_{parking}_{current_date}.csv')
+    data = pd.read_csv(f'predictions/output/predictions_{entity}_{current_date}.csv')
     lowercase = lambda x: str(x).lower()
     data.rename(lowercase, axis='columns', inplace=True)
     #print('\n\n\n',data)
@@ -25,7 +25,7 @@ def load_data(entity, parking):
     return data
 
 def load_data_pydeck(entity, parking):
-    data = pd.read_csv(f'predictions/output/predictions_{entity}_{parking}_{current_date}.csv')
+    data = pd.read_csv(f'predictions/output/predictions_{entity}_{current_date}.csv')
     lowercase = lambda x: str(x).lower()
     data.rename(lowercase, axis='columns', inplace=True)
     #print('\n\n\n',data)

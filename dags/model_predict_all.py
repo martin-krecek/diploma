@@ -276,8 +276,9 @@ def run_file_merge(table, parking_id, latitude, longitude, name):
     # Create 1 consolidated file with all data
     with open(f'diploma/streamlit/predictions/output/predictions_{table}_{current_date}.csv', 'a', newline='') as file:
         writer = csv.writer(file)
-        # Write the header
-        writer.writerow(['timestamp', 'value', 'lat', 'lon', 'name'])
+        # Write the header - for 1st parking lot
+        if parking_id == 'tsk-534017':
+            writer.writerow(['timestamp', 'value', 'lat', 'lon', 'name'])
         # Write each modified row to the CSV file
         writer.writerows(modified_rows)
 
