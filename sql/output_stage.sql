@@ -72,8 +72,7 @@ where
   (
     `stg_weather_archive`.`time_ts` <= SUBDATE(CURDATE(),7)
   )
-  ORDER BY time_ts DESC;
-
+  
 -- out_vehiclepositions
 CREATE OR REPLACE VIEW `out_vehiclepositions` AS 
 select 
