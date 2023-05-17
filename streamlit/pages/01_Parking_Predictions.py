@@ -11,7 +11,7 @@ st.set_page_config(page_title='Macro - Cross Chain Monitoring', page_icon=':bar_
 st.title('P+R Forecast')
 st.caption('Forecast of the number of available parking spaces in P+R parking houses')
 
-current_date = '2023-05-15'
+current_date = date.today()
 DATE_COLUMN = 'timestamp'
 
 @st.cache_data
@@ -107,6 +107,6 @@ st.pydeck_chart(pdk.Deck(
            pickable=True,
            extruded=True,
         ),        tooltip = {
-        "html": "TEST <b>{value}</b>", "style": {"background": "grey", "color": "white", "font-family": '"Helvetica Neue", Arial', "z-index": "10000"}}
+        "html": "P+R {name}: <b>{value}</b>", "style": {"background": "grey", "color": "white", "font-family": '"Helvetica Neue", Arial', "z-index": "10000"}}
     ,
 ))

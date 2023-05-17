@@ -268,7 +268,7 @@ def run_file_merge(table, parking_id, latitude, longitude, name):
         writer = csv.writer(file)
         
         # Write the header
-        writer.writerow(['timestamp', 'value', 'lat', 'lon'])
+        writer.writerow(['timestamp', 'value', 'lat', 'lon', 'name'])
         
         # Write each modified row to the CSV file
         writer.writerows(modified_rows)
@@ -277,7 +277,7 @@ def run_file_merge(table, parking_id, latitude, longitude, name):
     with open(f'diploma/streamlit/predictions/output/predictions_{table}_{current_date}.csv', 'a', newline='') as file:
         writer = csv.writer(file)
         # Write the header
-        writer.writerow(['timestamp', 'value', 'lat', 'lon'])
+        writer.writerow(['timestamp', 'value', 'lat', 'lon', 'name'])
         # Write each modified row to the CSV file
         writer.writerows(modified_rows)
 
