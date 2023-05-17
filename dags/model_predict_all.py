@@ -259,7 +259,7 @@ def run_file_merge(table, parking_id, latitude, longitude, name):
             value = 0
         lat = latitude
         lon = longitude
-        value = int(value)
+        value = int(float(value))
         modified_rows.append([timestamp, value, lat, lon, name])
         start_datetime += increment
 
