@@ -1,31 +1,18 @@
-import streamlit as st
-import pandas as pd
-import numpy as np
-import pydeck as pdk
+import datetime
+# Get the current date
+current_date = datetime.date.today()
+# Calculate the offset to Monday (0 represents Monday, 1 represents Tuesday, and so on)
+offset_to_monday = (current_date.weekday() - 0) % 7
+# Calculate the date of Monday
+monday_date = current_date - datetime.timedelta(days=offset_to_monday)
 
-chart_data = pd.DataFrame(
-   np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
-   columns=['lat', 'lon'])
+table = 'parking_measurements'
+parking_id = 'tsk-534012'
 
-print(chart_data)
+query = f"SELECT date_modified, occupied_spot_number FROM out_{table} WHERE parking_id = '{parking_id}' AND date_modified >= '2021-05-03' AND date_modified < '{monday_date}';"
+query_weather = f"SELECT time_ts, temperature, precipitation FROM out_weather WHERE time_ts >= '2021-05-03' AND time_ts < '{monday_date}';"
 
-st.pydeck_chart(pdk.Deck(
-    map_style=None,
-    initial_view_state=pdk.ViewState(
-        latitude=37.76,
-        longitude=-122.4,
-        zoom=11,
-        pitch=50,
-    ),
-    layers=[
-        pdk.Layer(
-           'HexagonLayer',
-           data=chart_data,
-           get_position='[lon, lat]',
-           get_elevation = 'value',
-           radius=200,
-           pickable=True,
-           extruded=True,
-        )
-    ],
-))
+print(monday_date)
+
+print(query)
+print(query_weather)

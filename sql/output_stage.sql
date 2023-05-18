@@ -72,6 +72,7 @@ where
   (
     `stg_weather_archive`.`time_ts` <= SUBDATE(CURDATE(),7)
   )
+  and `stg_weather_archive`.`weather_archive_id` != ''
   
 -- out_vehiclepositions
 CREATE OR REPLACE VIEW `out_vehiclepositions` AS 

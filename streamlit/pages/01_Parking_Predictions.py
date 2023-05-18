@@ -4,18 +4,18 @@ from datetime import date
 import pydeck as pdk
 import numpy as np
 
-st.set_page_config(page_title='Macro - Cross Chain Monitoring', page_icon=':bar_chart:', layout='wide')
+st.set_page_config(page_title='Macro - Cross Chain Monitoring', page_icon='🚗', layout='wide')
 
 
 # Title
 st.title('P+R Forecast')
 st.caption('Forecast of the number of available parking spaces in P+R parking houses')
 
-current_date = date.today()
+current_date = '2023-05-17'
 DATE_COLUMN = 'timestamp'
 
 @st.cache_data
-def load_data(entity, parking):
+def load_data(entity):
     data = pd.read_csv(f'predictions/output/predictions_{entity}_{current_date}.csv')
     lowercase = lambda x: str(x).lower()
     data.rename(lowercase, axis='columns', inplace=True)
@@ -24,7 +24,7 @@ def load_data(entity, parking):
     data.set_index('timestamp', inplace=True)
     return data
 
-def load_data_pydeck(entity, parking):
+def load_data_pydeck(entity):
     data = pd.read_csv(f'predictions/output/predictions_{entity}_{current_date}.csv')
     lowercase = lambda x: str(x).lower()
     data.rename(lowercase, axis='columns', inplace=True)
@@ -33,14 +33,10 @@ def load_data_pydeck(entity, parking):
     data.set_index('timestamp', inplace=False)
     return data
 
-data_load_state = st.text('Loading data...')
-
-
 ################################################################## PYDECK
 table = 'parking_measurements'
-parking_id = 'tsk-534017'
-data_pydeck = load_data_pydeck(table, parking_id)
-data = load_data(table, parking_id)
+data_pydeck = load_data_pydeck(table)
+data = load_data(table)
 
 chart_data = pd.DataFrame(
    np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
@@ -78,6 +74,7 @@ selected_timestamp = st.slider(
     min_value=min_timestamp.to_pydatetime(),
     max_value=max_timestamp.to_pydatetime(),
     step=step_timedelta,
+    value=min_timestamp.to_pydatetime() + timedelta(hours=12),
     format="YYYY-MM-DD HH:mm:ss"
 ).strftime("%Y-%m-%d %H:%M:%S")
 
@@ -87,11 +84,11 @@ print(filtered_data)
 
 
 st.pydeck_chart(pdk.Deck(
-    map_style=None,
+    map_style='road',
     initial_view_state=pdk.ViewState(
         latitude=50.032074,
         longitude=14.492015,
-        zoom=12,
+        zoom=10,
         pitch=50,
     ),
     layers=
@@ -107,6 +104,6 @@ st.pydeck_chart(pdk.Deck(
            pickable=True,
            extruded=True,
         ),        tooltip = {
-        "html": "P+R {name}: <b>{value}</b>", "style": {"background": "grey", "color": "white", "font-family": '"Helvetica Neue", Arial', "z-index": "10000"}}
+        "html": "P+R {name}: <b>{value}</b> occupied spots", "style": {"background": "grey", "color": "white", "font-family": '"Helvetica Neue", Arial', "z-index": "10000"}}
     ,
 ))
