@@ -10,8 +10,8 @@ def_entity = 'weather_archive'
 def_endpoint = 'archive'
 
 current_date = datetime.date.today()
-start_date = (current_date -  datetime.timedelta(days=4)).strftime('%Y-%m-%d')
-end_date = (current_date -  datetime.timedelta(days=10)).strftime('%Y-%m-%d')
+start_date = (current_date -  datetime.timedelta(days=10)).strftime('%Y-%m-%d')
+end_date = (current_date -  datetime.timedelta(days=4)).strftime('%Y-%m-%d')
 
 def_query = f'?latitude=50.09&longitude=14.42&start_date={start_date}&end_date={end_date}&hourly=temperature_2m,precipitation,rain,snowfall&daily=sunrise&timezone=Europe%2FBerlin'
 def_conn_id = "mysql-db"
