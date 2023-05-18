@@ -38,7 +38,7 @@ if os.path.exists(file):
 dag = DAG(
     dag_id=def_entity,
     start_date=datetime.datetime(2023, 3, 12),
-    schedule_interval=None,
+    schedule_interval='1 1 * * *',
     catchup=False,
     template_searchpath=["/home/melicharovykrecek/diploma/sql"]
 )
@@ -46,6 +46,7 @@ dag = DAG(
 # Define a Python function to check if the endpoint is available
 def check_endpoint(endpoint, query):
     url = f'https://archive-api.open-meteo.com/v1/{endpoint}{query}'
+    print(url)
     response = requests.get(url)
     if response.status_code != 200:
         raise ValueError('Endpoint not available')
