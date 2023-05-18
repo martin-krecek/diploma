@@ -2,14 +2,18 @@ import requests
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.mysql_operator import MySqlOperator
-from datetime import datetime, timedelta
+from datetime import datetime
+import datetime
 import json
 import os
 
 def_entity = 'weather_archive'
 def_endpoint = 'archive'
-start_date = '{{ dag_run.conf["start_date"]}}'
-end_date = '{{ dag_run.conf["end_date"]}}'
+
+current_date = datetime.date.today()
+start_date = current_date -  datetime.timedelta(days=4)
+end_date = current_date -  datetime.timedelta(days=10)
+
 def_query = f'?latitude=50.09&longitude=14.42&start_date={start_date}&end_date={end_date}&hourly=temperature_2m,precipitation,rain,snowfall&daily=sunrise&timezone=Europe%2FBerlin'
 def_conn_id = "mysql-db"
 
