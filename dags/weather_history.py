@@ -2,7 +2,6 @@ import requests
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.mysql_operator import MySqlOperator
-from datetime import datetime
 import datetime
 import json
 import os
@@ -38,7 +37,7 @@ if os.path.exists(file):
 # Define the DAG
 dag = DAG(
     dag_id=def_entity,
-    start_date=datetime(2023, 3, 12),
+    start_date=datetime.datetime(2023, 3, 12),
     schedule_interval=None,
     catchup=False,
     template_searchpath=["/home/melicharovykrecek/diploma/sql"]
@@ -91,7 +90,7 @@ create_table = MySqlOperator(
 )
 
 insert_values = MySqlOperator(
-    sql=f"INSERT INTO pre_{def_entity} VALUES (\'0\',\'{jsondata}\',\' 0 \',\'"+str(datetime.now())+"\',\'0\');",
+    sql=f"INSERT INTO pre_{def_entity} VALUES (\'0\',\'{jsondata}\',\' 0 \',\'"+str(datetime.datetime.now())+"\',\'0\');",
     task_id=f"insert_values_{def_entity}",
     mysql_conn_id=def_conn_id,
 )
