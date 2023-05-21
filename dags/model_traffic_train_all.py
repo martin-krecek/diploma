@@ -349,7 +349,7 @@ model_train_6 = PythonOperator(
 )
 
 model_train_7 = PythonOperator(
-    task_id='model_train_8',
+    task_id='model_train_7',
     python_callable=run_python_script,
     op_kwargs={
         'table': 'vehiclepositions_model',
