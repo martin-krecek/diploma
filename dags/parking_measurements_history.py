@@ -14,8 +14,7 @@ headers = {"Content-Type": "application/json; charset=utf-8", "x-access-token": 
 fromm = '{{ dag_run.conf["from"]}}'
 to = '{{ dag_run.conf["to"]}}'
 source_id = '{{ dag_run.conf["source_id"]}}'
-#source = f'&sourceId={source_id}'
-source = f'&sourceId=543015'
+source = f'&sourceId={source_id}'
 
 def_entity = 'parking_measurements_history'
 def_endpoint = 'parking/measurements'
