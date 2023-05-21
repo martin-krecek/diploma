@@ -43,7 +43,6 @@ def run_model_predict_all(table, parking_id):
     current_date = datetime.date.today()
     one_day_ago = current_date - datetime.timedelta(days=1)
     eight_days_ago = current_date - datetime.timedelta(days=8)
-    seven_days_ago = current_date - datetime.timedelta(days=7)
     seven_days_forward = current_date + datetime.timedelta(days=7)
 
     query_predict = f"SELECT date_modified, occupied_spot_number FROM out_{table} WHERE parking_id = '{parking_id}' AND date_modified >= '{eight_days_ago}' AND date_modified < '{one_day_ago}';"
@@ -447,29 +446,6 @@ file_merge_task_6 = PythonOperator(
     dag=dag
 )
 
-model_predict_all_task_7 = PythonOperator(
-    task_id='model_predict_all_task_7',
-    python_callable=run_model_predict_all,
-    op_kwargs={
-        'table': 'parking_measurements',
-        'parking_id': 'tsk-534009'
-    },
-    dag=dag,
-)
-
-file_merge_task_7 = PythonOperator(
-    task_id='file_merge_task_7',
-    python_callable=run_file_merge,
-    op_kwargs={
-        'table': 'parking_measurements',
-        'parking_id': 'tsk-534009',
-        'latitude': '50.053432',
-        'longitude': '14.290852',
-        'name': 'Zlicin 2'
-    },
-    dag=dag
-)
-
 model_predict_all_task_8 = PythonOperator(
     task_id='model_predict_all_task_8',
     python_callable=run_model_predict_all,
@@ -563,4 +539,4 @@ file_merge_task_11 = PythonOperator(
 )
 
 # Set task dependencies
-model_predict_all_task_1 >> file_merge_task_1 >> model_predict_all_task_2 >> file_merge_task_2
+model_predict_all_task_1 >> file_merge_task_1 >> model_predict_all_task_2 >> file_merge_task_2 >> model_predict_all_task_3 >> file_merge_task_3 >> model_predict_all_task_4 >> file_merge_task_4 >> model_predict_all_task_5 >> file_merge_task_5 >> model_predict_all_task_6 >> file_merge_task_6 >> model_predict_all_task_8 >> file_merge_task_8 >> model_predict_all_task_9 >> file_merge_task_9 >> model_predict_all_task_10 >> file_merge_task_10 >> model_predict_all_task_11 >> file_merge_task_11
