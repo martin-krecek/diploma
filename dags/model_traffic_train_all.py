@@ -4,13 +4,19 @@ from airflow.operators.python_operator import PythonOperator
 from datetime import datetime
 import subprocess
 
-def run_python_script(table, parking_id):
+def run_python_script(table, gtfs_route_id):
+
+
+    # BEST MODEL SO FAR
+    # ADD NORMALIZATION
+    # https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
 
     import mysql.connector
     import pandas as pd
     from math import sqrt
     import numpy as np
     from keras.models import Sequential
+    # univariate multi-step lstm for the power usage dataset
     from numpy import split, array
     from sklearn.metrics import mean_squared_error
     from matplotlib import pyplot
@@ -19,6 +25,7 @@ def run_python_script(table, parking_id):
     from tensorflow.keras.optimizers import Adam
     import datetime
     from sklearn.preprocessing import MinMaxScaler
+
 
     # db parameters
     user = 'martin'
@@ -35,11 +42,16 @@ def run_python_script(table, parking_id):
     offset_to_monday = (current_date.weekday() - 0) % 7
     # Calculate the date of Monday
     monday_date = current_date - datetime.timedelta(days=offset_to_monday)
+
     monday_date_minus_one = monday_date - datetime.timedelta(days=1)
-    start_date = '2021-05-03'
+
+    start_date = '2023-03-20'
+
+    table = 'vehiclepositions_model'
+    gtfs_route_id = 'L12'
 
     # Reading from db to dataframe
-    query = f"SELECT date_modified, occupied_spot_number FROM out_{table} WHERE parking_id = '{parking_id}' AND date_modified >= '{start_date}' AND date_modified < '{monday_date}';"
+    query = f"SELECT origin_timestamp, actual FROM stg_{table} where gtfs_route_id = '{gtfs_route_id}' AND origin_timestamp > '{start_date}' AND origin_timestamp < '{monday_date}' ORDER BY origin_timestamp;"
     query_weather = f"SELECT time_ts, temperature, precipitation FROM out_weather WHERE time_ts >= '{start_date}' AND time_ts < '{monday_date}';"
 
     df = pd.read_sql(query, conn)
@@ -48,31 +60,10 @@ def run_python_script(table, parking_id):
     ###########################################################################################
     #                                    PARKING DATA                                         #
     ###########################################################################################
-    df['date_modified'] = pd.to_datetime(df['date_modified'])
-    df['occupied_spot_number'] = df['occupied_spot_number'].astype(str).astype(int)
+    df['origin_timestamp'] = pd.to_datetime(df['origin_timestamp'])
+    df['actual'] = df['actual'].astype(str).astype(int)
 
-    df.set_index('date_modified', inplace=True)
-
-    # Define the rolling window size
-    window_size_mean = 15
-    window_size_std = 15
-    # Calculate the rolling mean and standard deviation
-    rolling_mean = df.rolling(window=window_size_mean).mean()
-    rolling_std = df.rolling(window=window_size_std).std()
-
-    rolling_std = rolling_std.replace(0, 1)
-    rolling_mean = rolling_mean.rename(columns={'occupied_spot_number': 'rolling_mean'})
-    rolling_std = rolling_std.rename(columns={'occupied_spot_number': 'rolling_std'})
-    result = df.join([rolling_mean, rolling_std], how='outer')
-    z_scores = (result['occupied_spot_number'] - result['rolling_mean']) / result['rolling_std']
-    # Threshold for outlier detection
-    threshold = 3
-
-    # Find the outliers using the threshold
-    outliers = np.abs(z_scores) > threshold
-
-    # Remove the outliers from the data
-    df = df.mask(outliers)
+    df.set_index('origin_timestamp', inplace=True)
 
     # Resampling df to hourly frequency
     df = df.resample('H').mean().interpolate(method='linear')
@@ -85,9 +76,8 @@ def run_python_script(table, parking_id):
     df.reset_index(inplace=True)
     df.set_index('index', inplace=True)
 
-
     # set values from 10pm to 5am to 0
-    df.loc[(df.index.hour >= 22) | (df.index.hour < 5), 'occupied_spot_number'] = 0
+    df.loc[(df.index.hour >= 22) | (df.index.hour < 5), 'actual'] = 0
 
     df['Monday'] = df.index.dayofweek == 0
     df['Tuesday'] = df.index.dayofweek == 1
@@ -130,7 +120,7 @@ def run_python_script(table, parking_id):
     def split_dataset(data):
         # split into standard weeks
         days = int(len(data)/24)
-        split_index = int((days * 0.9))
+        split_index = int((days * 0.8))
         day_split_index = int(split_index * 24)
         train, test = data[:day_split_index], data[day_split_index:]
         # restructure into windows of weekly data
@@ -207,8 +197,17 @@ def run_python_script(table, parking_id):
         # fit network
         history = model.fit(train_x, train_y, validation_data=(val_x, val_y), epochs=epochs, batch_size=batch_size, verbose=verbose)
 
+        # Plot training & validation loss values
+        plt.plot(history.history['loss'])
+        #plt.plot(history.history['val_loss'])
+        plt.title('Model loss')
+        plt.ylabel('Loss')
+        plt.xlabel('Epoch')
+        plt.legend(['Train', 'Validation'], loc='upper left')
+        plt.show()
+
         # Save the model
-        model.save(f'diploma/models/model_{table}_{parking_id}.h5')
+        model.save(f'diploma/models/model_{table}_{gtfs_route_id}.h5')
 
         return model
 
@@ -233,10 +232,11 @@ def run_python_script(table, parking_id):
         # fit model
         model = build_model(train, n_input)
         # history is a list of weekly data
-        history = [x for x in test]
+        history = [x for x in train]
         # walk-forward validation over each week
         predictions = list()
         n_input_day = n_input
+        print(len(test))
         for i in range(len(test)):
         #for i in range(7):
             # predict the week
@@ -262,7 +262,7 @@ def run_python_script(table, parking_id):
     scaler = MinMaxScaler()
     # Fit the scaler to your data
     # Select the columns to be normalized
-    columns_to_normalize = ['occupied_spot_number', 'temperature', 'precipitation']
+    columns_to_normalize = ['actual', 'temperature', 'precipitation']
     # Fit the scaler to your data
     scaler.fit(df[columns_to_normalize])
     # Transform the selected columns
@@ -292,8 +292,8 @@ model_train_1 = PythonOperator(
     task_id='model_train_1',
     python_callable=run_python_script,
     op_kwargs={
-        'table': 'parking_measurements',
-        'parking_id': 'tsk-534017'
+        'table': 'vehiclepositions_model',
+        'gtfs_route_id': 'L-1'
     },
     dag=dag,
 )
@@ -302,8 +302,8 @@ model_train_2 = PythonOperator(
     task_id='model_train_2',
     python_callable=run_python_script,
     op_kwargs={
-        'table': 'parking_measurements',
-        'parking_id': 'tsk-534016'
+        'table': 'vehiclepositions_model',
+        'gtfs_route_id': 'L-2'
     },
     dag=dag,
 )
@@ -312,8 +312,8 @@ model_train_3 = PythonOperator(
     task_id='model_train_3',
     python_callable=run_python_script,
     op_kwargs={
-        'table': 'parking_measurements',
-        'parking_id': 'tsk-534015'
+        'table': 'vehiclepositions_model',
+        'gtfs_route_id': 'L-3'
     },
     dag=dag,
 )
@@ -322,8 +322,8 @@ model_train_4 = PythonOperator(
     task_id='model_train_4',
     python_callable=run_python_script,
     op_kwargs={
-        'table': 'parking_measurements',
-        'parking_id': 'tsk-534014'
+        'table': 'vehiclepositions_model',
+        'gtfs_route_id': 'L-4'
     },
     dag=dag,
 )
@@ -332,8 +332,8 @@ model_train_5 = PythonOperator(
     task_id='model_train_5',
     python_callable=run_python_script,
     op_kwargs={
-        'table': 'parking_measurements',
-        'parking_id': 'tsk-534012'
+        'table': 'vehiclepositions_model',
+        'gtfs_route_id': 'L-5'
     },
     dag=dag,
 )
@@ -342,8 +342,18 @@ model_train_6 = PythonOperator(
     task_id='model_train_6',
     python_callable=run_python_script,
     op_kwargs={
-        'table': 'parking_measurements',
-        'parking_id': 'tsk-534011'
+        'table': 'vehiclepositions_model',
+        'gtfs_route_id': 'L-6'
+    },
+    dag=dag,
+)
+
+model_train_7 = PythonOperator(
+    task_id='model_train_8',
+    python_callable=run_python_script,
+    op_kwargs={
+        'table': 'vehiclepositions_model',
+        'gtfs_route_id': 'L-7'
     },
     dag=dag,
 )
@@ -352,8 +362,8 @@ model_train_8 = PythonOperator(
     task_id='model_train_8',
     python_callable=run_python_script,
     op_kwargs={
-        'table': 'parking_measurements',
-        'parking_id': 'tsk-534008'
+        'table': 'vehiclepositions_model',
+        'gtfs_route_id': 'L-8'
     },
     dag=dag,
 )
@@ -362,8 +372,8 @@ model_train_9 = PythonOperator(
     task_id='model_train_9',
     python_callable=run_python_script,
     op_kwargs={
-        'table': 'parking_measurements',
-        'parking_id': 'tsk-534005'
+        'table': 'vehiclepositions_model',
+        'gtfs_route_id': 'L-9'
     },
     dag=dag,
 )
@@ -372,8 +382,8 @@ model_train_10 = PythonOperator(
     task_id='model_train_10',
     python_callable=run_python_script,
     op_kwargs={
-        'table': 'parking_measurements',
-        'parking_id': 'tsk-534004'
+        'table': 'vehiclepositions_model',
+        'gtfs_route_id': 'L10'
     },
     dag=dag,
 )
@@ -382,11 +392,21 @@ model_train_11 = PythonOperator(
     task_id='model_train_11',
     python_callable=run_python_script,
     op_kwargs={
-        'table': 'parking_measurements',
-        'parking_id': 'tsk-534002'
+        'table': 'vehiclepositions_model',
+        'gtfs_route_id': 'L11'
+    },
+    dag=dag,
+)
+
+model_train_12 = PythonOperator(
+    task_id='model_train_12',
+    python_callable=run_python_script,
+    op_kwargs={
+        'table': 'vehiclepositions_model',
+        'gtfs_route_id': 'L12'
     },
     dag=dag,
 )
 
 # Set task dependencies
-model_train_1 >> model_train_2 >> model_train_3 >> model_train_4 >> model_train_5 >> model_train_6 >> model_train_8 >> model_train_9 >> model_train_10 >> model_train_11  
+model_train_1 >> model_train_2 >> model_train_3 >> model_train_4 >> model_train_5 >> model_train_6 >> model_train_8 >> model_train_9 >> model_train_10 >> model_train_11  >> model_train_12

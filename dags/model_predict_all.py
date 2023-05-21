@@ -42,6 +42,7 @@ def run_model_predict_all(table, parking_id):
 
     current_date = datetime.date.today()
     one_day_ago = current_date - datetime.timedelta(days=1)
+    two_days_ago = current_date - datetime.timedelta(days=2)
     eight_days_ago = current_date - datetime.timedelta(days=8)
     seven_days_forward = current_date + datetime.timedelta(days=7)
 
@@ -83,6 +84,14 @@ def run_model_predict_all(table, parking_id):
     # Resampling df_predict to hourly frequency
 
     df_predict = df_predict.resample('H').mean().interpolate(method='linear')
+
+    idx = pd.date_range(start=f'{eight_days_ago} 00:00:00', end=f'{two_days_ago} 23:00:00', freq='H')
+    df_hourly = df_predict.reindex(idx)
+    # Interpolate the missing values
+    df_predict = df_hourly.interpolate()
+    # Reset the index back to a column
+    df_predict.reset_index(inplace=True)
+    df_predict.set_index('index', inplace=True)
 
     # set values from 10pm to 5am to 0
     df_predict.loc[(df_predict.index.hour >= 22) | (df_predict.index.hour < 5), 'occupied_spot_number'] = 0
