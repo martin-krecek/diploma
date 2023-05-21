@@ -293,7 +293,7 @@ model_train_1 = PythonOperator(
     python_callable=run_python_script,
     op_kwargs={
         'table': 'vehiclepositions_model',
-        'gtfs_route_id': 'L-1'
+        'gtfs_route_id': 'L1'
     },
     dag=dag,
 )
@@ -303,7 +303,7 @@ model_train_2 = PythonOperator(
     python_callable=run_python_script,
     op_kwargs={
         'table': 'vehiclepositions_model',
-        'gtfs_route_id': 'L-2'
+        'gtfs_route_id': 'L2'
     },
     dag=dag,
 )
@@ -313,7 +313,7 @@ model_train_3 = PythonOperator(
     python_callable=run_python_script,
     op_kwargs={
         'table': 'vehiclepositions_model',
-        'gtfs_route_id': 'L-3'
+        'gtfs_route_id': 'L3'
     },
     dag=dag,
 )
@@ -323,7 +323,7 @@ model_train_4 = PythonOperator(
     python_callable=run_python_script,
     op_kwargs={
         'table': 'vehiclepositions_model',
-        'gtfs_route_id': 'L-4'
+        'gtfs_route_id': 'L4'
     },
     dag=dag,
 )
@@ -333,7 +333,7 @@ model_train_5 = PythonOperator(
     python_callable=run_python_script,
     op_kwargs={
         'table': 'vehiclepositions_model',
-        'gtfs_route_id': 'L-5'
+        'gtfs_route_id': 'L5'
     },
     dag=dag,
 )
@@ -343,7 +343,7 @@ model_train_6 = PythonOperator(
     python_callable=run_python_script,
     op_kwargs={
         'table': 'vehiclepositions_model',
-        'gtfs_route_id': 'L-6'
+        'gtfs_route_id': 'L6'
     },
     dag=dag,
 )
@@ -353,7 +353,7 @@ model_train_7 = PythonOperator(
     python_callable=run_python_script,
     op_kwargs={
         'table': 'vehiclepositions_model',
-        'gtfs_route_id': 'L-7'
+        'gtfs_route_id': 'L7'
     },
     dag=dag,
 )
@@ -363,7 +363,7 @@ model_train_8 = PythonOperator(
     python_callable=run_python_script,
     op_kwargs={
         'table': 'vehiclepositions_model',
-        'gtfs_route_id': 'L-8'
+        'gtfs_route_id': 'L8'
     },
     dag=dag,
 )
@@ -373,7 +373,7 @@ model_train_9 = PythonOperator(
     python_callable=run_python_script,
     op_kwargs={
         'table': 'vehiclepositions_model',
-        'gtfs_route_id': 'L-9'
+        'gtfs_route_id': 'L9'
     },
     dag=dag,
 )
