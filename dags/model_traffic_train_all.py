@@ -46,9 +46,7 @@ def run_python_script(table, gtfs_route_id):
     monday_date_minus_one = monday_date - datetime.timedelta(days=1)
 
     start_date = '2023-03-20'
-
     table = 'vehiclepositions_model'
-    gtfs_route_id = 'L12'
 
     # Reading from db to dataframe
     query = f"SELECT origin_timestamp, actual FROM stg_{table} where gtfs_route_id = '{gtfs_route_id}' AND origin_timestamp > '{start_date}' AND origin_timestamp < '{monday_date}' ORDER BY origin_timestamp;"
