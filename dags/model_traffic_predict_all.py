@@ -330,26 +330,6 @@ file_merge_task_3 = PythonOperator(
     dag=dag
 )
 
-model_train_4 = PythonOperator(
-    task_id='model_train_4',
-    python_callable=run_python_script,
-    op_kwargs={
-        'table': 'vehiclepositions_model',
-        'gtfs_route_id': 'L4'
-    },
-    dag=dag,
-)
-
-file_merge_task_4 = PythonOperator(
-    task_id='file_merge_task_4',
-    python_callable=run_file_merge,
-    op_kwargs={
-        'table': 'vehiclepositions_model',
-        'gtfs_route_id': 'L4'
-    },
-    dag=dag
-)
-
 model_train_5 = PythonOperator(
     task_id='model_train_5',
     python_callable=run_python_script,
@@ -511,4 +491,4 @@ file_merge_task_12 = PythonOperator(
 )
 
 # Set task dependencies
-model_train_1 >> file_merge_task_1 >> model_train_2 >> file_merge_task_2 >> model_train_3 >> file_merge_task_3 >> model_train_4 >> file_merge_task_4 >> model_train_5 >> file_merge_task_5 >> model_train_6 >> file_merge_task_6 >> model_train_7 >> file_merge_task_7 >> model_train_8 >> file_merge_task_8 >> model_train_9 >> file_merge_task_9 >> model_train_10 >> file_merge_task_10 >> model_train_11 >> file_merge_task_11  >> model_train_12 >> file_merge_task_12
+model_train_1 >> file_merge_task_1 >> model_train_2 >> file_merge_task_2 >> model_train_3 >> file_merge_task_3 >> model_train_5 >> file_merge_task_5 >> model_train_6 >> file_merge_task_6 >> model_train_7 >> file_merge_task_7 >> model_train_8 >> file_merge_task_8 >> model_train_9 >> file_merge_task_9 >> model_train_10 >> file_merge_task_10 >> model_train_11 >> file_merge_task_11  >> model_train_12 >> file_merge_task_12
