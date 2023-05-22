@@ -308,6 +308,41 @@ def run_remove_files(table):
     file_path = f'diploma/streamlit/predictions/output/predictions_{table}_{current_date}.csv'
     if os.path.exists(file_path):
         os.remove(file_path) 
+    file_path = f'diploma/streamlit/predictions/output/predictions/normalized_{table}_{current_date}.csv'
+    if os.path.exists(file_path):
+        os.remove(file_path) 
+
+def run_consolidate_files():
+    import pandas as pd
+    import glob
+
+    # Get a list of all CSV files in the directory
+    csv_files = glob.glob('diploma/streamlit/predictions/output/predictions/*.csv')
+
+    # Initialize an empty DataFrame to store the consolidated data
+    consolidated_data = pd.DataFrame()
+
+    # Iterate over each CSV file
+    for file in csv_files:
+        # Read the CSV file into a DataFrame
+        data = pd.read_csv(file)
+        
+        # Set the timestamp column as the index
+        data.set_index('timestamp', inplace=True)
+        
+        # Append the data to the consolidated DataFrame
+        consolidated_data = consolidated_data.append(data)
+
+    # Group the data by timestamp and calculate the average value
+    average_data = consolidated_data.groupby('timestamp')['value'].mean().reset_index()
+
+    # Sort the data by timestamp (if needed)
+    average_data = average_data.sort_values('timestamp')
+
+    # Save the consolidated data to a new CSV file
+    average_data.to_csv('diploma/streamlit/predictions/output/predictions/average_data.csv', index=False)
+
+
 
 # Define the DAG
 dag = DAG(
@@ -547,5 +582,14 @@ file_merge_task_12 = PythonOperator(
     dag=dag
 )
 
+consolidate_files = PythonOperator(
+    task_id='remove_files',
+    python_callable=run_consolidate_files,
+    op_kwargs={
+        'table': 'vehiclepositions_model'
+    },
+    dag=dag   
+)
+
 # Set task dependencies
-model_train_1 >> file_merge_task_1 >> model_train_2 >> file_merge_task_2 >> model_train_3 >> file_merge_task_3 >> model_train_5 >> file_merge_task_5 >> model_train_6 >> file_merge_task_6 >> model_train_7 >> file_merge_task_7 >> model_train_8 >> file_merge_task_8 >> model_train_9 >> file_merge_task_9 >> model_train_10 >> file_merge_task_10 >> model_train_11 >> file_merge_task_11  >> model_train_12 >> file_merge_task_12
+model_train_1 >> file_merge_task_1 >> model_train_2 >> file_merge_task_2 >> model_train_3 >> file_merge_task_3 >> model_train_5 >> file_merge_task_5 >> model_train_6 >> file_merge_task_6 >> model_train_7 >> file_merge_task_7 >> model_train_8 >> file_merge_task_8 >> model_train_9 >> file_merge_task_9 >> model_train_10 >> file_merge_task_10 >> model_train_11 >> file_merge_task_11  >> model_train_12 >> file_merge_task_12 >> consolidate_files
