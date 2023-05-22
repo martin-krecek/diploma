@@ -274,7 +274,7 @@ def run_file_merge(table, gtfs_route_id):
         timestamp = start_datetime.strftime('%Y-%m-%d %H:%M:%S')
         if start_datetime.hour >= 22 or start_datetime.hour < 5:
             value = 0
-        value = int(float(value))
+        value = float(value)
         modified_rows.append([timestamp, value])
         start_datetime += increment
 
