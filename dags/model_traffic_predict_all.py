@@ -152,7 +152,7 @@ def run_python_script(table, gtfs_route_id):
         predictions = array(predictions)
         np.savetxt(f'diploma/streamlit/predictions/input/predictions_{table}_{gtfs_route_id}_{current_date}.csv', predictions, delimiter=',', fmt='%.1f')
         predictions_normalized = array(predictions_normalized)
-        np.savetxt(f'diploma/streamlit/predictions/input/predictions_normalized_{table}_{gtfs_route_id}_{current_date}.csv', predictions_normalized, delimiter=',', fmt='%.1f')
+        np.savetxt(f'diploma/streamlit/predictions/input/predictions_normalized_{table}_{gtfs_route_id}_{current_date}.csv', predictions_normalized, delimiter=',', fmt='%.2f')
 
         return predictions
 
