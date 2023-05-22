@@ -104,24 +104,6 @@ data3 = data3.rename(columns={"value": "Depo Hostivar"})
 # Display the bar chart
 st.bar_chart(data3["Depo Hostivar"])
 
-################################################################## 14
-st.header('P+R Ladvi')
-
-table = 'parking_measurements'
-parking_id = 'tsk-534014'
-data4 = load_data(table, parking_id)
-
-if st.checkbox('Show raw data', key='checkbox4'):
-    st.subheader('Raw data')
-    st.write(data4)
-
-st.subheader('Forecast of occupied parking spaces for 7 days in advance')
-
-# Rename the 'value' column to a different name
-data4 = data4.rename(columns={"value": "Ladvi"})
-# Display the bar chart
-st.bar_chart(data4["Ladvi"])
-
 ################################################################## 12
 st.header('P+R Skalka')
 
@@ -158,24 +140,6 @@ data6 = data6.rename(columns={"value": "Cerny Most"})
 # Display the bar chart
 st.bar_chart(data6["Cerny Most"])
 
-################################################################## 09
-st.header('P+R Zlicin 2')
-
-table = 'parking_measurements'
-parking_id = 'tsk-534009'
-data7 = load_data(table, parking_id)
-
-if st.checkbox('Show raw data', key='checkbox7'):
-    st.subheader('Raw data')
-    st.write(data7)
-
-st.subheader('Forecast of occupied parking spaces for 7 days in advance')
-
-# Rename the 'value' column to a different name
-data7 = data7.rename(columns={"value": "Zlicin 2"})
-# Display the bar chart
-st.bar_chart(data7["Zlicin 2"])
-
 ################################################################## 08
 st.header('P+R Zlicin 1')
 
@@ -211,24 +175,6 @@ st.subheader('Forecast of occupied parking spaces for 7 days in advance')
 data9 = data9.rename(columns={"value": "Opatov"})
 # Display the bar chart
 st.bar_chart(data9["Opatov"])
-
-################################################################## 04
-st.header('P+R Rajska Zahrada')
-
-table = 'parking_measurements'
-parking_id = 'tsk-534004'
-data10 = load_data(table, parking_id)
-
-if st.checkbox('Show raw data', key='checkbox10'):
-    st.subheader('Raw data')
-    st.write(data10)
-
-st.subheader('Forecast of occupied parking spaces for 7 days in advance')
-
-# Rename the 'value' column to a different name
-data10 = data10.rename(columns={"value": "Rajska Zahrada"})
-# Display the bar chart
-st.bar_chart(data10["Rajska Zahrada"])
 
 ################################################################## 02
 st.header('P+R Holesovice')
