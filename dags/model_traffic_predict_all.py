@@ -152,7 +152,7 @@ def run_python_script(table, gtfs_route_id):
         predictions = array(predictions)
         np.savetxt(f'diploma/streamlit/predictions/input/predictions_{table}_{gtfs_route_id}_{current_date}.csv', predictions, delimiter=',', fmt='%.1f')
         predictions_normalized = array(predictions_normalized)
-        np.savetxt(f'diploma/streamlit/predictions/input/predictions_normalized_{table}_{gtfs_route_id}_{current_date}.csv', predictions_normalized, delimiter=',', fmt='%.2f')
+        np.savetxt(f'diploma/streamlit/predictions/input/predictions/normalized_{table}_{gtfs_route_id}_{current_date}.csv', predictions_normalized, delimiter=',', fmt='%.2f')
 
         return predictions
 
@@ -250,7 +250,7 @@ def run_file_merge(table, gtfs_route_id):
 
 
     # Open the CSV file for reading
-    with open(f'diploma/streamlit/predictions/input/predictions_normalized_{table}_{gtfs_route_id}_{current_date}.csv', 'r') as file:
+    with open(f'diploma/streamlit/predictions/input/predictions/normalized_{table}_{gtfs_route_id}_{current_date}.csv', 'r') as file:
         reader = csv.reader(file)
         
         # Read all rows into a list
@@ -279,7 +279,7 @@ def run_file_merge(table, gtfs_route_id):
         start_datetime += increment
 
     # Open a new CSV file for writing
-    with open(f'diploma/streamlit/predictions/output/predictions_normalized_{table}_{gtfs_route_id}_{current_date}.csv', 'w', newline='') as file:
+    with open(f'diploma/streamlit/predictions/output/predictions/normalized_{table}_{gtfs_route_id}_{current_date}.csv', 'w', newline='') as file:
         writer = csv.writer(file)
         
         # Write the header
@@ -289,7 +289,7 @@ def run_file_merge(table, gtfs_route_id):
         writer.writerows(modified_rows)
 
     # Create 1 consolidated file with all data
-    with open(f'diploma/streamlit/predictions/output/predictions_normalized_{table}_{current_date}.csv', 'a', newline='') as file:
+    with open(f'diploma/streamlit/predictions/output/predictions/normalized_{table}_{current_date}.csv', 'a', newline='') as file:
         writer = csv.writer(file)
         # Write the header - for 1st parking lot
         if gtfs_route_id == 'L1':

@@ -182,7 +182,7 @@ def run_model_predict_all(table, parking_id):
         predictions = array(predictions)
         np.savetxt(f'diploma/streamlit/predictions/input/predictions_{table}_{parking_id}_{current_date}.csv', predictions, delimiter=',', fmt='%.1f')
         predictions_normalized = array(predictions_normalized)
-        np.savetxt(f'diploma/streamlit/predictions/input/predictions_normalized_{table}_{parking_id}_{current_date}.csv', predictions_normalized, delimiter=',', fmt='%.2f')
+        np.savetxt(f'diploma/streamlit/predictions/input/predictions/normalized_{table}_{parking_id}_{current_date}.csv', predictions_normalized, delimiter=',', fmt='%.2f')
 
         return predictions
 
@@ -292,7 +292,7 @@ def run_file_merge(table, parking_id, latitude, longitude, name):
 
 
     # Open the CSV file for reading
-    with open(f'diploma/streamlit/predictions/input/predictions_normalized_{table}_{parking_id}_{current_date}.csv', 'r') as file:
+    with open(f'diploma/streamlit/predictions/input/predictions/normalized_{table}_{parking_id}_{current_date}.csv', 'r') as file:
         reader = csv.reader(file)
         
         # Read all rows into a list
@@ -319,25 +319,25 @@ def run_file_merge(table, parking_id, latitude, longitude, name):
         lat = latitude
         lon = longitude
         value = float(value)
-        modified_rows.append([timestamp, value, lat, lon, name])
+        modified_rows.append([timestamp, value])
         start_datetime += increment
 
     # Open a new CSV file for writing
-    with open(f'diploma/streamlit/predictions/output/predictions_normalized_{table}_{parking_id}_{current_date}.csv', 'w', newline='') as file:
+    with open(f'diploma/streamlit/predictions/output/predictions/normalized_{table}_{parking_id}_{current_date}.csv', 'w', newline='') as file:
         writer = csv.writer(file)
         
         # Write the header
-        writer.writerow(['timestamp', 'value', 'lat', 'lon', 'name'])
+        writer.writerow(['timestamp', 'value'])
         
         # Write each modified row to the CSV file
         writer.writerows(modified_rows)
 
     # Create 1 consolidated file with all data
-    with open(f'diploma/streamlit/predictions/output/predictions_normalized_{table}_{current_date}.csv', 'a', newline='') as file:
+    with open(f'diploma/streamlit/predictions/output/predictions/normalized_{table}_{current_date}.csv', 'a', newline='') as file:
         writer = csv.writer(file)
         # Write the header - for 1st parking lot
         if parking_id == 'tsk-534017':
-            writer.writerow(['timestamp', 'value', 'lat', 'lon', 'name'])
+            writer.writerow(['timestamp', 'value'])
         # Write each modified row to the CSV file
         writer.writerows(modified_rows)
 
