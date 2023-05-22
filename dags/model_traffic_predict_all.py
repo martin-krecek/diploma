@@ -583,7 +583,7 @@ file_merge_task_12 = PythonOperator(
 )
 
 consolidate_files = PythonOperator(
-    task_id='remove_files',
+    task_id='consolidate_files',
     python_callable=run_consolidate_files,
     op_kwargs={
         'table': 'vehiclepositions_model'
