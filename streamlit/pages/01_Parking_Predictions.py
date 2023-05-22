@@ -11,7 +11,7 @@ st.set_page_config(page_title='Macro - Cross Chain Monitoring', page_icon='🚗'
 st.title('P+R Forecast')
 st.caption('Forecast of the number of available parking spaces in P+R parking houses')
 
-current_date = '2023-05-17'
+current_date = date.today()
 DATE_COLUMN = 'timestamp'
 
 @st.cache_data
