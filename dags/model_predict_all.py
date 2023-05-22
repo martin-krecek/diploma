@@ -288,6 +288,59 @@ def run_file_merge(table, parking_id, latitude, longitude, name):
         # Write each modified row to the CSV file
         writer.writerows(modified_rows)
 
+
+
+
+    # Open the CSV file for reading
+    with open(f'diploma/streamlit/predictions/input/predictions_normalized_{table}_{parking_id}_{current_date}.csv', 'r') as file:
+        reader = csv.reader(file)
+        
+        # Read all rows into a list
+        rows = list(reader)
+
+    # Merge values into one row
+    merged_row = []
+    for row in rows:
+        merged_row.extend(row)
+
+    # Starting datetime (tomorrow at 00:00)
+    start_datetime = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+    # Increment in hours
+    increment = timedelta(hours=1)
+
+    # Create a list to store the modified rows
+    modified_rows = []
+
+    # Add timestamp to every row and set value to 0 between 22:00 and 5:00
+    for value in merged_row:
+        timestamp = start_datetime.strftime('%Y-%m-%d %H:%M:%S')
+        if start_datetime.hour >= 22 or start_datetime.hour < 5:
+            value = 0
+        lat = latitude
+        lon = longitude
+        value = int(float(value))
+        modified_rows.append([timestamp, value, lat, lon, name])
+        start_datetime += increment
+
+    # Open a new CSV file for writing
+    with open(f'diploma/streamlit/predictions/output/predictions_normalized_{table}_{parking_id}_{current_date}.csv', 'w', newline='') as file:
+        writer = csv.writer(file)
+        
+        # Write the header
+        writer.writerow(['timestamp', 'value', 'lat', 'lon', 'name'])
+        
+        # Write each modified row to the CSV file
+        writer.writerows(modified_rows)
+
+    # Create 1 consolidated file with all data
+    with open(f'diploma/streamlit/predictions/output/predictions_normalized_{table}_{current_date}.csv', 'a', newline='') as file:
+        writer = csv.writer(file)
+        # Write the header - for 1st parking lot
+        if parking_id == 'tsk-534017':
+            writer.writerow(['timestamp', 'value', 'lat', 'lon', 'name'])
+        # Write each modified row to the CSV file
+        writer.writerows(modified_rows)
+
 def run_remove_files(table):
     from datetime import date
 
