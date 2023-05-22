@@ -330,8 +330,8 @@ def run_consolidate_files():
         # Set the timestamp column as the index
         data.set_index('timestamp', inplace=True)
         
-        # Append the data to the consolidated DataFrame
-        consolidated_data = consolidated_data.append(data)
+        # Concatenate the data to the consolidated DataFrame
+        consolidated_data = pd.concat([consolidated_data, data])
 
     # Group the data by timestamp and calculate the average value
     average_data = consolidated_data.groupby('timestamp')['value'].mean().reset_index()
