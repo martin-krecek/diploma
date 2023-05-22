@@ -156,12 +156,13 @@ def run_model_predict_all(table, parking_id):
         history = [x for x in test_predict]
         # walk-forward validation over each week
         predictions = list()
+        predictions_normalized = list()
         n_input_day = n_input
         for i in range(len(test_predict)):
         #for i in range(7):
             # predict the week
             yhat_sequence = forecast(model, history, n_input_day)
-
+            predictions_normalized.append(yhat_sequence)
             # Step 1: Reshape the normalized values to match the scaler's expectations
             normalized_values = np.array(yhat_sequence).reshape(-1, 1)
 
@@ -180,6 +181,8 @@ def run_model_predict_all(table, parking_id):
         # evaluate predictions days for each week
         predictions = array(predictions)
         np.savetxt(f'diploma/streamlit/predictions/input/predictions_{table}_{parking_id}_{current_date}.csv', predictions, delimiter=',', fmt='%.1f')
+        predictions_normalized = array(predictions_normalized)
+        np.savetxt(f'diploma/streamlit/predictions/input/predictions_normalized_{table}_{parking_id}_{current_date}.csv', predictions_normalized, delimiter=',', fmt='%.1f')
 
         return predictions
 

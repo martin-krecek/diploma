@@ -132,10 +132,12 @@ def run_python_script(table, gtfs_route_id):
         history = [x for x in test_predict]
         # walk-forward validation over each week
         predictions = list()
+        predictions_normalized = list()
         n_input_day = n_input
         for i in range(len(test_predict)):
             # predict the week
             yhat_sequence = forecast(model, history, n_input_day)
+            predictions_normalized.append(yhat_sequence)
             # Step 1: Reshape the normalized values to match the scaler's expectations
             normalized_values = np.array(yhat_sequence).reshape(-1, 1)
             # Step 2: Perform inverse normalization
@@ -149,6 +151,8 @@ def run_python_script(table, gtfs_route_id):
         # evaluate predictions days for each week
         predictions = array(predictions)
         np.savetxt(f'diploma/streamlit/predictions/input/predictions_{table}_{gtfs_route_id}_{current_date}.csv', predictions, delimiter=',', fmt='%.1f')
+        predictions_normalized = array(predictions_normalized)
+        np.savetxt(f'diploma/streamlit/predictions/input/predictions_normalized_{table}_{gtfs_route_id}_{current_date}.csv', predictions_normalized, delimiter=',', fmt='%.1f')
 
         return predictions
 

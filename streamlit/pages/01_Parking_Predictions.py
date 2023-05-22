@@ -86,9 +86,9 @@ print(filtered_data)
 st.pydeck_chart(pdk.Deck(
     map_style='road',
     initial_view_state=pdk.ViewState(
-        latitude=50.032074,
-        longitude=14.492015,
-        zoom=10,
+        latitude=50.072074,
+        longitude=14.502015,
+        zoom=10.5,
         pitch=50,
     ),
     layers=
@@ -97,8 +97,8 @@ st.pydeck_chart(pdk.Deck(
            data=filtered_data,
            get_position='[lon, lat]',
            get_elevation='value',
-           get_color='[200, 30, 0]',
-           radius=500,
+           get_color='[200, 30, 0, 200]',
+           radius=250,
            elevation_scale=10,
            elevation_range=[0, 1000],
            pickable=True,
