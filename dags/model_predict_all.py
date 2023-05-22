@@ -177,11 +177,6 @@ def run_model_predict_all(table, parking_id):
             arr = np.array(predictions)
 
             arr = arr.reshape(24+i*24,)
-            hours = [num for num in range(1, 25+i*24)]
-
-            pyplot.plot(hours, arr, marker='o', label='lstm')
-            pyplot.show()
-
         # evaluate predictions days for each week
         predictions = array(predictions)
         np.savetxt(f'diploma/streamlit/predictions/input/predictions_{table}_{parking_id}_{current_date}.csv', predictions, delimiter=',', fmt='%.1f')
