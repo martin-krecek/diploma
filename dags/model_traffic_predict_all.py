@@ -129,7 +129,7 @@ def run_python_script(table, gtfs_route_id):
     # evaluate a single model
     def evaluate_model(test_predict, n_input):
         # fit model
-        model = load_model(f'model_{table}_{gtfs_route_id}.h5')
+        model = load_model(f'diploma/models/model_{table}_{gtfs_route_id}.h5')
         # history is a list of weekly data
         history = [x for x in test_predict]
         # walk-forward validation over each week
