@@ -318,16 +318,6 @@ model_train_3 = PythonOperator(
     dag=dag,
 )
 
-model_train_4 = PythonOperator(
-    task_id='model_train_4',
-    python_callable=run_python_script,
-    op_kwargs={
-        'table': 'parking_measurements',
-        'parking_id': 'tsk-534014'
-    },
-    dag=dag,
-)
-
 model_train_5 = PythonOperator(
     task_id='model_train_5',
     python_callable=run_python_script,
@@ -368,16 +358,6 @@ model_train_9 = PythonOperator(
     dag=dag,
 )
 
-model_train_10 = PythonOperator(
-    task_id='model_train_10',
-    python_callable=run_python_script,
-    op_kwargs={
-        'table': 'parking_measurements',
-        'parking_id': 'tsk-534004'
-    },
-    dag=dag,
-)
-
 model_train_11 = PythonOperator(
     task_id='model_train_11',
     python_callable=run_python_script,
@@ -389,4 +369,4 @@ model_train_11 = PythonOperator(
 )
 
 # Set task dependencies
-model_train_1 >> model_train_2 >> model_train_3 >> model_train_4 >> model_train_5 >> model_train_6 >> model_train_8 >> model_train_9 >> model_train_10 >> model_train_11  
+model_train_1 >> model_train_2 >> model_train_3 >> model_train_5 >> model_train_6 >> model_train_8 >> model_train_9 >> model_train_11  

@@ -386,29 +386,6 @@ file_merge_task_3 = PythonOperator(
     dag=dag
 )
 
-model_predict_all_task_4 = PythonOperator(
-    task_id='model_predict_all_task_4',
-    python_callable=run_model_predict_all,
-    op_kwargs={
-        'table': 'parking_measurements',
-        'parking_id': 'tsk-534014'
-    },
-    dag=dag,
-)
-
-file_merge_task_4 = PythonOperator(
-    task_id='file_merge_task_4',
-    python_callable=run_file_merge,
-    op_kwargs={
-        'table': 'parking_measurements',
-        'parking_id': 'tsk-534014',
-        'latitude': '50.126156',
-        'longitude': '14.472344',
-        'name': 'Ladvi'
-    },
-    dag=dag
-)
-
 model_predict_all_task_5 = PythonOperator(
     task_id='model_predict_all_task_5',
     python_callable=run_model_predict_all,
@@ -501,29 +478,6 @@ file_merge_task_9 = PythonOperator(
     dag=dag
 )
 
-model_predict_all_task_10 = PythonOperator(
-    task_id='model_predict_all_task_10',
-    python_callable=run_model_predict_all,
-    op_kwargs={
-        'table': 'parking_measurements',
-        'parking_id': 'tsk-534004'
-    },
-    dag=dag,
-)
-
-file_merge_task_10 = PythonOperator(
-    task_id='file_merge_task_10',
-    python_callable=run_file_merge,
-    op_kwargs={
-        'table': 'parking_measurements',
-        'parking_id': 'tsk-534004',
-        'latitude': '50.10684',
-        'longitude': '14.56221',
-        'name': 'Rajska Zahrada'
-    },
-    dag=dag
-)
-
 model_predict_all_task_11 = PythonOperator(
     task_id='model_predict_all_task_11',
     python_callable=run_model_predict_all,
@@ -539,7 +493,7 @@ file_merge_task_11 = PythonOperator(
     python_callable=run_file_merge,
     op_kwargs={
         'table': 'parking_measurements',
-        'parking_id': 'tsk-534004',
+        'parking_id': 'tsk-534002',
         'latitude': '50.109318',
         'longitude': '14.441252',
         'name': 'Holesovice'
@@ -548,4 +502,4 @@ file_merge_task_11 = PythonOperator(
 )
 
 # Set task dependencies
-model_predict_all_task_1 >> file_merge_task_1 >> model_predict_all_task_2 >> file_merge_task_2 >> model_predict_all_task_3 >> file_merge_task_3 >> model_predict_all_task_4 >> file_merge_task_4 >> model_predict_all_task_5 >> file_merge_task_5 >> model_predict_all_task_6 >> file_merge_task_6 >> model_predict_all_task_8 >> file_merge_task_8 >> model_predict_all_task_9 >> file_merge_task_9 >> model_predict_all_task_10 >> file_merge_task_10 >> model_predict_all_task_11 >> file_merge_task_11
+model_predict_all_task_1 >> file_merge_task_1 >> model_predict_all_task_2 >> file_merge_task_2 >> model_predict_all_task_3 >> file_merge_task_3 >> model_predict_all_task_5 >> file_merge_task_5 >> model_predict_all_task_6 >> file_merge_task_6 >> model_predict_all_task_8 >> file_merge_task_8 >> model_predict_all_task_9 >> file_merge_task_9 >> model_predict_all_task_11 >> file_merge_task_11
