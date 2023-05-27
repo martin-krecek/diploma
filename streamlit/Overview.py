@@ -62,3 +62,20 @@ for i, (col, day) in enumerate(zip(columns, max_values.index)):
     col.metric(label=str(day), value=f"{100*max_values[i]:.0f} %", help=help)
 
 st.divider()
+
+# Rename the 'value' column to a different name
+data = data.rename(columns={"value": "Prediction"})
+# Display the bar chart
+st.bar_chart(data["Prediction"], height=300)
+
+st.divider()
+
+st.subheader('Help')
+st.caption('Different levels of traffic intensity, ranging from very light to very heavy, based on percentage ranges.')
+
+numbers = ['0% - 20%', '20% - 40%', '40% - 60%', '60% - 80%', '80% - 100%']
+text = ['Very light', 'Light', 'Normal', 'Heavy', 'Very heavy']
+columns = st.columns(5)
+# Display the metrics for each category
+for i, col in enumerate(columns):
+    col.metric(label=f'{text[i]} traffic', value=numbers[i])
