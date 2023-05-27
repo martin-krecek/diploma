@@ -11,7 +11,7 @@ st.set_page_config(page_title='City Traffic Forecasting', page_icon='🏙️', l
 st.title('City traffic time series forecasting')
 
 
-st.caption('Forecast of the number of available parking spaces in P+R parking houses')
+st.caption('Percentile predicting the level of traffic density in the city for the next 7 days')
 
 current_date = date.today()
 DATE_COLUMN = 'timestamp'
@@ -26,32 +26,19 @@ def load_data():
     data.set_index('timestamp', inplace=True)
     return data
 
-################################################################## 17
-st.header('Prediction')
-
+################################################################## AVG
 data = load_data()
 
 df = data
 
-if st.checkbox('Show raw data', key='checkbox1'):
-    st.subheader('Raw data')
-    st.write(data)
-
-st.subheader('Forecast of occupied parking spaces for 7 days in advance')
-
-# Rename the 'value' column to a different name
-data = data.rename(columns={"value": "Prediction"})
-# Display the bar chart
-st.bar_chart(data["Prediction"])
+st.divider()
 
 # Extract the date component from the timestamp
 data['date'] = data.index.date
 
-print(data)
-
 # Group the data by date and find the maximum value for each date
-max_values = data.groupby('date')['Prediction'].max()
-# Print the maximum values for each date
+max_values = data.groupby('date')['value'].max()
+
 print(max_values)
 
 # Create 7 columns for each day
@@ -60,4 +47,18 @@ columns = st.columns(7)
 # Display the maximum values for each day in the columns
 for i, (col, day) in enumerate(zip(columns, max_values.index)):
     #col.metric(label=str(day), value=max_values[i])
-    col.metric(label=str(day), value=f"{100*max_values[i]:.0f} %")
+
+    if 100*max_values[i] <= 20:
+        help = 'Very light traffic'
+    if 100*max_values[i] > 20 and 100*max_values[i] <= 40:
+        help = 'Light traffic'
+    elif 100*max_values[i] > 40 and 100*max_values[i] <= 60:
+        help = 'Regular traffic'
+    elif 100*max_values[i] > 60 and 100*max_values[i] <= 80:
+        help = 'Heavy traffic'
+    elif 100*max_values[i] > 80:
+        help = 'Very heavy traffic'
+
+    col.metric(label=str(day), value=f"{100*max_values[i]:.0f} %", help=help)
+
+st.divider()

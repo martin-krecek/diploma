@@ -4,7 +4,7 @@ from datetime import date
 
 # Title
 st.title('Public Transport Forecast Detail')
-st.caption('Forecast of the Delay in [seconds] for specific Tram number')
+st.caption('Forecast of the Delay in seconds for specific Tram number')
 
 current_date = date.today()
 DATE_COLUMN = 'timestamp'
