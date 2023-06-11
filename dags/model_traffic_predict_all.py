@@ -57,7 +57,7 @@ def run_python_script(table, gtfs_route_id):
     monday_date_minus_one = monday_date - datetime.timedelta(days=1)
 
     # Reading from db to dataframe
-    query_predict = f"SELECT origin_timestamp, actual FROM stg_{table} where gtfs_route_id = '{gtfs_route_id}' AND origin_timestamp > '{eight_days_ago}' AND origin_timestamp < '{one_day_ago}' ORDER BY origin_timestamp;"
+    query_predict = f"SELECT origin_timestamp, actual FROM out_{table} where gtfs_route_id = '{gtfs_route_id}' AND origin_timestamp > '{eight_days_ago}' AND origin_timestamp < '{one_day_ago}' ORDER BY origin_timestamp;"
     query_predict_weather = f"SELECT time_ts_shifted as time_ts, temperature, precipitation FROM out_weather WHERE time_ts >= '{current_date}' AND time_ts < '{seven_days_forward}';"
 
     df_predict = pd.read_sql(query_predict, conn)

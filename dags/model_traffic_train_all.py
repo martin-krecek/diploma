@@ -49,7 +49,7 @@ def run_python_script(table, gtfs_route_id):
     table = 'vehiclepositions_model'
 
     # Reading from db to dataframe
-    query = f"SELECT origin_timestamp, actual FROM stg_{table} where gtfs_route_id = '{gtfs_route_id}' AND origin_timestamp > '{start_date}' AND origin_timestamp < '{monday_date}' ORDER BY origin_timestamp;"
+    query = f"SELECT origin_timestamp, actual FROM out_{table} where gtfs_route_id = '{gtfs_route_id}' AND origin_timestamp > '{start_date}' AND origin_timestamp < '{monday_date}' ORDER BY origin_timestamp;"
     query_weather = f"SELECT time_ts, temperature, precipitation FROM out_weather WHERE time_ts >= '{start_date}' AND time_ts < '{monday_date}';"
 
     df = pd.read_sql(query, conn)

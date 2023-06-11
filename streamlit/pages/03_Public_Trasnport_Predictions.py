@@ -6,7 +6,8 @@ from datetime import date
 st.title('Public Transport Forecast Detail')
 st.caption('Forecast of the Delay in seconds for specific Tram number')
 
-current_date = date.today()
+#current_date = date.today()
+current_date='2023-05-26'
 DATE_COLUMN = 'timestamp'
 
 @st.cache_data
