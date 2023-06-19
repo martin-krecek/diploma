@@ -33,7 +33,7 @@ from datetime import date
 
 st.title('P+R Chodov')
 
-current_date = date.today()
+current_date = '2023-05-15'
 DATE_COLUMN = 'timestamp'
 
 @st.cache_data

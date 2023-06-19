@@ -13,7 +13,7 @@ st.title('City traffic time series forecasting')
 
 st.caption('Percentile predicting the level of traffic density in the city for the next 7 days')
 
-current_date = date.today()
+current_date = '2023-05-22'
 DATE_COLUMN = 'timestamp'
 
 @st.cache_data
@@ -68,6 +68,7 @@ data = data.rename(columns={"value": "Prediction"})
 # Display the bar chart
 st.bar_chart(data["Prediction"], height=300)
 
+# Help part
 st.divider()
 
 st.subheader('Help')
