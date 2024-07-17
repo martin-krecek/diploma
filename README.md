@@ -12,4 +12,4 @@ This repository contains the scripts and code for my diploma project. The projec
 
 ## Streamlit webapp
 
-- Streamlit webapp is running on the address http://34.77.219.108:8501/
+- Streamlit webapp is running on the address http://34.77.219.108:8501/ (obsolete)
