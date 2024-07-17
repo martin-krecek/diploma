@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/ce6d6047-55d4-49ff-ae33-ff9e25456fb8
 # Diploma Project
 
 This repository contains the scripts and code for my diploma project. The project focuses on traffic forecasting and data analysis using various tools and technologies.
@@ -13,3 +15,4 @@ This repository contains the scripts and code for my diploma project. The projec
 ## Streamlit webapp
 
 - Streamlit webapp is running on the address http://34.77.219.108:8501/ (obsolete)
+- Video - https://youtu.be/gFIDoysL4zg
